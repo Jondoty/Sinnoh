@@ -1,0 +1,138 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "psyduck-1",
+            "pokemon": "psyduck",
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-30",
+            "weight": 90,
+            "condition": {
+                "presets": [
+                    "water"
+                ],
+                "minX": 1093, "maxX": 1283, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "golduck-1",
+            "pokemon": "golduck",
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-30",
+            "weight": 10,
+            "condition": {
+                "presets": [
+                    "water"
+                ],
+                "minX": 1093, "maxX": 1283, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "magikarp-1",
+            "pokemon": "magikarp",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "3-15",
+            "weight": 100,
+            "condition": {
+                "minX": 1093, "maxX": 1283, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319,
+                "minLureLevel": 1,
+                "maxLureLevel": 1
+            }
+        },
+
+        {
+            "id": "magikarp-2",
+            "pokemon": "magikarp",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "10-35",
+            "weight": 55,
+            "condition": {
+                "minX": 1093, "maxX": 1283, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+        {
+            "id": "goldeen-1",
+            "pokemon": "goldeen",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "10-35",
+            "weight": 45,
+            "condition": {
+                "minX": 1093, "maxX": 1283, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+        {
+            "id": "seaking-1",
+            "pokemon": "seaking",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "10-35",
+            "weight": 5,
+            "condition": {
+                "minX": 1093, "maxX": 1283, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+
+        {
+            "id": "gyarados-1",
+            "pokemon": "gyarados",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-55",
+            "weight": 40,
+            "condition": {
+                "minX": 1093, "maxX": 1283, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+        {
+            "id": "corphish-1",
+            "pokemon": "corphish",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-55",
+            "weight": 40,
+            "condition": {
+                "minX": 1093, "maxX": 1283, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+        {
+            "id": "crawdaunt-1",
+            "pokemon": "crawdaunt",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-55",
+            "weight": 15,
+            "condition": {
+                "minX": 1093, "maxX": 1283, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        }
+    ]
+}

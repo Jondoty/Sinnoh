@@ -1,0 +1,334 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "geodude-1",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 1588, "maxX": 1855, "minZ": -1884, "maxZ": -1437, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "geodude-2",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 1588, "maxX": 1855, "minZ": -1884, "maxZ": -1437, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "geodude-3",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1588, "maxX": 1855, "minZ": -1884, "maxZ": -1437, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "ponyta-1",
+            "pokemon": "ponyta",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 1588, "maxX": 1855, "minZ": -1884, "maxZ": -1437, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "ponyta-2",
+            "pokemon": "ponyta",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 35,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 1588, "maxX": 1855, "minZ": -1884, "maxZ": -1437, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "ponyta-3",
+            "pokemon": "ponyta",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1588, "maxX": 1855, "minZ": -1884, "maxZ": -1437, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "chansey-1",
+            "pokemon": "chansey",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 1588, "maxX": 1855, "minZ": -1884, "maxZ": -1437, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "chansey-2",
+            "pokemon": "chansey",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 1588, "maxX": 1855, "minZ": -1884, "maxZ": -1437, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "chansey-3",
+            "pokemon": "chansey",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1588, "maxX": 1855, "minZ": -1884, "maxZ": -1437, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "scyther-1",
+            "pokemon": "scyther",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 1588, "maxX": 1855, "minZ": -1884, "maxZ": -1437, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "scyther-2",
+            "pokemon": "scyther",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 1588, "maxX": 1855, "minZ": -1884, "maxZ": -1437, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "scyther-3",
+            "pokemon": "scyther",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1588, "maxX": 1855, "minZ": -1884, "maxZ": -1437, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "hoothoot-1",
+            "pokemon": "hoothoot",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1588, "maxX": 1855, "minZ": -1884, "maxZ": -1437, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "noctowl-1",
+            "pokemon": "noctowl",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1588, "maxX": 1855, "minZ": -1884, "maxZ": -1437, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "roselia-1",
+            "pokemon": "roselia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 1588, "maxX": 1855, "minZ": -1884, "maxZ": -1437, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "roselia-2",
+            "pokemon": "roselia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 1588, "maxX": 1855, "minZ": -1884, "maxZ": -1437, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "roselia-3",
+            "pokemon": "roselia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1588, "maxX": 1855, "minZ": -1884, "maxZ": -1437, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "staravia-1",
+            "pokemon": "staravia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 1588, "maxX": 1855, "minZ": -1884, "maxZ": -1437, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "staravia-2",
+            "pokemon": "staravia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 1588, "maxX": 1855, "minZ": -1884, "maxZ": -1437, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "staravia-3",
+            "pokemon": "staravia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1588, "maxX": 1855, "minZ": -1884, "maxZ": -1437, "minY": 59, "maxY": 319
+            }
+        }
+    ]
+}

@@ -1,0 +1,285 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "zubat-1",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "14-16",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 648, "maxX": 878, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "machop-1",
+            "pokemon": "machop",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "14-16",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 648, "maxX": 878, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "machop-2",
+            "pokemon": "machop",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "14-16",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 648, "maxX": 878, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "machop-3",
+            "pokemon": "machop",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "14-16",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 648, "maxX": 878, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "hoothoot-1",
+            "pokemon": "hoothoot",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "14-16",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 648, "maxX": 878, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "meditite-1",
+            "pokemon": "meditite",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "14-16",
+            "weight": 40,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 648, "maxX": 878, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "meditite-2",
+            "pokemon": "meditite",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "14-16",
+            "weight": 40,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 648, "maxX": 878, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "meditite-3",
+            "pokemon": "meditite",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "14-16",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 648, "maxX": 878, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "bidoof-1",
+            "pokemon": "bidoof",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "14-16",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 648, "maxX": 878, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "bidoof-2",
+            "pokemon": "bidoof",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "14-16",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 648, "maxX": 878, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "bidoof-3",
+            "pokemon": "bidoof",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "14-16",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 648, "maxX": 878, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "chingling-1",
+            "pokemon": "chingling",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "14-16",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 648, "maxX": 878, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "chingling-2",
+            "pokemon": "chingling",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "14-16",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 648, "maxX": 878, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "chingling-3",
+            "pokemon": "chingling",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "14-16",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 648, "maxX": 878, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "bronzor-1",
+            "pokemon": "bronzor",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "14-16",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 648, "maxX": 878, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "bronzor-2",
+            "pokemon": "bronzor",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "14-16",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 648, "maxX": 878, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "bronzor-3",
+            "pokemon": "bronzor",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "14-16",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 648, "maxX": 878, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319
+            }
+        }
+    ]
+}

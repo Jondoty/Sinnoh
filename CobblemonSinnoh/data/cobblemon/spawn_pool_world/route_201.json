@@ -1,0 +1,137 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "starly-1",
+            "pokemon": "starly",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-4",
+            "weight": 50,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": -761, "maxX": -440, "minZ": -287, "maxZ": -166, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "starly-2",
+            "pokemon": "starly",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-4",
+            "weight": 50,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": -761, "maxX": -440, "minZ": -287, "maxZ": -166, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "starly-3",
+            "pokemon": "starly",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-4",
+            "weight": 40,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": -761, "maxX": -440, "minZ": -287, "maxZ": -166, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "bidoof-1",
+            "pokemon": "bidoof",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-4",
+            "weight": 40,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": -761, "maxX": -440, "minZ": -287, "maxZ": -166, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "bidoof-2",
+            "pokemon": "bidoof",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-4",
+            "weight": 50,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": -761, "maxX": -440, "minZ": -287, "maxZ": -166, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "bidoof-3",
+            "pokemon": "bidoof",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-4",
+            "weight": 50,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": -761, "maxX": -440, "minZ": -287, "maxZ": -166, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "kricketot-1",
+            "pokemon": "kricketot",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-4",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": -761, "maxX": -440, "minZ": -287, "maxZ": -166, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "kricketot-2",
+            "pokemon": "kricketot",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-4",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": -761, "maxX": -440, "minZ": -287, "maxZ": -166, "minY": 59, "maxY": 319
+            }
+        }
+    ]
+}

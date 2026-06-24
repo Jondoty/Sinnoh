@@ -1,0 +1,203 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "zubat-1",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-8",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 250, "maxX": 702, "minZ": -1059, "maxZ": -857, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "machop-1",
+            "pokemon": "machop",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-8",
+            "weight": 35,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 250, "maxX": 702, "minZ": -1059, "maxZ": -857, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "machop-2",
+            "pokemon": "machop",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-8",
+            "weight": 45,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 250, "maxX": 702, "minZ": -1059, "maxZ": -857, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "machop-3",
+            "pokemon": "machop",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-8",
+            "weight": 35,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 250, "maxX": 702, "minZ": -1059, "maxZ": -857, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "geodude-1",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-8",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 250, "maxX": 702, "minZ": -1059, "maxZ": -857, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "geodude-2",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-8",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 250, "maxX": 702, "minZ": -1059, "maxZ": -857, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "geodude-3",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-8",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 250, "maxX": 702, "minZ": -1059, "maxZ": -857, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "ponyta-1",
+            "pokemon": "ponyta",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-8",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 250, "maxX": 702, "minZ": -1059, "maxZ": -857, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "ponyta-2",
+            "pokemon": "ponyta",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-8",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 250, "maxX": 702, "minZ": -1059, "maxZ": -857, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "ponyta-3",
+            "pokemon": "ponyta",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-8",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 250, "maxX": 702, "minZ": -1059, "maxZ": -857, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "kricketot-1",
+            "pokemon": "kricketot",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-8",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 250, "maxX": 702, "minZ": -1059, "maxZ": -857, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "kricketot-2",
+            "pokemon": "kricketot",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-8",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 250, "maxX": 702, "minZ": -1059, "maxZ": -857, "minY": 59, "maxY": 319
+            }
+        }
+    ]
+}

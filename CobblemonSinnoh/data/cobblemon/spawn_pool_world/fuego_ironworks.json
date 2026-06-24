@@ -1,0 +1,350 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "magnemite-1",
+            "pokemon": "magnemite",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": -468, "maxX": -253, "minZ": -1780, "maxZ": -1599, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "magnemite-2",
+            "pokemon": "magnemite",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": -468, "maxX": -253, "minZ": -1780, "maxZ": -1599, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "magnemite-3",
+            "pokemon": "magnemite",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": -468, "maxX": -253, "minZ": -1780, "maxZ": -1599, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "magmar-1",
+            "pokemon": "magmar",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": -468, "maxX": -253, "minZ": -1780, "maxZ": -1599, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "magmar-2",
+            "pokemon": "magmar",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": -468, "maxX": -253, "minZ": -1780, "maxZ": -1599, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "magmar-3",
+            "pokemon": "magmar",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": -468, "maxX": -253, "minZ": -1780, "maxZ": -1599, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "floatzel-1",
+            "pokemon": "floatzel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": -468, "maxX": -253, "minZ": -1780, "maxZ": -1599, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "floatzel-2",
+            "pokemon": "floatzel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": -468, "maxX": -253, "minZ": -1780, "maxZ": -1599, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "floatzel-3",
+            "pokemon": "floatzel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": -468, "maxX": -253, "minZ": -1780, "maxZ": -1599, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "gastrodon-1",
+            "pokemon": "gastrodon sea=west",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": -468, "maxX": -253, "minZ": -1780, "maxZ": -1599, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "gastrodon-2",
+            "pokemon": "gastrodon sea=west",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": -468, "maxX": -253, "minZ": -1780, "maxZ": -1599, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "gastrodon-3",
+            "pokemon": "gastrodon sea=west",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": -468, "maxX": -253, "minZ": -1780, "maxZ": -1599, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "tentacool-1",
+            "pokemon": "tentacool",
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-30",
+            "weight": 60,
+            "condition": {
+                "presets": [
+                    "water"
+                ],
+                "minX": -468, "maxX": -253, "minZ": -1780, "maxZ": -1599, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "tentacruel-1",
+            "pokemon": "tentacruel",
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-30",
+            "weight": 9,
+            "condition": {
+                "presets": [
+                    "water"
+                ],
+                "minX": -468, "maxX": -253, "minZ": -1780, "maxZ": -1599, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "shellos-1",
+            "pokemon": "shellos sea=west",
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-30",
+            "weight": 30,
+            "condition": {
+                "presets": [
+                    "water"
+                ],
+                "minX": -468, "maxX": -253, "minZ": -1780, "maxZ": -1599, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "gastrodon-4",
+            "pokemon": "gastrodon sea=west",
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-30",
+            "weight": 1,
+            "condition": {
+                "presets": [
+                    "water"
+                ],
+                "minX": -468, "maxX": -253, "minZ": -1780, "maxZ": -1599, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "magikarp-1",
+            "pokemon": "magikarp",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "3-15",
+            "weight": 100,
+            "condition": {
+                "minX": -468, "maxX": -253, "minZ": -1780, "maxZ": -1599, "minY": 59, "maxY": 319,
+                "minLureLevel": 1,
+                "maxLureLevel": 1
+            }
+        },
+
+        {
+            "id": "magikarp-2",
+            "pokemon": "magikarp",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "10-35",
+            "weight": 55,
+            "condition": {
+                "minX": -468, "maxX": -253, "minZ": -1780, "maxZ": -1599, "minY": 59, "maxY": 319,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+        {
+            "id": "finneon-1",
+            "pokemon": "finneon",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "10-35",
+            "weight": 45,
+            "condition": {
+                "minX": -468, "maxX": -253, "minZ": -1780, "maxZ": -1599, "minY": 59, "maxY": 319,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+
+        {
+            "id": "shellder-1",
+            "pokemon": "shellder",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-55",
+            "weight": 15,
+            "condition": {
+                "minX": -468, "maxX": -253, "minZ": -1780, "maxZ": -1599, "minY": 59, "maxY": 319,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+        {
+            "id": "gyarados-1",
+            "pokemon": "gyarados",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-55",
+            "weight": 40,
+            "condition": {
+                "minX": -468, "maxX": -253, "minZ": -1780, "maxZ": -1599, "minY": 59, "maxY": 319,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+        {
+            "id": "lumineon-1",
+            "pokemon": "lumineon",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-55",
+            "weight": 45,
+            "condition": {
+                "minX": -468, "maxX": -253, "minZ": -1780, "maxZ": -1599, "minY": 59, "maxY": 319,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        }
+    ]
+}

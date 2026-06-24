@@ -1,0 +1,350 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "sudowoodo-1",
+            "pokemon": "sudowoodo",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": -76, "maxX": 245, "minZ": 20, "maxZ": 239, "minY": 49, "maxY": 319
+            }
+        },
+        {
+            "id": "sudowoodo-2",
+            "pokemon": "sudowoodo",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": -76, "maxX": 245, "minZ": 20, "maxZ": 239, "minY": 49, "maxY": 319
+            }
+        },
+        {
+            "id": "sudowoodo-3",
+            "pokemon": "sudowoodo",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": -76, "maxX": 245, "minZ": 20, "maxZ": 239, "minY": 49, "maxY": 319
+            }
+        },
+
+        {
+            "id": "girafarig-1",
+            "pokemon": "girafarig",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": -76, "maxX": 245, "minZ": 20, "maxZ": 239, "minY": 49, "maxY": 319
+            }
+        },
+        {
+            "id": "girafarig-2",
+            "pokemon": "girafarig",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": -76, "maxX": 245, "minZ": 20, "maxZ": 239, "minY": 49, "maxY": 319
+            }
+        },
+        {
+            "id": "girafarig-3",
+            "pokemon": "girafarig",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": -76, "maxX": 245, "minZ": 20, "maxZ": 239, "minY": 49, "maxY": 319
+            }
+        },
+
+        {
+            "id": "roselia-1",
+            "pokemon": "roselia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": -76, "maxX": 245, "minZ": 20, "maxZ": 239, "minY": 49, "maxY": 319
+            }
+        },
+        {
+            "id": "roselia-2",
+            "pokemon": "roselia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": -76, "maxX": 245, "minZ": 20, "maxZ": 239, "minY": 49, "maxY": 319
+            }
+        },
+        {
+            "id": "roselia-3",
+            "pokemon": "roselia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": -76, "maxX": 245, "minZ": 20, "maxZ": 239, "minY": 49, "maxY": 319
+            }
+        },
+
+        {
+            "id": "floatzel-1",
+            "pokemon": "floatzel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": -76, "maxX": 245, "minZ": 20, "maxZ": 239, "minY": 49, "maxY": 319
+            }
+        },
+        {
+            "id": "floatzel-2",
+            "pokemon": "floatzel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": -76, "maxX": 245, "minZ": 20, "maxZ": 239, "minY": 49, "maxY": 319
+            }
+        },
+        {
+            "id": "floatzel-3",
+            "pokemon": "floatzel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-31",
+            "weight": 35,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": -76, "maxX": 245, "minZ": 20, "maxZ": 239, "minY": 49, "maxY": 319
+            }
+        },
+
+        {
+            "id": "tentacool-1",
+            "pokemon": "tentacool",
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-30",
+            "weight": 60,
+            "condition": {
+                "presets": [
+                    "water"
+                ],
+                "minX": -76, "maxX": 245, "minZ": 20, "maxZ": 239, "minY": 49, "maxY": 319
+            }
+        },
+        {
+            "id": "tentacruel-1",
+            "pokemon": "tentacruel",
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-30",
+            "weight": 9,
+            "condition": {
+                "presets": [
+                    "water"
+                ],
+                "minX": -76, "maxX": 245, "minZ": 20, "maxZ": 239, "minY": 49, "maxY": 319
+            }
+        },
+        {
+            "id": "wingull-1",
+            "pokemon": "wingull",
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-30",
+            "weight": 30,
+            "condition": {
+                "presets": [
+                    "water"
+                ],
+                "minX": -76, "maxX": 245, "minZ": 20, "maxZ": 239, "minY": 49, "maxY": 319
+            }
+        },
+        {
+            "id": "pelipper-1",
+            "pokemon": "pelipper",
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-30",
+            "weight": 1,
+            "condition": {
+                "presets": [
+                    "water"
+                ],
+                "minX": -76, "maxX": 245, "minZ": 20, "maxZ": 239, "minY": 49, "maxY": 319
+            }
+        },
+
+        {
+            "id": "magikarp-1",
+            "pokemon": "magikarp",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "3-15",
+            "weight": 100,
+            "condition": {
+                "minX": -76, "maxX": 245, "minZ": 20, "maxZ": 239, "minY": 49, "maxY": 319,
+                "minLureLevel": 1,
+                "maxLureLevel": 1
+            }
+        },
+
+        {
+            "id": "finneon-1",
+            "pokemon": "finneon",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 40,
+            "condition": {
+                "minX": -76, "maxX": 245, "minZ": 20, "maxZ": 239, "minY": 49, "maxY": 319,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+        {
+            "id": "lumineon-1",
+            "pokemon": "lumineon",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 5,
+            "condition": {
+                "minX": -76, "maxX": 245, "minZ": 20, "maxZ": 239, "minY": 49, "maxY": 319,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+        {
+            "id": "magikarp-2",
+            "pokemon": "magikarp",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 55,
+            "condition": {
+                "minX": -76, "maxX": 245, "minZ": 20, "maxZ": 239, "minY": 49, "maxY": 319,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+
+        {
+            "id": "gyarados-1",
+            "pokemon": "gyarados",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-55",
+            "weight": 55,
+            "condition": {
+                "minX": -76, "maxX": 245, "minZ": 20, "maxZ": 239, "minY": 49, "maxY": 319,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+        {
+            "id": "lumineon-2",
+            "pokemon": "lumineon",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-55",
+            "weight": 45,
+            "condition": {
+                "minX": -76, "maxX": 245, "minZ": 20, "maxZ": 239, "minY": 49, "maxY": 319,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        }
+    ]
+}
