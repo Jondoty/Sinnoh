@@ -1,0 +1,45 @@
+{
+    "initializationAction": [
+        "c.npc.set_chatting();",
+        "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 1');",
+        "q.run_command('execute as ' + q.player.username + ' run function sinnoh:triggers/stopsound');",
+        "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $4920 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
+        "q.run_command('scoreboard players add ' + q.player.username + ' Money 4920');"
+    ],
+    "speakers": {
+        "npc": {
+            "name": "Byron",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:byron",
+                "isLeftSide": true
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "page2",
+            "speaker": "npc",
+            "lines": [
+                "You were strong enough to take down my prized team of Pokémon. In recognition of that power, I give you this: the Mine Badge! Having the Mine Badge enables you to use the hidden move Strength anytime outside of battle. Here! Take this, too! That TM contains the move Flash Cannon. If it hits, it may also lower the target's Special Defense. Gwahahahaha! The Sinnoh region is vast! Tough Trainers like you and Barry crop up constantly to challenge the old guard! With more young Trainers like my son and you two taking charge, the future of Pokémon is bright! But I'm not stepping aside just yet! I merely need to rededicate myself to training on Iron Island."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "escapeAction": [
+        "q.dialogue.close();"
+    ]
+}

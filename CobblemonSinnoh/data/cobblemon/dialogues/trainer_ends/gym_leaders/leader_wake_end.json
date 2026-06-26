@@ -1,0 +1,45 @@
+{
+    "initializationAction": [
+        "c.npc.set_chatting();",
+        "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 1');",
+        "q.run_command('execute as ' + q.player.username + ' run function sinnoh:triggers/stopsound');",
+        "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $4440 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
+        "q.run_command('scoreboard players add ' + q.player.username + ' Money 4440');"
+    ],
+    "speakers": {
+        "npc": {
+            "name": "Wake",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:wake",
+                "isLeftSide": true
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "page2",
+            "speaker": "npc",
+            "lines": [
+                "\"It seems the undertow pulled me under... But I had a great time battling with you! You've earned this! ' + q.player.username + ' received the Fen Badge from Wake! You need that Fen Badge to use the hidden move Surf outside of battle. This is a special reward from me in recognition of your team's power. That TM contains the move Brine. It inflicts double the damage on targets with less than half their HP left. Use it to end battles decisively! The styles of battling and winning are as widely varied as Trainers are. Do you want to know how I battle? I battle so I can say I had fun at the end, whether I win or lose!\""
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "escapeAction": [
+        "q.dialogue.close();"
+    ]
+}
