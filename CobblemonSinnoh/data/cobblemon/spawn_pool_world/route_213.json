@@ -1,0 +1,269 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "wingull-1",
+            "pokemon": "wingull",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-26",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day",
+                "minX": 2211, "maxX": 2764, "minZ": -490, "maxZ": -118, "minY": 59, "maxY": 75
+            }
+        },
+        {
+            "id": "buizel-1",
+            "pokemon": "buizel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-26",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day",
+                "minX": 2211, "maxX": 2764, "minZ": -490, "maxZ": -118, "minY": 59, "maxY": 75
+            }
+        },
+        {
+            "id": "shellos-1",
+            "pokemon": "shellos sea=east",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-26",
+            "weight": 35,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day",
+                "minX": 2211, "maxX": 2764, "minZ": -490, "maxZ": -118, "minY": 59, "maxY": 75
+            }
+        },
+        {
+            "id": "chatot-1",
+            "pokemon": "chatot",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-26",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day",
+                "minX": 2211, "maxX": 2764, "minZ": -490, "maxZ": -118, "minY": 59, "maxY": 75
+            }
+        },
+
+        {
+            "id": "wingull-2",
+            "pokemon": "wingull",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-26",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 2211, "maxX": 2764, "minZ": -490, "maxZ": -118, "minY": 59, "maxY": 75
+            }
+        },
+        {
+            "id": "buizel-2",
+            "pokemon": "buizel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-26",
+            "weight": 35,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 2211, "maxX": 2764, "minZ": -490, "maxZ": -118, "minY": 59, "maxY": 75
+            }
+        },
+        {
+            "id": "shellos-2",
+            "pokemon": "shellos sea=east",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-26",
+            "weight": 45,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 2211, "maxX": 2764, "minZ": -490, "maxZ": -118, "minY": 59, "maxY": 75
+            }
+        },
+
+        {
+            "id": "tentacool-1",
+            "pokemon": "tentacool",
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-30",
+            "weight": 60,
+            "condition": {
+                "presets": [
+                    "water"
+                ],
+                "minX": 2211, "maxX": 2764, "minZ": -490, "maxZ": -118, "minY": 59, "maxY": 75
+            }
+        },
+        {
+            "id": "tentacruel-1",
+            "pokemon": "tentacruel",
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-30",
+            "weight": 5,
+            "condition": {
+                "presets": [
+                    "water"
+                ],
+                "minX": 2211, "maxX": 2764, "minZ": -490, "maxZ": -118, "minY": 59, "maxY": 75
+            }
+        },
+        {
+            "id": "wingull-3",
+            "pokemon": "wingull",
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-30",
+            "weight": 30,
+            "condition": {
+                "presets": [
+                    "water"
+                ],
+                "minX": 2211, "maxX": 2764, "minZ": -490, "maxZ": -118, "minY": 59, "maxY": 75
+            }
+        },
+        {
+            "id": "shellos-3",
+            "pokemon": "shellos sea=east",
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-30",
+            "weight": 4,
+            "condition": {
+                "presets": [
+                    "water"
+                ],
+                "minX": 2211, "maxX": 2764, "minZ": -490, "maxZ": -118, "minY": 59, "maxY": 75
+            }
+        },
+        {
+            "id": "gastrodon-1",
+            "pokemon": "gastrodon sea=east",
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-30",
+            "weight": 1,
+            "condition": {
+                "presets": [
+                    "water"
+                ],
+                "minX": 2211, "maxX": 2764, "minZ": -490, "maxZ": -118, "minY": 59, "maxY": 75
+            }
+        },
+
+        {
+            "id": "magikarp-1",
+            "pokemon": "magikarp",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "3-15",
+            "weight": 100,
+            "condition": {
+                "minX": 2211, "maxX": 2764, "minZ": -490, "maxZ": -118, "minY": 59, "maxY": 75,
+                "minLureLevel": 1,
+                "maxLureLevel": 1
+            }
+        },
+
+        {
+            "id": "magikarp-2",
+            "pokemon": "magikarp",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "10-25",
+            "weight": 55,
+            "condition": {
+                "minX": 2211, "maxX": 2764, "minZ": -490, "maxZ": -118, "minY": 59, "maxY": 75,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+        {
+            "id": "remoraid-1",
+            "pokemon": "remoraid",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "10-25",
+            "weight": 45,
+            "condition": {
+                "minX": 2211, "maxX": 2764, "minZ": -490, "maxZ": -118, "minY": 59, "maxY": 75,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+
+        {
+            "id": "gyarados-1",
+            "pokemon": "gyarados",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-55",
+            "weight": 55,
+            "condition": {
+                "minX": 2211, "maxX": 2764, "minZ": -490, "maxZ": -118, "minY": 59, "maxY": 75,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+        {
+            "id": "octillery-1",
+            "pokemon": "octillery",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-55",
+            "weight": 45,
+            "condition": {
+                "minX": 2211, "maxX": 2764, "minZ": -490, "maxZ": -118, "minY": 59, "maxY": 75,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        }
+    ]
+}

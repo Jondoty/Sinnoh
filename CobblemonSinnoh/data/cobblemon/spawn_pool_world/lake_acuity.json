@@ -1,0 +1,386 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "psyduck-1",
+            "pokemon": "psyduck",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-41",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319
+            }
+        },
+        {
+            "id": "psyduck-2",
+            "pokemon": "psyduck",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-41",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319
+            }
+        },
+        {
+            "id": "psyduck-3",
+            "pokemon": "psyduck",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-41",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319
+            }
+        },
+
+        {
+            "id": "golduck-1",
+            "pokemon": "golduck",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-41",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319
+            }
+        },
+        {
+            "id": "golduck-2",
+            "pokemon": "golduck",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-41",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319
+            }
+        },
+        {
+            "id": "golduck-3",
+            "pokemon": "golduck",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-41",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319
+            }
+        },
+
+        {
+            "id": "sneasel-1",
+            "pokemon": "sneasel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-41",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319
+            }
+        },
+        {
+            "id": "sneasel-2",
+            "pokemon": "sneasel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-41",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319
+            }
+        },
+        {
+            "id": "sneasel-3",
+            "pokemon": "sneasel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-41",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319
+            }
+        },
+
+        {
+            "id": "snorunt-1",
+            "pokemon": "snorunt",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-41",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319
+            }
+        },
+
+        {
+            "id": "bibarel-1",
+            "pokemon": "bibarel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-41",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319
+            }
+        },
+        {
+            "id": "bibarel-2",
+            "pokemon": "bibarel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-41",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319
+            }
+        },
+        {
+            "id": "bibarel-3",
+            "pokemon": "bibarel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-41",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319
+            }
+        },
+
+        {
+            "id": "snover-1",
+            "pokemon": "snover",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-41",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319
+            }
+        },
+        {
+            "id": "snover-2",
+            "pokemon": "snover",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-41",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319
+            }
+        },
+        {
+            "id": "snover-3",
+            "pokemon": "snover",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-41",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319
+            }
+        },
+
+        {
+            "id": "psyduck-4",
+            "pokemon": "psyduck",
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-40",
+            "weight": 90,
+            "condition": {
+                "presets": [
+                    "water"
+                ],
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319
+            }
+        },
+        {
+            "id": "golduck-4",
+            "pokemon": "golduck",
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-40",
+            "weight": 10,
+            "condition": {
+                "presets": [
+                    "water"
+                ],
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319
+            }
+        },
+
+        {
+            "id": "magikarp-1",
+            "pokemon": "magikarp",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "3-15",
+            "weight": 100,
+            "condition": {
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319,
+                "minLureLevel": 1,
+                "maxLureLevel": 1
+            }
+        },
+
+        {
+            "id": "goldeen-1",
+            "pokemon": "goldeen",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "10-35",
+            "weight": 40,
+            "condition": {
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+        {
+            "id": "seaking-1",
+            "pokemon": "seaking",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "10-35",
+            "weight": 5,
+            "condition": {
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+        {
+            "id": "magikarp-2",
+            "pokemon": "magikarp",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "10-35",
+            "weight": 55,
+            "condition": {
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+
+        {
+            "id": "seaking-2",
+            "pokemon": "seaking",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-55",
+            "weight": 45,
+            "condition": {
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+        {
+            "id": "gyarados-1",
+            "pokemon": "gyarados",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-55",
+            "weight": 55,
+            "condition": {
+                "minX": 553, "maxX": 866, "minZ": -4157, "maxZ": -3869, "minY": 57, "maxY": 319,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        }
+    ]
+}

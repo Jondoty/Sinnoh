@@ -1,0 +1,120 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "sneasel-1",
+            "pokemon": "sneasel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "33-35",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day",
+                "minX": 553, "maxX": 866, "minZ": -3868, "maxZ": -3725, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "swinub-1",
+            "pokemon": "swinub",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "33-35",
+            "weight": 35,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day",
+                "minX": 553, "maxX": 866, "minZ": -3868, "maxZ": -3725, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "snover-1",
+            "pokemon": "snover",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "33-35",
+            "weight": 40,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day",
+                "minX": 553, "maxX": 866, "minZ": -3868, "maxZ": -3725, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "sneasel-2",
+            "pokemon": "sneasel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "33-35",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 553, "maxX": 866, "minZ": -3868, "maxZ": -3725, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "swinub-2",
+            "pokemon": "swinub",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "33-35",
+            "weight": 35,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 553, "maxX": 866, "minZ": -3868, "maxZ": -3725, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "snorunt-1",
+            "pokemon": "snorunt",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "33-35",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 553, "maxX": 866, "minZ": -3868, "maxZ": -3725, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "snover-2",
+            "pokemon": "snover",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "33-35",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 553, "maxX": 866, "minZ": -3868, "maxZ": -3725, "minY": 59, "maxY": 319
+            }
+        }
+    ]
+}

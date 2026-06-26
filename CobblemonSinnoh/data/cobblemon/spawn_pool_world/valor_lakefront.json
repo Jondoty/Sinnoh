@@ -1,0 +1,233 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "girafarig-1",
+            "pokemon": "girafarig",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-28",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 2479, "maxX": 2764, "minZ": -867, "maxZ": -491, "minY": 59, "maxY": 75
+            }
+        },
+        {
+            "id": "houndour-1",
+            "pokemon": "houndour",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-28",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 2479, "maxX": 2764, "minZ": -867, "maxZ": -491, "minY": 59, "maxY": 75
+            }
+        },
+        {
+            "id": "staravia-1",
+            "pokemon": "staravia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-28",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 2479, "maxX": 2764, "minZ": -867, "maxZ": -491, "minY": 59, "maxY": 75
+            }
+        },
+        {
+            "id": "bibarel-1",
+            "pokemon": "bibarel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-28",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 2479, "maxX": 2764, "minZ": -867, "maxZ": -491, "minY": 59, "maxY": 75
+            }
+        },
+        {
+            "id": "kricketune-1",
+            "pokemon": "kricketune",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-28",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 2479, "maxX": 2764, "minZ": -867, "maxZ": -491, "minY": 59, "maxY": 75
+            }
+        },
+
+        {
+            "id": "girafarig-2",
+            "pokemon": "girafarig",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-28",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 2479, "maxX": 2764, "minZ": -867, "maxZ": -491, "minY": 59, "maxY": 75
+            }
+        },
+        {
+            "id": "houndour-2",
+            "pokemon": "houndour",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-28",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 2479, "maxX": 2764, "minZ": -867, "maxZ": -491, "minY": 59, "maxY": 75
+            }
+        },
+        {
+            "id": "staravia-2",
+            "pokemon": "staravia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-28",
+            "weight": 35,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 2479, "maxX": 2764, "minZ": -867, "maxZ": -491, "minY": 59, "maxY": 75
+            }
+        },
+        {
+            "id": "bibarel-2",
+            "pokemon": "bibarel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-28",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 2479, "maxX": 2764, "minZ": -867, "maxZ": -491, "minY": 59, "maxY": 75
+            }
+        },
+
+        {
+            "id": "girafarig-3",
+            "pokemon": "girafarig",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-28",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 2479, "maxX": 2764, "minZ": -867, "maxZ": -491, "minY": 59, "maxY": 75
+            }
+        },
+        {
+            "id": "houndour-3",
+            "pokemon": "houndour",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-28",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 2479, "maxX": 2764, "minZ": -867, "maxZ": -491, "minY": 59, "maxY": 75
+            }
+        },
+        {
+            "id": "staravia-3",
+            "pokemon": "staravia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-28",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 2479, "maxX": 2764, "minZ": -867, "maxZ": -491, "minY": 59, "maxY": 75
+            }
+        },
+        {
+            "id": "bibarel-3",
+            "pokemon": "bibarel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-28",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 2479, "maxX": 2764, "minZ": -867, "maxZ": -491, "minY": 59, "maxY": 75
+            }
+        },
+        {
+            "id": "kricketune-2",
+            "pokemon": "kricketune",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-28",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 2479, "maxX": 2764, "minZ": -867, "maxZ": -491, "minY": 59, "maxY": 75
+            }
+        }
+    ]
+}

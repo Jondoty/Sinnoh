@@ -1,0 +1,280 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "fearow-1",
+            "pokemon": "fearow",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day",
+                "minX": 2581, "maxX": 2952, "minZ": -4170, "maxZ": -3908, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "graveler-1",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day",
+                "minX": 2581, "maxX": 2952, "minZ": -4170, "maxZ": -3908, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "weezing-1",
+            "pokemon": "weezing",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day",
+                "minX": 2581, "maxX": 2952, "minZ": -4170, "maxZ": -3908, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "rhyhorn-1",
+            "pokemon": "rhyhorn",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day",
+                "minX": 2581, "maxX": 2952, "minZ": -4170, "maxZ": -3908, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "rhydon-1",
+            "pokemon": "rhydon",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day",
+                "minX": 2581, "maxX": 2952, "minZ": -4170, "maxZ": -3908, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "skarmory-1",
+            "pokemon": "skarmory",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day",
+                "minX": 2581, "maxX": 2952, "minZ": -4170, "maxZ": -3908, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "numel-1",
+            "pokemon": "numel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day",
+                "minX": 2581, "maxX": 2952, "minZ": -4170, "maxZ": -3908, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "camerupt-1",
+            "pokemon": "camerupt",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day",
+                "minX": 2581, "maxX": 2952, "minZ": -4170, "maxZ": -3908, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "fearow-2",
+            "pokemon": "fearow",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 2581, "maxX": 2952, "minZ": -4170, "maxZ": -3908, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 2581, "maxX": 2952, "minZ": -4170, "maxZ": -3908, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "graveler-2",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 2581, "maxX": 2952, "minZ": -4170, "maxZ": -3908, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "weezing-2",
+            "pokemon": "weezing",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 2581, "maxX": 2952, "minZ": -4170, "maxZ": -3908, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "rhyhorn-2",
+            "pokemon": "rhyhorn",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 2581, "maxX": 2952, "minZ": -4170, "maxZ": -3908, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "rhydon-2",
+            "pokemon": "rhydon",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 2581, "maxX": 2952, "minZ": -4170, "maxZ": -3908, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "skarmory-2",
+            "pokemon": "skarmory",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 2581, "maxX": 2952, "minZ": -4170, "maxZ": -3908, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "numel-2",
+            "pokemon": "numel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 2581, "maxX": 2952, "minZ": -4170, "maxZ": -3908, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "camerupt-2",
+            "pokemon": "camerupt",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 2581, "maxX": 2952, "minZ": -4170, "maxZ": -3908, "minY": 59, "maxY": 319
+            }
+        }
+    ]
+}

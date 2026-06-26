@@ -1,0 +1,25 @@
+I am creating jsons based on a specific dataset from a spreadsheet. Provided I have an example, used with this data to create it.
+
+
+Grass, 2-4 (morning,evening) (aka Twilight)    Starly, 50    Bidoof, 50
+Grass, 2-4 (Day)    Starly, 50    Bidoof, 50
+Grass, 2-4 (Night)    Starly, 40    Bidoof, 60
+Surf, 2-4    Psyduck, 90    Golduck, 10
+Fishing (Old), 3-15    Magikarp
+Fishing (Good), 10-35     Goldeen, 40    Seaking, 5    Magikarp, 55
+Fishing (Super), 30-55    Gyarados, 55    Seaking, 45
+"minX": -1100, "maxX": -762, "minZ": -521, "maxZ": -257, "minY": 45, "maxY": 319,
+
+
+In each group of spawns, you have the method for which the Pokemon spawns. In most grass, time of day matters for rarities. And with fishing, the LureLevel correlates to the rod needed.
+
+
+You have the method, and the level range. Any extra specs needed, then the species and their rarity.
+
+
+Could you make a Route 211 json with this data in a similar formatting
+Route 211 East
+Grass, 27-30 (Twilight)		Machoke, 15	Graveler, 20		Meditite, 40	Chingling, 15	Bronzor, 10
+Grass, 27-30 (Day)		Machoke, 15	Graveler, 20		Meditite, 40	Chingling, 15	Bronzor, 10
+Grass, 27-30 (Night)	Zubat, 10	Machoke, 15	Graveler, 20	Noctowl, 10	Meditite, 20	Chingling, 15	Bronzor, 10
+"minX": 879, "maxX": 1092, "minZ": -2209, "maxZ": -1911, "minY": 59, "maxY": 319,

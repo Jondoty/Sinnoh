@@ -1,0 +1,201 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "quagsire-1",
+            "pokemon": "quagsire",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-26",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 1025, "maxX": 1837, "minZ": -335, "maxZ": -76, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "buizel-1",
+            "pokemon": "buizel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-26",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 1025, "maxX": 1837, "minZ": -335, "maxZ": -76, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "shellos-1",
+            "pokemon": "shellos sea=east",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-26",
+            "weight": 45,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 1025, "maxX": 1837, "minZ": -335, "maxZ": -76, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "croagunk-1",
+            "pokemon": "croagunk",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-26",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 1025, "maxX": 1837, "minZ": -335, "maxZ": -76, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "tentacool-1",
+            "pokemon": "tentacool",
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-26",
+            "weight": 30,
+            "condition": {
+                "presets": [
+                    "water"
+                ],
+                "minX": 1025, "maxX": 1837, "minZ": -335, "maxZ": -76, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "tentacruel-1",
+            "pokemon": "tentacruel",
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-26",
+            "weight": 1,
+            "condition": {
+                "presets": [
+                    "water"
+                ],
+                "minX": 1025, "maxX": 1837, "minZ": -335, "maxZ": -76, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "shellos-2",
+            "pokemon": "shellos sea=east",
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-26",
+            "weight": 60,
+            "condition": {
+                "presets": [
+                    "water"
+                ],
+                "minX": 1025, "maxX": 1837, "minZ": -335, "maxZ": -76, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "gastrodon-1",
+            "pokemon": "gastrodon sea=east",
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-26",
+            "weight": 9,
+            "condition": {
+                "presets": [
+                    "water"
+                ],
+                "minX": 1025, "maxX": 1837, "minZ": -335, "maxZ": -76, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "magikarp-1",
+            "pokemon": "magikarp",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "3-15",
+            "weight": 100,
+            "condition": {
+                "minX": 1025, "maxX": 1837, "minZ": -335, "maxZ": -76, "minY": 59, "maxY": 319,
+                "minLureLevel": 1,
+                "maxLureLevel": 1
+            }
+        },
+
+        {
+            "id": "magikarp-2",
+            "pokemon": "magikarp",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "10-25",
+            "weight": 55,
+            "condition": {
+                "minX": 1025, "maxX": 1837, "minZ": -335, "maxZ": -76, "minY": 59, "maxY": 319,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+        {
+            "id": "remoraid-1",
+            "pokemon": "remoraid",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "10-25",
+            "weight": 45,
+            "condition": {
+                "minX": 1025, "maxX": 1837, "minZ": -335, "maxZ": -76, "minY": 59, "maxY": 319,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+
+        {
+            "id": "gyarados-1",
+            "pokemon": "gyarados",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-55",
+            "weight": 55,
+            "condition": {
+                "minX": 1025, "maxX": 1837, "minZ": -335, "maxZ": -76, "minY": 59, "maxY": 319,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+        {
+            "id": "octillery-1",
+            "pokemon": "octillery",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-55",
+            "weight": 45,
+            "condition": {
+                "minX": 1025, "maxX": 1837, "minZ": -335, "maxZ": -76, "minY": 59, "maxY": 319,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        }
+    ]
+}

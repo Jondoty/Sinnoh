@@ -1,0 +1,297 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "abra-1",
+            "pokemon": "abra",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-22",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 1856, "maxX": 2409, "minZ": -1817, "maxZ": -1579, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "kadabra-1",
+            "pokemon": "kadabra",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-22",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 1856, "maxX": 2409, "minZ": -1817, "maxZ": -1579, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "lickitung-1",
+            "pokemon": "lickitung",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-22",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 1856, "maxX": 2409, "minZ": -1817, "maxZ": -1579, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "scyther-1",
+            "pokemon": "scyther",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-22",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 1856, "maxX": 2409, "minZ": -1817, "maxZ": -1579, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "marill-1",
+            "pokemon": "marill",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-22",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 1856, "maxX": 2409, "minZ": -1817, "maxZ": -1579, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "staravia-1",
+            "pokemon": "staravia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-22",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 1856, "maxX": 2409, "minZ": -1817, "maxZ": -1579, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "abra-2",
+            "pokemon": "abra",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-22",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 1856, "maxX": 2409, "minZ": -1817, "maxZ": -1579, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "kadabra-2",
+            "pokemon": "kadabra",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-22",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 1856, "maxX": 2409, "minZ": -1817, "maxZ": -1579, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "lickitung-2",
+            "pokemon": "lickitung",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-22",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 1856, "maxX": 2409, "minZ": -1817, "maxZ": -1579, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "scyther-2",
+            "pokemon": "scyther",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-22",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 1856, "maxX": 2409, "minZ": -1817, "maxZ": -1579, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "marill-2",
+            "pokemon": "marill",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-22",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 1856, "maxX": 2409, "minZ": -1817, "maxZ": -1579, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "staravia-2",
+            "pokemon": "staravia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-22",
+            "weight": 40,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 1856, "maxX": 2409, "minZ": -1817, "maxZ": -1579, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "abra-3",
+            "pokemon": "abra",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-22",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1856, "maxX": 2409, "minZ": -1817, "maxZ": -1579, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "kadabra-3",
+            "pokemon": "kadabra",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-22",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1856, "maxX": 2409, "minZ": -1817, "maxZ": -1579, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "lickitung-3",
+            "pokemon": "lickitung",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-22",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1856, "maxX": 2409, "minZ": -1817, "maxZ": -1579, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "scyther-3",
+            "pokemon": "scyther",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-22",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1856, "maxX": 2409, "minZ": -1817, "maxZ": -1579, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "marill-3",
+            "pokemon": "marill",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-22",
+            "weight": 45,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1856, "maxX": 2409, "minZ": -1817, "maxZ": -1579, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "staravia-3",
+            "pokemon": "staravia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-22",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1856, "maxX": 2409, "minZ": -1817, "maxZ": -1579, "minY": 59, "maxY": 319
+            }
+        }
+    ]
+}

@@ -1,0 +1,200 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "tangela-1",
+            "pokemon": "tangela",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "27-30",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day",
+                "minX": 1825, "maxX": 2210, "minZ": -798, "maxZ": -590, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "yanma-1",
+            "pokemon": "yanma",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "27-30",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day",
+                "minX": 1825, "maxX": 2210, "minZ": -798, "maxZ": -590, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "wooper-1",
+            "pokemon": "wooper",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "27-30",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day",
+                "minX": 1825, "maxX": 2210, "minZ": -798, "maxZ": -590, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "quagsire-1",
+            "pokemon": "quagsire",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "27-30",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day",
+                "minX": 1825, "maxX": 2210, "minZ": -798, "maxZ": -590, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "bibarel-1",
+            "pokemon": "bibarel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "27-30",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day",
+                "minX": 1825, "maxX": 2210, "minZ": -798, "maxZ": -590, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "tangela-2",
+            "pokemon": "tangela",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "27-30",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1825, "maxX": 2210, "minZ": -798, "maxZ": -590, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "hoothoot-1",
+            "pokemon": "hoothoot",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "27-30",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1825, "maxX": 2210, "minZ": -798, "maxZ": -590, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "noctowl-1",
+            "pokemon": "noctowl",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "27-30",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1825, "maxX": 2210, "minZ": -798, "maxZ": -590, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "yanma-2",
+            "pokemon": "yanma",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "27-30",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1825, "maxX": 2210, "minZ": -798, "maxZ": -590, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "wooper-2",
+            "pokemon": "wooper",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "27-30",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1825, "maxX": 2210, "minZ": -798, "maxZ": -590, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "quagsire-2",
+            "pokemon": "quagsire",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "27-30",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1825, "maxX": 2210, "minZ": -798, "maxZ": -590, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "bibarel-2",
+            "pokemon": "bibarel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "27-30",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1825, "maxX": 2210, "minZ": -798, "maxZ": -590, "minY": 59, "maxY": 319
+            }
+        }
+    ]
+}
