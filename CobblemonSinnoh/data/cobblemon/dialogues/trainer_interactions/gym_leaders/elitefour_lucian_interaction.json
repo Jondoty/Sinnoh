@@ -1,0 +1,56 @@
+{
+    "initializationAction": [
+        "q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 18');",
+        "q.run_command('execute as ' + q.player.username + ' run function sinnoh:triggers/stopsound');"
+    ],
+    "escapeAction": [
+        "q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 0');",
+        "q.run_command('execute as ' + q.player.username + ' run function sinnoh:triggers/stopsound');",
+        "q.dialogue.close();"
+    ],
+    "names": [
+        "Lucian"
+    ],
+    "speakers": {
+        "npc": {
+            "name": {
+                "type": "expression",
+                "expression": "q.npc.name"
+            },
+            "face": "q.npc.face();"
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "npc",
+            "lines": [
+                "Ah, you timed your arrival well. I've just finished reading a book, you see. Allow me to introduce myself. I am Lucian. I am a user of the Psychic type. I must say, you've already proven yourself to be outstanding by coming this far. They say I am the toughest of the Elite Four. I'm afraid I will have to go all out against you to live up to that reputation."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "§c⚔ Battle ⚔§r",
+                        "value": "battle",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 37');",
+                            "q.run_command('execute as ' + q.player.username + ' run function sinnoh:triggers/stopsound');",
+                            "v.battle = q.npc.start_battle(q.player);"
+                        ]
+                    },
+                    {
+                        "text": "No",
+                        "value": "no",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 0');",
+                            "q.run_command('execute as ' + q.player.username + ' run function sinnoh:triggers/stopsound');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

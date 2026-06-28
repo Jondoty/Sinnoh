@@ -1,0 +1,45 @@
+{
+    "initializationAction": [
+        "c.npc.set_chatting();",
+        "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 1');",
+        "q.run_command('execute as ' + q.player.username + ' run function sinnoh:triggers/stopsound');",
+        "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $8280 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
+        "q.run_command('scoreboard players add ' + q.player.username + ' Money 8280');"
+    ],
+    "speakers": {
+        "npc": {
+            "name": "Cyrus",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:cyrus",
+                "isLeftSide": true
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "page2",
+            "speaker": "npc",
+            "lines": [
+                "I see. You are indeed strong. And the basis of your power is your compassion toward Pokémon. ...How wasteful... Such emotions are but mere illusions. And, like all illusions, they fade over time until death banishes them forever. That is why I have abandoned all emotions as useless sentimentality. ...But that doesn't matter. I doubt you will ever understand my position. That said, I recognize that you are strong and courageous to come alone. This is your reward. The Master Ball is the ultimate Poké Ball. It will unfailingly catch any Pokémon in the wild. But it is not anything that I require. Unlike you Trainers, I do not make Pokémon my friends or partners. Unlike other Team Galactic members, I don't use Pokémon as tools. Instead, I make the power of Pokémon my own. If you wish to save the Pokémon from the lakes, take the warp panel ahead. I am off to Mt. Coronet. I will ascend the mountain to its peak where destiny awaits me. It is there that I will create my new world..."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "escapeAction": [
+        "q.dialogue.close();"
+    ]
+}

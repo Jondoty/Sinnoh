@@ -1,0 +1,45 @@
+{
+    "initializationAction": [
+        "c.npc.set_chatting();",
+        "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 1');",
+        "q.run_command('execute as ' + q.player.username + ' run function sinnoh:triggers/stopsound');",
+        "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $3600 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
+        "q.run_command('scoreboard players add ' + q.player.username + ' Money 3600');"
+    ],
+    "speakers": {
+        "npc": {
+            "name": "Barry",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:barry",
+                "isLeftSide": true
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "page2",
+            "speaker": "npc",
+            "lines": [
+                "Heh, yeah, maybe you did get a bit tougher since last time. That even shocked me a bit, so yeah, I got beat 'cause I was careless. So, hey, what was that Team Galactic guy all freaking out about? I don't know what he's up to, but you should chase him down! If you're not a Pokémon, and you run like that... You're a bad guy. All right, ' + q.player.username + '! Next time, I'm not holding back!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "escapeAction": [
+        "q.dialogue.close();"
+    ]
+}

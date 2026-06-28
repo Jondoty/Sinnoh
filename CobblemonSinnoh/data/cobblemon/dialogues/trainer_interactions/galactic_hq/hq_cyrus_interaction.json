@@ -1,0 +1,56 @@
+{
+    "initializationAction": [
+        "q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 18');",
+        "q.run_command('execute as ' + q.player.username + ' run function sinnoh:triggers/stopsound');"
+    ],
+    "escapeAction": [
+        "q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 0');",
+        "q.run_command('execute as ' + q.player.username + ' run function sinnoh:triggers/stopsound');",
+        "q.dialogue.close();"
+    ],
+    "names": [
+        "Cyrus"
+    ],
+    "speakers": {
+        "npc": {
+            "name": {
+                "type": "expression",
+                "expression": "q.npc.name"
+            },
+            "face": "q.npc.face();"
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "npc",
+            "lines": [
+                "...So, you've come. You heard my speech, I take it. Snicker... A big lie, of course. It's true insofar as my intention is to create a new world. But that world isn't for the likes of Team Galactic. I seek an entirely new world solely for myself. If not, it could never be the complete and perfect world. You've seen my minions of Team Galactic. You yourself must know that they are uniformly useless and incomplete. I know why you're here. I can sense it in you. It's about Uxie, Mesprit, and Azelf, correct? You want to save them... I no longer have any need for them. I am finished with them. If your heart aches to save them, go right ahead. I couldn't care less. It will save me the trouble of disposing of them. But, I must say... You are a remarkable specimen. Those Pokémon have nothing to do with you, do they? But still you came to rescue them out of pity? Such pitifully useless emotions... It's illogical and irrational. Pity and compassion are products of the weak and faulty human heart. You were compelled to come here by such vacuous sentimentality! I will make you regret paying heed to your heart!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "§c⚔ Battle ⚔§r",
+                        "value": "battle",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 37');",
+                            "q.run_command('execute as ' + q.player.username + ' run function sinnoh:triggers/stopsound');",
+                            "v.battle = q.npc.start_battle(q.player);"
+                        ]
+                    },
+                    {
+                        "text": "No",
+                        "value": "no",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 0');",
+                            "q.run_command('execute as ' + q.player.username + ' run function sinnoh:triggers/stopsound');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

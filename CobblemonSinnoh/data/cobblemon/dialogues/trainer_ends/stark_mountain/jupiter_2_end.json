@@ -1,0 +1,45 @@
+{
+    "initializationAction": [
+        "c.npc.set_chatting();",
+        "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 1');",
+        "q.run_command('execute as ' + q.player.username + ' run function sinnoh:triggers/stopsound');",
+        "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $4800 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
+        "q.run_command('scoreboard players add ' + q.player.username + ' Money 4800');"
+    ],
+    "speakers": {
+        "npc": {
+            "name": "Jupiter",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:jupiter",
+                "isLeftSide": true
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "page2",
+            "speaker": "npc",
+            "lines": [
+                "Jupiter: Following Mars's lead at anything irks me, but... I'm quitting to do my own thing, too. Team Galactic's just no fun without Master Cyrus around. So, old-timer, go ahead. Do what you want with Team Galactic. Mars: There you have it. We're going back to being ordinary girls. You can mop up whichever way you want. Jupiter: ...Says you. An “ordinary girl” you're not. What should I do now? Is leaving on a journey the right idea? Charon: Sigh... So impressionable and impetuous. What do they see in Cyrus? Immature, overthinking buffoon. He goes through the trouble of assembling Team Galactic for what? Ultimately, he destroys his own creation for his ludicrous vision. It's no thanks to him that I have to struggle with the pieces. ...But that's fine. The young can live with their dreams. I prefer to remain firmly in reality. And for that, money is paramount. You there, child. I'm not dealing with you. After all, the other Galactic members who did all suffered consequences. We'll be off to collect the Magma Stone. It's all for the money!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "escapeAction": [
+        "q.dialogue.close();"
+    ]
+}

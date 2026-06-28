@@ -1,0 +1,45 @@
+{
+    "initializationAction": [
+        "c.npc.set_chatting();",
+        "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 1');",
+        "q.run_command('execute as ' + q.player.username + ' run function sinnoh:triggers/stopsound');",
+        "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $1360 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
+        "q.run_command('scoreboard players add ' + q.player.username + ' Money 1360');"
+    ],
+    "speakers": {
+        "npc": {
+            "name": "Mars",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:mars",
+                "isLeftSide": true
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "page2",
+            "speaker": "npc",
+            "lines": [
+                "Mars: Oops! I messed that one up! That's all right, though. I quite enjoyed our battle. Charon: My, my. Lose to a child, will you? But, no matter. We've collected plenty of electricity. With the power we obtained, we can do something quite spectacular. It seems quite obvious to me, Charon, the genius even the boss recognizes. Now, Mars, we should be going. Mars: Will you shut it! The boss is the only person in the world who's allowed to order me around! You can keep quiet around me! You only joined us recently. Don't think you're important! I guess it's time to say good-bye and leave for the time being!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "escapeAction": [
+        "q.dialogue.close();"
+    ]
+}

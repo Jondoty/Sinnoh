@@ -1,0 +1,56 @@
+{
+    "initializationAction": [
+        "q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 18');",
+        "q.run_command('execute as ' + q.player.username + ' run function sinnoh:triggers/stopsound');"
+    ],
+    "escapeAction": [
+        "q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 0');",
+        "q.run_command('execute as ' + q.player.username + ' run function sinnoh:triggers/stopsound');",
+        "q.dialogue.close();"
+    ],
+    "names": [
+        "Galactic Commander Mars"
+    ],
+    "speakers": {
+        "npc": {
+            "name": {
+                "type": "expression",
+                "expression": "q.npc.name"
+            },
+            "face": "q.npc.face();"
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "npc",
+            "lines": [
+                "Lucas: It's Team Galactic! They took the Pokémon of the lake... This woman... I lost to her, but just barely! Mars: That face...! It brings back bad memories! I'm talking about the windworks! I caught a whole lot of trouble for that little incident. What's with that look on your face? You do remember me, don't you? Fine, whatever. I'll tell you who I am again! I'm Mars, one of Team Galactic's Commanders. So, what is it? Are you some lovey-dovey couple to the rescue? Not a chance! Not even a teeny one! You're all going down!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "§c⚔ Battle ⚔§r",
+                        "value": "battle",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 37');",
+                            "q.run_command('execute as ' + q.player.username + ' run function sinnoh:triggers/stopsound');",
+                            "v.battle = q.npc.start_battle(q.player);"
+                        ]
+                    },
+                    {
+                        "text": "No",
+                        "value": "no",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 0');",
+                            "q.run_command('execute as ' + q.player.username + ' run function sinnoh:triggers/stopsound');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

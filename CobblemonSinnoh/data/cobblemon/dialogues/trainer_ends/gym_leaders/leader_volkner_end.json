@@ -1,0 +1,45 @@
+{
+    "initializationAction": [
+        "c.npc.set_chatting();",
+        "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 1');",
+        "q.run_command('execute as ' + q.player.username + ' run function sinnoh:triggers/stopsound');",
+        "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $6000 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
+        "q.run_command('scoreboard players add ' + q.player.username + ' Money 6000');"
+    ],
+    "speakers": {
+        "npc": {
+            "name": "Volkner",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:volkner",
+                "isLeftSide": true
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "page2",
+            "speaker": "npc",
+            "lines": [
+                "\"...Hehehe. Hahahah! ...That was the most fun I've had in a battle since...I don't know when! It's also made me excited to know you and your team will keep battling to greater heights! This is your eighth Gym Badge. You've earned this! ' + q.player.username + ' received the Beacon Badge from Volkner. That Beacon Badge lets you use the hidden move Waterfall even when you're not in a battle. Waterfall happens to be key if you're going to the Pokémon League. I want you to take this, too. What's inside that TM is the move Charge Beam. It may raise Special Attack if it lands. It's electrifying! Your next step is the Pokémon League challenge. It's time for you to cross the sea and win your way through the gauntlet that is Victory Road. Demonstrate to the Pokémon League your mastery of your team. Against you, even the Elite Four will be pushed to fend off your challenge!\""
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "escapeAction": [
+        "q.dialogue.close();"
+    ]
+}
