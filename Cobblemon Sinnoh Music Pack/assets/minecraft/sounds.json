@@ -1,0 +1,1058 @@
+{
+  "battle_arceus": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/pokemon/battle_arceus",
+        "stream": true
+      }
+    ]
+  },
+  "battle_laketrio": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/pokemon/battle_laketrio",
+        "stream": true
+      }
+    ]
+  },
+  "battle_wild": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/pokemon/battle_wild",
+        "stream": true
+      }
+    ]
+  },
+  "battle_legendary": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/pokemon/battle_legendary",
+        "stream": true
+      }
+    ]
+  },
+  "battle_dialgapalkia": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/pokemon/battle_dialgapalkia",
+        "stream": true
+      }
+    ]
+  },
+  "battle_giratina": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/pokemon/battle_giratina",
+        "stream": true
+      }
+    ]
+  },
+  "intro_blackbelt": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/openings/intro_blackbelt",
+        "stream": true
+      }
+    ]
+  },
+  "intro_sailor": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/openings/intro_sailor",
+        "stream": true
+      }
+    ]
+  },
+  "intro_aromalady": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/openings/intro_aromalady",
+        "stream": true
+      }
+    ]
+  },
+  "intro_collector": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/openings/intro_collector",
+        "stream": true
+      }
+    ]
+  },
+  "intro_pi": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/openings/intro_pi",
+        "stream": true
+      }
+    ]
+  },
+  "intro_artist": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/openings/intro_artist",
+        "stream": true
+      }
+    ]
+  },
+  "intro_elitefour": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/openings/intro_elitefour",
+        "stream": true
+      }
+    ]
+  },
+  "intro_cynthia": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/openings/intro_cynthia",
+        "stream": true
+      }
+    ]
+  },
+  "intro_lass": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/openings/intro_lass",
+        "stream": true
+      }
+    ]
+  },
+  "intro_youngster": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/openings/intro_youngster",
+        "stream": true
+      }
+    ]
+  },
+  "intro_twins": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/openings/intro_twins",
+        "stream": true
+      }
+    ]
+  },
+  "intro_galactic": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/openings/intro_galactic",
+        "stream": true
+      }
+    ]
+  },
+  "intro_cyclist": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/openings/intro_cyclist",
+        "stream": true
+      }
+    ]
+  },
+  "intro_hiker": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/openings/intro_hiker",
+        "stream": true
+      }
+    ]
+  },
+  "intro_ace": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/openings/intro_ace",
+        "stream": true
+      }
+    ]
+  },
+  "battle_elitefour": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/trainers/battle_elitefour",
+        "stream": true
+      }
+    ]
+  },
+  "battle_cynthia": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/trainers/battle_cynthia",
+        "stream": true
+      }
+    ]
+  },
+  "battle_trainer": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/trainers/battle_trainer",
+        "stream": true
+      }
+    ]
+  },
+  "battle_rival": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/trainers/battle_rival",
+        "stream": true
+      }
+    ]
+  },
+  "battle_gymleader": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/trainers/battle_gymleader",
+        "stream": true
+      }
+    ]
+  },
+  "battle_commander": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/trainers/battle_commander",
+        "stream": true
+      }
+    ]
+  },
+  "battle_cyrus": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/trainers/battle_cyrus",
+        "stream": true
+      }
+    ]
+  },
+  "win_wild": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/wins/win_wild",
+        "stream": true
+      }
+    ]
+  },
+  "win_elitefour": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/wins/win_elitefour",
+        "stream": true
+      }
+    ]
+  },
+  "win_cynthia": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/wins/win_cynthia",
+        "stream": true
+      }
+    ]
+  },
+  "win_trainer": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/wins/win_trainer",
+        "stream": true
+      }
+    ]
+  },
+  "win_gymleader": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/wins/win_gymleader",
+        "stream": true
+      }
+    ]
+  },
+  "win_galactic": {
+    "sounds": [
+      {
+        "name": "sinnoh/battles/wins/win_galactic",
+        "stream": true
+      }
+    ]
+  },
+  "opening_movie": {
+    "sounds": [
+      {
+        "name": "sinnoh/dialogues/opening_movie",
+        "stream": true
+      }
+    ]
+  },
+  "introduction": {
+    "sounds": [
+      {
+        "name": "sinnoh/dialogues/introduction",
+        "stream": true
+      }
+    ]
+  },
+  "lucas": {
+    "sounds": [
+      {
+        "name": "sinnoh/dialogues/lucas",
+        "stream": true
+      }
+    ]
+  },
+  "rival": {
+    "sounds": [
+      {
+        "name": "sinnoh/dialogues/rival",
+        "stream": true
+      }
+    ]
+  },
+  "lake_surprise": {
+    "sounds": [
+      {
+        "name": "sinnoh/dialogues/lake_surprise",
+        "stream": true
+      }
+    ]
+  },
+  "dawn": {
+    "sounds": [
+      {
+        "name": "sinnoh/dialogues/dawn",
+        "stream": true
+      }
+    ]
+  },
+  "credits": {
+    "sounds": [
+      {
+        "name": "sinnoh/dialogues/credits",
+        "stream": true
+      }
+    ]
+  },
+  "hurryalong": {
+    "sounds": [
+      {
+        "name": "sinnoh/dialogues/hurryalong",
+        "stream": true
+      }
+    ]
+  },
+  "looker": {
+    "sounds": [
+      {
+        "name": "sinnoh/dialogues/looker",
+        "stream": true
+      }
+    ]
+  },
+  "friend_joins": {
+    "sounds": [
+      {
+        "name": "sinnoh/dialogues/friend_joins",
+        "stream": true
+      }
+    ]
+  },
+  "legendary_appears": {
+    "sounds": [
+      {
+        "name": "sinnoh/dialogues/legendary_appears",
+        "stream": true
+      }
+    ]
+  },
+  "giratina_appears2": {
+    "sounds": [
+      {
+        "name": "sinnoh/dialogues/giratina_appears2",
+        "stream": true
+      }
+    ]
+  },
+  "giratina_appears": {
+    "sounds": [
+      {
+        "name": "sinnoh/dialogues/giratina_appears",
+        "stream": true
+      }
+    ]
+  },
+  "azure_flute": {
+    "sounds": [
+      {
+        "name": "sinnoh/events/azure_flute",
+        "stream": true
+      }
+    ]
+  },
+  "get_item": {
+    "sounds": [
+      {
+        "name": "sinnoh/events/get_item",
+        "stream": true
+      }
+    ]
+  },
+  "get_heal": {
+    "sounds": [
+      {
+        "name": "sinnoh/events/get_heal",
+        "stream": true
+      }
+    ]
+  },
+  "get_keyitem": {
+    "sounds": [
+      {
+        "name": "sinnoh/events/get_keyitem",
+        "stream": true
+      }
+    ]
+  },
+  "get_tm": {
+    "sounds": [
+      {
+        "name": "sinnoh/events/get_tm",
+        "stream": true
+      }
+    ]
+  },
+  "get_badge": {
+    "sounds": [
+      {
+        "name": "sinnoh/events/get_badge",
+        "stream": true
+      }
+    ]
+  },
+  "level_up": {
+    "sounds": [
+      {
+        "name": "sinnoh/events/level_up",
+        "stream": true
+      }
+    ]
+  },
+  "get_berry": {
+    "sounds": [
+      {
+        "name": "sinnoh/events/get_berry",
+        "stream": true
+      }
+    ]
+  },
+  "get_app": {
+    "sounds": [
+      {
+        "name": "sinnoh/events/get_app",
+        "stream": true
+      }
+    ]
+  },
+  "lobby": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/lobby",
+        "stream": true
+      }
+    ]
+  },
+  "twinleaf_town_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/twinleaf_town_day",
+        "stream": true
+      }
+    ]
+  },
+  "sandgem_town_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/sandgem_town_night",
+        "stream": true
+      }
+    ]
+  },
+  "canalave_city_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/canalave_city_night",
+        "stream": true
+      }
+    ]
+  },
+  "jubilife_city_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/jubilife_city_night",
+        "stream": true
+      }
+    ]
+  },
+  "oreburgh_city_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/oreburgh_city_night",
+        "stream": true
+      }
+    ]
+  },
+  "route203_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/route203_night",
+        "stream": true
+      }
+    ]
+  },
+  "route205_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/route205_night",
+        "stream": true
+      }
+    ]
+  },
+  "eterna_city_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/eterna_city_night",
+        "stream": true
+      }
+    ]
+  },
+  "floaroma_town_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/floaroma_town_night",
+        "stream": true
+      }
+    ]
+  },
+  "underground": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/underground",
+        "stream": true
+      }
+    ]
+  },
+  "route201_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/route201_day",
+        "stream": true
+      }
+    ]
+  },
+  "old_chateau": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/old_chateau",
+        "stream": true
+      }
+    ]
+  },
+  "solaceon_town_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/solaceon_town_night",
+        "stream": true
+      }
+    ]
+  },
+  "great_marsh": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/great_marsh",
+        "stream": true
+      }
+    ]
+  },
+  "route206_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/route206_night",
+        "stream": true
+      }
+    ]
+  },
+  "veilstone_city_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/veilstone_city_night",
+        "stream": true
+      }
+    ]
+  },
+  "game_corner": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/game_corner",
+        "stream": true
+      }
+    ]
+  },
+  "lake": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/lake",
+        "stream": true
+      }
+    ]
+  },
+  "route209_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/route209_night",
+        "stream": true
+      }
+    ]
+  },
+  "snowpoint_city_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/snowpoint_city_night",
+        "stream": true
+      }
+    ]
+  },
+  "route216_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/route216_night",
+        "stream": true
+      }
+    ]
+  },
+  "lake_cavern": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/lake_cavern",
+        "stream": true
+      }
+    ]
+  },
+  "route210_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/route210_night",
+        "stream": true
+      }
+    ]
+  },
+  "sunyshore_city_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/sunyshore_city_night",
+        "stream": true
+      }
+    ]
+  },
+  "amity_Square": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/amity_Square",
+        "stream": true
+      }
+    ]
+  },
+  "contest_hall": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/contest_hall",
+        "stream": true
+      }
+    ]
+  },
+  "hearthome_city_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/hearthome_city_night",
+        "stream": true
+      }
+    ]
+  },
+  "route228_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/route228_night",
+        "stream": true
+      }
+    ]
+  },
+  "valor_lakefront_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/valor_lakefront_night",
+        "stream": true
+      }
+    ]
+  },
+  "battle_tower": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/battle_tower",
+        "stream": true
+      }
+    ]
+  },
+  "fight_area_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/fight_area_night",
+        "stream": true
+      }
+    ]
+  },
+  "route225_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/route225_night",
+        "stream": true
+      }
+    ]
+  },
+  "stark_mountain": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/stark_mountain",
+        "stream": true
+      }
+    ]
+  },
+  "pokemon_league_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/pokemon_league_night",
+        "stream": true
+      }
+    ]
+  },
+  "hall_of_fame": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/hall_of_fame",
+        "stream": true
+      }
+    ]
+  },
+  "hall_of_origin": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/hall_of_origin",
+        "stream": true
+      }
+    ]
+  },
+  "sandgem_town_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/sandgem_town_day",
+        "stream": true
+      }
+    ]
+  },
+  "pokemon_lab": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/pokemon_lab",
+        "stream": true
+      }
+    ]
+  },
+  "pokemon_center_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/pokemon_center_day",
+        "stream": true
+      }
+    ]
+  },
+  "jubilife_city_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/jubilife_city_day",
+        "stream": true
+      }
+    ]
+  },
+  "poke_mart": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/poke_mart",
+        "stream": true
+      }
+    ]
+  },
+  "route203_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/route203_day",
+        "stream": true
+      }
+    ]
+  },
+  "oreburgh_gate": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/oreburgh_gate",
+        "stream": true
+      }
+    ]
+  },
+  "oreburgh_city_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/oreburgh_city_day",
+        "stream": true
+      }
+    ]
+  },
+  "gym": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/gym",
+        "stream": true
+      }
+    ]
+  },
+  "oreburgh_mine": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/oreburgh_mine",
+        "stream": true
+      }
+    ]
+  },
+  "floaroma_town_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/floaroma_town_day",
+        "stream": true
+      }
+    ]
+  },
+  "route205_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/route205_day",
+        "stream": true
+      }
+    ]
+  },
+  "eterna_city_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/eterna_city_day",
+        "stream": true
+      }
+    ]
+  },
+  "galactic_eterna": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/galactic_eterna",
+        "stream": true
+      }
+    ]
+  },
+  "bicycle": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/bicycle",
+        "stream": true
+      }
+    ]
+  },
+  "route206_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/route206_day",
+        "stream": true
+      }
+    ]
+  },
+  "hearthome_city_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/hearthome_city_day",
+        "stream": true
+      }
+    ]
+  },
+  "route209_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/route209_day",
+        "stream": true
+      }
+    ]
+  },
+  "solaceon_town_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/solaceon_town_day",
+        "stream": true
+      }
+    ]
+  },
+  "route210_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/route210_day",
+        "stream": true
+      }
+    ]
+  },
+  "veilstone_city_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/veilstone_city_day",
+        "stream": true
+      }
+    ]
+  },
+  "canalave_city_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/canalave_city_day",
+        "stream": true
+      }
+    ]
+  },
+  "valor_lakefront_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/valor_lakefront_day",
+        "stream": true
+      }
+    ]
+  },
+  "route216_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/route216_day",
+        "stream": true
+      }
+    ]
+  },
+  "snowpoint_city_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/snowpoint_city_day",
+        "stream": true
+      }
+    ]
+  },
+  "galactic_hq": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/galactic_hq",
+        "stream": true
+      }
+    ]
+  },
+  "galactic_console": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/galactic_console",
+        "stream": true
+      }
+    ]
+  },
+  "mt_coronet": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/mt_coronet",
+        "stream": true
+      }
+    ]
+  },
+  "spear_pillar": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/spear_pillar",
+        "stream": true
+      }
+    ]
+  },
+  "distortion_world": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/distortion_world",
+        "stream": true
+      }
+    ]
+  },
+  "sunyshore_city_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/sunyshore_city_day",
+        "stream": true
+      }
+    ]
+  },
+  "victory_road": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/victory_road",
+        "stream": true
+      }
+    ]
+  },
+  "pokemon_league_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/pokemon_league_day",
+        "stream": true
+      }
+    ]
+  },
+  "fight_area_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/fight_area_day",
+        "stream": true
+      }
+    ]
+  },
+  "route225_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/route225_day",
+        "stream": true
+      }
+    ]
+  },
+  "route228_day": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/route228_day",
+        "stream": true
+      }
+    ]
+  },
+  "route201_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/route201_night",
+        "stream": true
+      }
+    ]
+  },
+  "twinleaf_town_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/twinleaf_town_night",
+        "stream": true
+      }
+    ]
+  },
+  "pokemon_center_night": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/pokemon_center_night",
+        "stream": true
+      }
+    ]
+  }
+}
