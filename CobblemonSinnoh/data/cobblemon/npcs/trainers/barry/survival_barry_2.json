@@ -1,6 +1,6 @@
 {
     "hitbox": "player",
-    "resourceIdentifier": "cobblemon:Barry",
+    "resourceIdentifier": "cobblemon:barry",
     "ai": [
         {
             "type": "apply_behaviours",
