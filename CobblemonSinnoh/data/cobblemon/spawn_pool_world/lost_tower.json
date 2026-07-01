@@ -14,7 +14,7 @@
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "morning,evening,day,night",
-                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": 1655, "maxX": 1765, "minZ": -1199, "maxZ": -1152, "minY": 37, "maxY": 58
             }
         },
         {
@@ -28,7 +28,7 @@
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "morning,evening,day",
-                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": 1655, "maxX": 1765, "minZ": -1199, "maxZ": -1152, "minY": 37, "maxY": 58
             }
         },
         {
@@ -42,7 +42,7 @@
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "night",
-                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": 1655, "maxX": 1765, "minZ": -1199, "maxZ": -1152, "minY": 37, "maxY": 58
             }
         },
         {
@@ -56,7 +56,7 @@
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "night",
-                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": 1655, "maxX": 1765, "minZ": -1199, "maxZ": -1152, "minY": 37, "maxY": 58
             }
         },
 
@@ -75,7 +75,7 @@
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "morning,evening,day,night",
-                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": 1733, "maxX": 1828, "minZ": -1199, "maxZ": -1152, "minY": 37, "maxY": 58
             }
         },
         {
@@ -89,7 +89,7 @@
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "morning,evening,day,night",
-                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": 1733, "maxX": 1828, "minZ": -1199, "maxZ": -1152, "minY": 37, "maxY": 58
             }
         },
         {
@@ -103,7 +103,7 @@
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "morning,evening,day",
-                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": 1733, "maxX": 1828, "minZ": -1199, "maxZ": -1152, "minY": 37, "maxY": 58
             }
         },
         {
@@ -117,7 +117,7 @@
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "night",
-                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": 1733, "maxX": 1828, "minZ": -1199, "maxZ": -1152, "minY": 37, "maxY": 58
             }
         },
         {
@@ -131,7 +131,7 @@
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "night",
-                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": 1733, "maxX": 1828, "minZ": -1199, "maxZ": -1152, "minY": 37, "maxY": 58
             }
         },
 
@@ -150,7 +150,7 @@
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "morning,evening,day,night",
-                "minX": 30000, "maxX": 30001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": 1829, "maxX": 1885, "minZ": -1199, "maxZ": -1152, "minY": 37, "maxY": 58
             }
         },
         {
@@ -164,7 +164,7 @@
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "morning,evening,day,night",
-                "minX": 30000, "maxX": 30001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": 1829, "maxX": 1885, "minZ": -1199, "maxZ": -1152, "minY": 37, "maxY": 58
             }
         },
         {
@@ -178,7 +178,7 @@
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "morning,evening,day",
-                "minX": 30000, "maxX": 30001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": 1829, "maxX": 1885, "minZ": -1199, "maxZ": -1152, "minY": 37, "maxY": 58
             }
         },
         {
@@ -192,7 +192,7 @@
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "night",
-                "minX": 30000, "maxX": 30001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": 1829, "maxX": 1885, "minZ": -1199, "maxZ": -1152, "minY": 37, "maxY": 58
             }
         },
         {
@@ -206,7 +206,7 @@
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "night",
-                "minX": 30000, "maxX": 30001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": 1829, "maxX": 1885, "minZ": -1199, "maxZ": -1152, "minY": 37, "maxY": 58
             }
         },
 
@@ -225,7 +225,7 @@
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "morning,evening,day,night",
-                "minX": 40000, "maxX": 40001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": 1886, "maxX": 1939, "minZ": -1199, "maxZ": -1152, "minY": 37, "maxY": 58
             }
         },
         {
@@ -239,7 +239,7 @@
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "morning,evening,day,night",
-                "minX": 40000, "maxX": 40001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": 1886, "maxX": 1939, "minZ": -1199, "maxZ": -1152, "minY": 37, "maxY": 58
             }
         },
         {
@@ -253,7 +253,7 @@
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "morning,evening,day",
-                "minX": 40000, "maxX": 40001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": 1886, "maxX": 1939, "minZ": -1199, "maxZ": -1152, "minY": 37, "maxY": 58
             }
         },
         {
@@ -267,7 +267,7 @@
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "night",
-                "minX": 40000, "maxX": 40001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": 1886, "maxX": 1939, "minZ": -1199, "maxZ": -1152, "minY": 37, "maxY": 58
             }
         },
         {
@@ -281,7 +281,7 @@
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "night",
-                "minX": 40000, "maxX": 40001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": 1886, "maxX": 1939, "minZ": -1199, "maxZ": -1152, "minY": 37, "maxY": 58
             }
         }
     ]

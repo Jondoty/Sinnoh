@@ -13,7 +13,7 @@
             "weight": 65,
             "condition": {
                 "canSeeSky": false,
-                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -483, "maxX": -291, "minZ": -1341, "maxZ": -1033, "minY": 34, "maxY": 58
             }
         },
         {
@@ -26,7 +26,7 @@
             "weight": 35,
             "condition": {
                 "canSeeSky": false,
-                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -483, "maxX": -291, "minZ": -1341, "maxZ": -1033, "minY": 34, "maxY": 58
             }
         },
 
@@ -47,7 +47,7 @@
             "weight": 30,
             "condition": {
                 "canSeeSky": false,
-                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -483, "maxX": -291, "minZ": -1341, "maxZ": -1033, "minY": 34, "maxY": 58
             }
         },
         {
@@ -63,7 +63,7 @@
             "weight": 5,
             "condition": {
                 "canSeeSky": false,
-                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -483, "maxX": -291, "minZ": -1341, "maxZ": -1033, "minY": 34, "maxY": 58
             }
         },
         {
@@ -79,7 +79,7 @@
             "weight": 60,
             "condition": {
                 "canSeeSky": false,
-                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -483, "maxX": -291, "minZ": -1341, "maxZ": -1033, "minY": 34, "maxY": 58
             }
         },
         {
@@ -95,7 +95,7 @@
             "weight": 5,
             "condition": {
                 "canSeeSky": false,
-                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -483, "maxX": -291, "minZ": -1341, "maxZ": -1033, "minY": 34, "maxY": 58
             }
         },
 
@@ -108,7 +108,7 @@
             "level": "3-15",
             "weight": 100,
             "condition": {
-                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58,
+                "minX": -483, "maxX": -291, "minZ": -1341, "maxZ": -1033, "minY": 34, "maxY": 58,
                 "minLureLevel": 1,
                 "maxLureLevel": 1
             }
@@ -123,7 +123,7 @@
             "level": "10-35",
             "weight": 45,
             "condition": {
-                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58,
+                "minX": -483, "maxX": -291, "minZ": -1341, "maxZ": -1033, "minY": 34, "maxY": 58,
                 "minLureLevel": 2,
                 "maxLureLevel": 2
             }
@@ -137,7 +137,7 @@
             "level": "10-35",
             "weight": 55,
             "condition": {
-                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58,
+                "minX": -483, "maxX": -291, "minZ": -1341, "maxZ": -1033, "minY": 34, "maxY": 58,
                 "minLureLevel": 2,
                 "maxLureLevel": 2
             }
@@ -152,7 +152,7 @@
             "level": "30-55",
             "weight": 45,
             "condition": {
-                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58,
+                "minX": -483, "maxX": -291, "minZ": -1341, "maxZ": -1033, "minY": 34, "maxY": 58,
                 "minLureLevel": 3,
                 "maxLureLevel": 3
             }
@@ -166,7 +166,7 @@
             "level": "30-55",
             "weight": 55,
             "condition": {
-                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58,
+                "minX": -483, "maxX": -291, "minZ": -1341, "maxZ": -1033, "minY": 34, "maxY": 58,
                 "minLureLevel": 3,
                 "maxLureLevel": 3
             }

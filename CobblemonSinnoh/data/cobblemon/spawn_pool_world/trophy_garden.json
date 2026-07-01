@@ -1,0 +1,233 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "pikachu-1",
+            "pokemon": "pikachu",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-24",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 1187, "maxX": 1280, "minZ": -844, "maxZ": -679, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "pichu-1",
+            "pokemon": "pichu",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-24",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 1187, "maxX": 1280, "minZ": -844, "maxZ": -679, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "roselia-1",
+            "pokemon": "roselia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-24",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 1187, "maxX": 1280, "minZ": -844, "maxZ": -679, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "staravia-1",
+            "pokemon": "staravia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-24",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 1187, "maxX": 1280, "minZ": -844, "maxZ": -679, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "kricketune-1",
+            "pokemon": "kricketune",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-24",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening",
+                "minX": 1187, "maxX": 1280, "minZ": -844, "maxZ": -679, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "pikachu-2",
+            "pokemon": "pikachu",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-24",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 1187, "maxX": 1280, "minZ": -844, "maxZ": -679, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "pichu-2",
+            "pokemon": "pichu",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-24",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 1187, "maxX": 1280, "minZ": -844, "maxZ": -679, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "roselia-2",
+            "pokemon": "roselia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-24",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 1187, "maxX": 1280, "minZ": -844, "maxZ": -679, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "staravia-2",
+            "pokemon": "staravia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-24",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "day",
+                "minX": 1187, "maxX": 1280, "minZ": -844, "maxZ": -679, "minY": 59, "maxY": 319
+            }
+        },
+
+        {
+            "id": "pikachu-3",
+            "pokemon": "pikachu",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-24",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1187, "maxX": 1280, "minZ": -844, "maxZ": -679, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "pichu-3",
+            "pokemon": "pichu",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-24",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1187, "maxX": 1280, "minZ": -844, "maxZ": -679, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "roselia-3",
+            "pokemon": "roselia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-24",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1187, "maxX": 1280, "minZ": -844, "maxZ": -679, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "staravia-3",
+            "pokemon": "staravia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-24",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1187, "maxX": 1280, "minZ": -844, "maxZ": -679, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "kricketune-2",
+            "pokemon": "kricketune",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-24",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 1187, "maxX": 1280, "minZ": -844, "maxZ": -679, "minY": 59, "maxY": 319
+            }
+        }
+    ]
+}
