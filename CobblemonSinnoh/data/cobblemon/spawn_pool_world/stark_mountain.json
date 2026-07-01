@@ -1,0 +1,194 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "graveler-1",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "weezing-1",
+            "pokemon": "weezing",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "rhyhorn-1",
+            "pokemon": "rhyhorn",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "rhydon-1",
+            "pokemon": "rhydon",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "slugma-1",
+            "pokemon": "slugma",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "magcargo-1",
+            "pokemon": "magcargo",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "51-54",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+
+
+
+
+
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "52-55",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "graveler-1",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "52-55",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "koffing-1",
+            "pokemon": "koffing",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "52-55",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "weezing-1",
+            "pokemon": "weezing",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "52-55",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "rhydon-1",
+            "pokemon": "rhydon",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "52-55",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "slugma-1",
+            "pokemon": "dusclops",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "52-55",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "magcargo-1",
+            "pokemon": "chingling",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "52-55",
+            "weight": 40,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        }
+    ]
+}

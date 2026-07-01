@@ -1,0 +1,288 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "zubat-1",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "17-20",
+            "weight": 35,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "gastly-1",
+            "pokemon": "gastly",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "17-20",
+            "weight": 65,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day",
+                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "gastly-2",
+            "pokemon": "gastly",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "17-20",
+            "weight": 45,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "duskull-1",
+            "pokemon": "duskull",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "17-20",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+
+
+
+
+
+        {
+            "id": "zubat-1",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 35,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 1,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "gastly-1",
+            "pokemon": "gastly",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 64,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day",
+                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "gastly-2",
+            "pokemon": "gastly",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 44,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "duskull-1",
+            "pokemon": "duskull",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+
+
+
+
+
+        {
+            "id": "zubat-1",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 35,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 30000, "maxX": 30001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 30000, "maxX": 30001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "gastly-1",
+            "pokemon": "gastly",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 60,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day",
+                "minX": 30000, "maxX": 30001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "gastly-2",
+            "pokemon": "gastly",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 40,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 30000, "maxX": 30001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "duskull-1",
+            "pokemon": "duskull",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 30000, "maxX": 30001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+
+
+
+
+
+        {
+            "id": "zubat-1",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 40000, "maxX": 40001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 40000, "maxX": 40001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "gastly-1",
+            "pokemon": "gastly",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 55,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day",
+                "minX": 40000, "maxX": 40001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "gastly-2",
+            "pokemon": "gastly",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 35,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 40000, "maxX": 40001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "duskull-1",
+            "pokemon": "duskull",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-21",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 40000, "maxX": 40001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        }
+    ]
+}

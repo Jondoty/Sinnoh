@@ -1,0 +1,274 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "zubat-1",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "29-33",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "29-33",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "geodude-1",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "29-33",
+            "weight": 35,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "graveler-1",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "29-33",
+            "weight": 35,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "onix-1",
+            "pokemon": "onix",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "29-33",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+
+
+
+
+
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-33",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "graveler-1",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-33",
+            "weight": 70,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "onix-1",
+            "pokemon": "onix",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-33",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+
+
+
+
+
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "31-34",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 30000, "maxX": 30001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "graveler-1",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "31-34",
+            "weight": 50,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 30000, "maxX": 30001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "onix-1",
+            "pokemon": "onix",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "31-34",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 30000, "maxX": 30001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "steelix-1",
+            "pokemon": "steelix",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "31-34",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 30000, "maxX": 30001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+
+
+
+
+
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "33-35",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 40000, "maxX": 40001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "graveler-1",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "33-35",
+            "weight": 50,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 40000, "maxX": 40001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "onix-1",
+            "pokemon": "onix",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "33-35",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 40000, "maxX": 40001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "steelix-1",
+            "pokemon": "steelix",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "33-35",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 40000, "maxX": 40001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+
+
+
+
+
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-35",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 50000, "maxX": 50001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "graveler-1",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-35",
+            "weight": 50,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 50000, "maxX": 50001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        },
+        {
+            "id": "steelix-1",
+            "pokemon": "steelix",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-35",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 50000, "maxX": 50001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+            }
+        }
+    ]
+}

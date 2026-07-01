@@ -1,0 +1,90 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "zubat-1",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-8",
+            "weight": 25,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 283, "maxX": 468, "minZ": -500, "maxZ": -301, "minY": -7, "maxY": 58
+            }
+        },
+        {
+            "id": "geodude-1",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-8",
+            "weight": 65,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 283, "maxX": 468, "minZ": -500, "maxZ": -301, "minY": -7, "maxY": 58
+            }
+        },
+        {
+            "id": "onix-1",
+            "pokemon": "onix",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-8",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 283, "maxX": 468, "minZ": -500, "maxZ": -301, "minY": -7, "maxY": 58
+            }
+        },
+
+
+
+
+
+        {
+            "id": "zubat-1",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-9",
+            "weight": 25,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 283, "maxX": 468, "minZ": -300, "maxZ": -173, "minY": -7, "maxY": 7
+            }
+        },
+        {
+            "id": "geodude-1",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-9",
+            "weight": 65,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 283, "maxX": 468, "minZ": -300, "maxZ": -173, "minY": -7, "maxY": 7
+            }
+        },
+        {
+            "id": "onix-1",
+            "pokemon": "onix",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-9",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 283, "maxX": 468, "minZ": -300, "maxZ": -173, "minY": -7, "maxY": 7
+            }
+        }
+    ]
+}
