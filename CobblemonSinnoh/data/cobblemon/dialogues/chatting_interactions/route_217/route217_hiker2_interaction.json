@@ -1,0 +1,107 @@
+{
+  "speakers": {
+    "npc": {
+      "name": "     ",
+      "face": {
+        "type": "artificial",
+        "modelType": "npc",
+        "identifier": "cobblemon:hiker",
+        "isLeftSide": true
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "greeting",
+      "speaker": "npc",
+      "lines": [
+        "While I was fighting my way through the blizzard, I dropped an HM."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page2');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page2",
+      "speaker": "npc",
+      "lines": [
+        "If I still had that hidden move Rock Climb, I'd be able to scale sheer cliffs..."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page3');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page3",
+      "speaker": "npc",
+      "lines": [
+        "Hey! What's this? You found the Hidden Machine? But I'd already given it up for lost, and you found it. It's yours to keep, my friend."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page4');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page4",
+      "speaker": "npc",
+      "lines": [
+        "Make good use of it. I like your honesty, though. Let me reward you with this."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page5');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page5",
+      "speaker": "npc",
+      "lines": [
+        "That Icicle Plate, I found that under the snow as well. I'm no expert, but it looks to be of ancient origin. Even as old as the time when Sinnoh came into being..."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Close",
+            "value": "close",
+            "action": [
+              "q.dialogue.close();"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

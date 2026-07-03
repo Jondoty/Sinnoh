@@ -1,0 +1,107 @@
+{
+  "speakers": {
+    "npc": {
+      "name": "     ",
+      "face": {
+        "type": "artificial",
+        "modelType": "npc",
+        "identifier": "cobblemon:shopman",
+        "isLeftSide": true
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "greeting",
+      "speaker": "npc",
+      "lines": [
+        "Hi! I work at a Pokémon Mart."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page2');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page2",
+      "speaker": "npc",
+      "lines": [
+        "Did you know that a Pokémon's health is measured by Hit Points (HP)?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page3');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page3",
+      "speaker": "npc",
+      "lines": [
+        "If a Pokémon runs out of HP, it faints and can't battle anymore."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page4');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page4",
+      "speaker": "npc",
+      "lines": [
+        "If a Pokémon's HP gets low, you should heal it with a Potion."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page5');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page5",
+      "speaker": "npc",
+      "lines": [
+        "Here, let me give you a Potion as a free sample. First one's free!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Close",
+            "value": "close",
+            "action": [
+              "q.dialogue.close();"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

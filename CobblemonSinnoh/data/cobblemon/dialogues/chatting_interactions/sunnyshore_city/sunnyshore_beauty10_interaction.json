@@ -1,0 +1,143 @@
+{
+  "speakers": {
+    "npc": {
+      "name": "     ",
+      "face": {
+        "type": "artificial",
+        "modelType": "npc",
+        "identifier": "cobblemon:beauty",
+        "isLeftSide": true
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "greeting",
+      "speaker": "npc",
+      "lines": [
+        "Oh, hello! You're on your adventure even though it's Sunday!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page2');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page2",
+      "speaker": "npc",
+      "lines": [
+        "When I was younger, I remember that every day was like an adventure. It was always fun. I loved the people around me..."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page3');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page3",
+      "speaker": "npc",
+      "lines": [
+        "I was happy. Oh, but I'm happy now, too. I love my life with my husband."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page4');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page4",
+      "speaker": "npc",
+      "lines": [
+        "It's just a different kind of happy. So, what makes you happy?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page5');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page5",
+      "speaker": "npc",
+      "lines": [
+        "You love \\v011Cぁ\\x0000\\x0000? ... Ufufu..."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page6');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page6",
+      "speaker": "npc",
+      "lines": [
+        "That says something about you. It puts a smile on my face!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page7');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page7",
+      "speaker": "npc",
+      "lines": [
+        "Thank you! Please give this to your Pokémon."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Close",
+            "value": "close",
+            "action": [
+              "q.dialogue.close();"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

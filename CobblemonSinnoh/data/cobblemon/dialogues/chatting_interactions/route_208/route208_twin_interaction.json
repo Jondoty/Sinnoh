@@ -1,0 +1,89 @@
+{
+  "speakers": {
+    "npc": {
+      "name": "     ",
+      "face": {
+        "type": "artificial",
+        "modelType": "npc",
+        "identifier": "cobblemon:twin",
+        "isLeftSide": true
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "greeting",
+      "speaker": "npc",
+      "lines": [
+        "Are you the forgetful type who forgets where Berries are planted?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page2');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page2",
+      "speaker": "npc",
+      "lines": [
+        "No) Oh, is that so. Then you're OK even if I don't give you this nice thing."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page3');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page3",
+      "speaker": "npc",
+      "lines": [
+        "Yes) Yes, yes, I thought so! I'm the same way! I feel a sort of kinship with you! You can have this Pokétch app!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page4');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page4",
+      "speaker": "npc",
+      "lines": [
+        "The module shows you where there are ripe Berries that are ready to be picked."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Close",
+            "value": "close",
+            "action": [
+              "q.dialogue.close();"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

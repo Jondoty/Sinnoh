@@ -1,0 +1,107 @@
+{
+  "speakers": {
+    "npc": {
+      "name": "     ",
+      "face": {
+        "type": "artificial",
+        "modelType": "npc",
+        "identifier": "cobblemon:rancher",
+        "isLeftSide": true
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "greeting",
+      "speaker": "npc",
+      "lines": [
+        "Hello, how do you do! I love this park. It's why I try to keep it neat and tidy."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page2');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page2",
+      "speaker": "npc",
+      "lines": [
+        "I don't mind the cleaning at all. I find all sorts of items doing so."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page3');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page3",
+      "speaker": "npc",
+      "lines": [
+        "It's quite fun, even exciting. Oh, I know."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page4');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page4",
+      "speaker": "npc",
+      "lines": [
+        "Do you know the item \\v0108ぁ\\x0000\\x0000? I found some. Would you like them?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page5');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page5",
+      "speaker": "npc",
+      "lines": [
+        "Hahahah! Perhaps I'll see you again tomorrow!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Close",
+            "value": "close",
+            "action": [
+              "q.dialogue.close();"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

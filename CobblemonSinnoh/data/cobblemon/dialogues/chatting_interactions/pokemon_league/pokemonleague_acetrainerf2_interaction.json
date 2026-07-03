@@ -1,0 +1,53 @@
+{
+  "speakers": {
+    "npc": {
+      "name": "     ",
+      "face": {
+        "type": "artificial",
+        "modelType": "npc",
+        "identifier": "cobblemon:acetrainerf",
+        "isLeftSide": true
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "greeting",
+      "speaker": "npc",
+      "lines": [
+        "Let me confirm that you are qualified to challenge the Pokémon League. So! Let us examine the Gym Badges you gathered from Sinnoh. Oreburgh City's Coal Badge! Eterna City's Forest Badge! Hearthome City's Relic Badge! Veilstone City's Cobble Badge! Pastoria City's Fen Badge! Canalave City's Mine Badge! Snowpoint City's Icicle Badge! And... Sunyshore City's Beacon Badge!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page2');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page2",
+      "speaker": "npc",
+      "lines": [
+        "Very well! Trainer, you've indeed collected all the Gym Badges of Sinnoh! Demonstrate the power that brought you here and go for glory!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Close",
+            "value": "close",
+            "action": [
+              "q.dialogue.close();"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

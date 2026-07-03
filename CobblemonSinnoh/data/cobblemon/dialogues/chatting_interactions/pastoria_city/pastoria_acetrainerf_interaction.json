@@ -1,0 +1,215 @@
+{
+  "speakers": {
+    "npc": {
+      "name": "     ",
+      "face": {
+        "type": "artificial",
+        "modelType": "npc",
+        "identifier": "cobblemon:acetrainerf",
+        "isLeftSide": true
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "greeting",
+      "speaker": "npc",
+      "lines": [
+        "Howdy, there! Let me examine your Pokémon to see if it's worthy of a scarf!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page2');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page2",
+      "speaker": "npc",
+      "lines": [
+        "Hmhm... I see..."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page3');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page3",
+      "speaker": "npc",
+      "lines": [
+        "This isn't what I had hoped to see... I can't lie to you, so I'll just have to tell it to you straight. This Pokémon's not bad, but it's not good, either. It's just so-so. If you want to improve this one's condition, feed it some more Poffins!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page4');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page4",
+      "speaker": "npc",
+      "lines": [
+        "Your Pokémon is growing up really well. My hat's off to you."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page5');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page5",
+      "speaker": "npc",
+      "lines": [
+        "Your \\v0100ぁ\\x0000\\x0000's looking good! I'd say it's pretty impressive! I'll tell you what, I'll give you this \\v0108ぁ\\x0001\\x0000!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page6');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page6",
+      "speaker": "npc",
+      "lines": [
+        "The Red Scarf stands for passion! Let a Pokémon hold it to give it an edge in Cool Contests."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page7');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page7",
+      "speaker": "npc",
+      "lines": [
+        "The Blue Scarf represents the vastness of the sea! Let a Pokémon hold it to give it an edge in Beauty Contests."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page8');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page8",
+      "speaker": "npc",
+      "lines": [
+        "The Pink Scarf represents charm! Let a Pokémon hold it to give it an edge in Cute Contests."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page9');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page9",
+      "speaker": "npc",
+      "lines": [
+        "The Green Scarf represents the spring breeze! Let a Pokémon hold it to give it an edge in Smart Contests."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page10');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page10",
+      "speaker": "npc",
+      "lines": [
+        "The Yellow Scarf stands for toughness! Let a Pokémon hold it to give it an edge in Tough Contests."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page11');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page11",
+      "speaker": "npc",
+      "lines": [
+        "I'm out of scarves to give you! I'm out of things to say, too!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Close",
+            "value": "close",
+            "action": [
+              "q.dialogue.close();"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "speakers": {
+    "npc": {
+      "name": "     ",
+      "face": {
+        "type": "artificial",
+        "modelType": "npc",
+        "identifier": "cobblemon:supernerd",
+        "isLeftSide": true
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "greeting",
+      "speaker": "npc",
+      "lines": [
+        "Psst, hey, traveler! Yes, you! I want you to have this Villa!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page2');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page2",
+      "speaker": "npc",
+      "lines": [
+        "Oh, wait, no, no, no! It's not what you're thinking! This is no scam, see."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page3');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page3",
+      "speaker": "npc",
+      "lines": [
+        "In fact, you'll be doing me a favor! See, I was given this Villa."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page4');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page4",
+      "speaker": "npc",
+      "lines": [
+        "But, to be honest, I don't need it, either. So don't say a word. Just nod and this Villa is yours!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page5');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page5",
+      "speaker": "npc",
+      "lines": [
+        "No) What, I still strike you as shady? I daresay I can't blame you, though. An offer to get a Villa for free... That does throw up red flags, I agree."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page6');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page6",
+      "speaker": "npc",
+      "lines": [
+        "Yes) Whew, that's a load off my mind."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page7');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page7",
+      "speaker": "npc",
+      "lines": [
+        "The original owner was from Hoenn, see? The owner collected up all the rare stones of Sinnoh and went back home."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page8');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page8",
+      "speaker": "npc",
+      "lines": [
+        "I somehow got saddled with this place as if it were some gift. There's no figuring what rich folks will think of next."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page9');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page9",
+      "speaker": "npc",
+      "lines": [
+        "Still, I thank you for helping me out. Go check it out, will you?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Close",
+            "value": "close",
+            "action": [
+              "q.dialogue.close();"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
