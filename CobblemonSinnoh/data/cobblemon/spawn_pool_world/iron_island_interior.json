@@ -13,7 +13,7 @@
             "weight": 10,
             "condition": {
                 "canSeeSky": false,
-                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -686, "maxX": -596, "minZ": -3338, "maxZ": -3251, "minY": -14, "maxY": 22
             }
         },
         {
@@ -26,7 +26,7 @@
             "weight": 10,
             "condition": {
                 "canSeeSky": false,
-                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -686, "maxX": -596, "minZ": -3338, "maxZ": -3251, "minY": -14, "maxY": 22
             }
         },
         {
@@ -39,7 +39,7 @@
             "weight": 35,
             "condition": {
                 "canSeeSky": false,
-                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -686, "maxX": -596, "minZ": -3338, "maxZ": -3251, "minY": -14, "maxY": 22
             }
         },
         {
@@ -52,7 +52,7 @@
             "weight": 35,
             "condition": {
                 "canSeeSky": false,
-                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -686, "maxX": -596, "minZ": -3338, "maxZ": -3251, "minY": -14, "maxY": 22
             }
         },
         {
@@ -65,7 +65,7 @@
             "weight": 10,
             "condition": {
                 "canSeeSky": false,
-                "minX": 10000, "maxX": 10001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -686, "maxX": -596, "minZ": -3338, "maxZ": -3251, "minY": -14, "maxY": 22
             }
         },
 
@@ -83,7 +83,7 @@
             "weight": 20,
             "condition": {
                 "canSeeSky": false,
-                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -575, "maxX": -459, "minZ": -3338, "maxZ": -3225, "minY": -14, "maxY": 22
             }
         },
         {
@@ -96,7 +96,7 @@
             "weight": 70,
             "condition": {
                 "canSeeSky": false,
-                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -575, "maxX": -459, "minZ": -3338, "maxZ": -3225, "minY": -14, "maxY": 22
             }
         },
         {
@@ -109,7 +109,51 @@
             "weight": 10,
             "condition": {
                 "canSeeSky": false,
-                "minX": 20000, "maxX": 20001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -575, "maxX": -459, "minZ": -3338, "maxZ": -3225, "minY": -14, "maxY": 22
+            }
+        },
+
+
+
+
+
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-33",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -434, "maxX": -291, "minZ": -3338, "maxZ": -3153, "minY": -14, "maxY": 58
+            }
+        },
+        {
+            "id": "graveler-1",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-33",
+            "weight": 70,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -434, "maxX": -291, "minZ": -3338, "maxZ": -3153, "minY": -14, "maxY": 58
+            }
+        },
+        {
+            "id": "onix-1",
+            "pokemon": "onix",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-33",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -434, "maxX": -291, "minZ": -3338, "maxZ": -3153, "minY": -14, "maxY": 58
             }
         },
 
@@ -127,7 +171,7 @@
             "weight": 20,
             "condition": {
                 "canSeeSky": false,
-                "minX": 30000, "maxX": 30001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -434, "maxX": -310, "minZ": -3129, "maxZ": -2985, "minY": -14, "maxY": 58
             }
         },
         {
@@ -140,7 +184,7 @@
             "weight": 50,
             "condition": {
                 "canSeeSky": false,
-                "minX": 30000, "maxX": 30001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -434, "maxX": -310, "minZ": -3129, "maxZ": -2985, "minY": -14, "maxY": 58
             }
         },
         {
@@ -153,7 +197,7 @@
             "weight": 20,
             "condition": {
                 "canSeeSky": false,
-                "minX": 30000, "maxX": 30001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -434, "maxX": -310, "minZ": -3129, "maxZ": -2985, "minY": -14, "maxY": 58
             }
         },
         {
@@ -166,7 +210,7 @@
             "weight": 10,
             "condition": {
                 "canSeeSky": false,
-                "minX": 30000, "maxX": 30001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -434, "maxX": -310, "minZ": -3129, "maxZ": -2985, "minY": -14, "maxY": 58
             }
         },
 
@@ -184,7 +228,7 @@
             "weight": 20,
             "condition": {
                 "canSeeSky": false,
-                "minX": 40000, "maxX": 40001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -692, "maxX": -459, "minZ": -3189, "maxZ": -2884, "minY": -14, "maxY": 13
             }
         },
         {
@@ -197,7 +241,7 @@
             "weight": 50,
             "condition": {
                 "canSeeSky": false,
-                "minX": 40000, "maxX": 40001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -692, "maxX": -459, "minZ": -3189, "maxZ": -2884, "minY": -14, "maxY": 13
             }
         },
         {
@@ -210,7 +254,7 @@
             "weight": 20,
             "condition": {
                 "canSeeSky": false,
-                "minX": 40000, "maxX": 40001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -692, "maxX": -459, "minZ": -3189, "maxZ": -2884, "minY": -14, "maxY": 13
             }
         },
         {
@@ -223,7 +267,7 @@
             "weight": 10,
             "condition": {
                 "canSeeSky": false,
-                "minX": 40000, "maxX": 40001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -692, "maxX": -459, "minZ": -3189, "maxZ": -2884, "minY": -14, "maxY": 13
             }
         },
 
@@ -241,7 +285,7 @@
             "weight": 20,
             "condition": {
                 "canSeeSky": false,
-                "minX": 50000, "maxX": 50001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -434, "maxX": -315, "minZ": -2964, "maxZ": -2828, "minY": -14, "maxY": 58
             }
         },
         {
@@ -254,7 +298,7 @@
             "weight": 50,
             "condition": {
                 "canSeeSky": false,
-                "minX": 50000, "maxX": 50001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -434, "maxX": -315, "minZ": -2964, "maxZ": -2828, "minY": -14, "maxY": 58
             }
         },
         {
@@ -267,7 +311,7 @@
             "weight": 30,
             "condition": {
                 "canSeeSky": false,
-                "minX": 50000, "maxX": 50001, "minZ": 50000, "maxZ": 50001, "minY": 0, "maxY": 58
+                "minX": -434, "maxX": -315, "minZ": -2964, "maxZ": -2828, "minY": -14, "maxY": 58
             }
         }
     ]
