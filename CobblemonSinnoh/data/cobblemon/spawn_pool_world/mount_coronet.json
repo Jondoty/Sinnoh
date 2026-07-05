@@ -1,0 +1,1735 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "clefairy-1",
+            "pokemon": "clefairy",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "17-19",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,night",
+                "minX": 582, "maxX": 766, "minZ": -1044, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "zubat-1",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "17-19",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day",
+                "minX": 582, "maxX": 766, "minZ": -1044, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "zubat-2",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "17-19",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 582, "maxX": 766, "minZ": -1044, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "machop-1",
+            "pokemon": "machop",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "17-19",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 582, "maxX": 766, "minZ": -1044, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "geodude-1",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "17-19",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,night",
+                "minX": 582, "maxX": 766, "minZ": -1044, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "geodude-2",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "17-19",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "day",
+                "minX": 582, "maxX": 766, "minZ": -1044, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "nosepass-1",
+            "pokemon": "nosepass",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "17-19",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 582, "maxX": 766, "minZ": -1044, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "meditite-1",
+            "pokemon": "meditite",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "17-19",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day",
+                "minX": 582, "maxX": 766, "minZ": -1044, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "meditite-2",
+            "pokemon": "meditite",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "17-19",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 582, "maxX": 766, "minZ": -1044, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "chingling-1",
+            "pokemon": "chingling",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "17-19",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 582, "maxX": 766, "minZ": -1044, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "bronzor-1",
+            "pokemon": "bronzor",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "17-19",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 582, "maxX": 766, "minZ": -1044, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "zubat-1",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "surface",
+            "presets": [
+                "water"
+            ],
+            "bucket": "common",
+            "level": "20-40",
+            "weight": 90,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 582, "maxX": 766, "minZ": -1044, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "surface",
+            "presets": [
+                "water"
+            ],
+            "bucket": "common",
+            "level": "20-40",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 582, "maxX": 766, "minZ": -1044, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "magikarp-1",
+            "pokemon": "magikarp",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "3-15",
+            "weight": 100,
+            "condition": {
+                "minX": 582, "maxX": 766, "minZ": -1044, "maxZ": -847, "minY": 15, "maxY": 58,
+                "minLureLevel": 1,
+                "maxLureLevel": 1
+            }
+        },
+        {
+            "id": "magikarp-1",
+            "pokemon": "magikarp",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "10-25",
+            "weight": 55,
+            "condition": {
+                "minX": 582, "maxX": 766, "minZ": -1044, "maxZ": -847, "minY": 15, "maxY": 58,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+        {
+            "id": "barboach-1",
+            "pokemon": "barboach",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "10-25",
+            "weight": 45,
+            "condition": {
+                "minX": 582, "maxX": 766, "minZ": -1044, "maxZ": -847, "minY": 15, "maxY": 58,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+        {
+            "id": "gyarados-1",
+            "pokemon": "gyarados",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-55",
+            "weight": 55,
+            "condition": {
+                "minX": 582, "maxX": 766, "minZ": -1044, "maxZ": -847, "minY": 15, "maxY": 58,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+        {
+            "id": "whiscash-1",
+            "pokemon": "whiscash",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-55",
+            "weight": 45,
+            "condition": {
+                "minX": 582, "maxX": 766, "minZ": -1044, "maxZ": -847, "minY": 15, "maxY": 58,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+        {
+            "id": "zubat-1",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-15",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day",
+                "minX": 599, "maxX": 799, "minZ": -2596, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "zubat-2",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-15",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 599, "maxX": 799, "minZ": -2596, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "machop-1",
+            "pokemon": "machop",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-15",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 599, "maxX": 799, "minZ": -2596, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "geodude-1",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-15",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,night",
+                "minX": 599, "maxX": 799, "minZ": -2596, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "geodude-2",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-15",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "day",
+                "minX": 599, "maxX": 799, "minZ": -2596, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "cleffa-1",
+            "pokemon": "cleffa",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-15",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,night",
+                "minX": 599, "maxX": 799, "minZ": -2596, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "nosepass-1",
+            "pokemon": "nosepass",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-15",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 599, "maxX": 799, "minZ": -2596, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "meditite-1",
+            "pokemon": "meditite",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-15",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day",
+                "minX": 599, "maxX": 799, "minZ": -2596, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "meditite-2",
+            "pokemon": "meditite",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-15",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 599, "maxX": 799, "minZ": -2596, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "chingling-1",
+            "pokemon": "chingling",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-15",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 599, "maxX": 799, "minZ": -2596, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "bronzor-1",
+            "pokemon": "bronzor",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-15",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 599, "maxX": 799, "minZ": -2596, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "clefairy-1",
+            "pokemon": "clefairy",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-34",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,night",
+                "minX": 813, "maxX": 1002, "minZ": -2739, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-34",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day",
+                "minX": 813, "maxX": 1002, "minZ": -2739, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "golbat-2",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-34",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 813, "maxX": 1002, "minZ": -2739, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "machoke-1",
+            "pokemon": "machoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-34",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 813, "maxX": 1002, "minZ": -2739, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "graveler-1",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-34",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,night",
+                "minX": 813, "maxX": 1002, "minZ": -2739, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "graveler-2",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-34",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "day",
+                "minX": 813, "maxX": 1002, "minZ": -2739, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "nosepass-1",
+            "pokemon": "nosepass",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-34",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 813, "maxX": 1002, "minZ": -2739, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "meditite-1",
+            "pokemon": "meditite",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-34",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day",
+                "minX": 813, "maxX": 1002, "minZ": -2739, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "meditite-2",
+            "pokemon": "meditite",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-34",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 813, "maxX": 1002, "minZ": -2739, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "chingling-1",
+            "pokemon": "chingling",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-34",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 813, "maxX": 1002, "minZ": -2739, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "bronzor-1",
+            "pokemon": "bronzor",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-34",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 813, "maxX": 1002, "minZ": -2739, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "zubat-1",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "surface",
+            "presets": [
+                "water"
+            ],
+            "bucket": "common",
+            "level": "20-40",
+            "weight": 90,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 813, "maxX": 1002, "minZ": -2739, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "surface",
+            "presets": [
+                "water"
+            ],
+            "bucket": "common",
+            "level": "20-40",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 813, "maxX": 1002, "minZ": -2739, "maxZ": -2255, "minY": 19, "maxY": 58
+            }
+        },
+        {
+            "id": "magikarp-1",
+            "pokemon": "magikarp",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "3-15",
+            "weight": 100,
+            "condition": {
+                "minX": 813, "maxX": 1002, "minZ": -2739, "maxZ": -2255, "minY": 19, "maxY": 58,
+                "minLureLevel": 1,
+                "maxLureLevel": 1
+            }
+        },
+        {
+            "id": "magikarp-1",
+            "pokemon": "magikarp",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "10-25",
+            "weight": 55,
+            "condition": {
+                "minX": 813, "maxX": 1002, "minZ": -2739, "maxZ": -2255, "minY": 19, "maxY": 58,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+        {
+            "id": "barboach-1",
+            "pokemon": "barboach",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "10-25",
+            "weight": 45,
+            "condition": {
+                "minX": 813, "maxX": 1002, "minZ": -2739, "maxZ": -2255, "minY": 19, "maxY": 58,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+        {
+            "id": "gyarados-1",
+            "pokemon": "gyarados",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-55",
+            "weight": 55,
+            "condition": {
+                "minX": 813, "maxX": 1002, "minZ": -2739, "maxZ": -2255, "minY": 19, "maxY": 58,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+        {
+            "id": "whiscash-1",
+            "pokemon": "whiscash",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-55",
+            "weight": 45,
+            "condition": {
+                "minX": 813, "maxX": 1002, "minZ": -2739, "maxZ": -2255, "minY": 19, "maxY": 58,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+        {
+            "id": "clefairy-1",
+            "pokemon": "clefairy",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-38",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,night",
+                "minX": 786, "maxX": 973, "minZ": -1205, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-38",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day",
+                "minX": 786, "maxX": 973, "minZ": -1205, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "golbat-2",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-38",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 786, "maxX": 973, "minZ": -1205, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "machoke-1",
+            "pokemon": "machoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-38",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 786, "maxX": 973, "minZ": -1205, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "graveler-1",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-38",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,night",
+                "minX": 786, "maxX": 973, "minZ": -1205, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "graveler-2",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-38",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "day",
+                "minX": 786, "maxX": 973, "minZ": -1205, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "nosepass-1",
+            "pokemon": "nosepass",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-38",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 786, "maxX": 973, "minZ": -1205, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "medicham-1",
+            "pokemon": "medicham",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-38",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day",
+                "minX": 786, "maxX": 973, "minZ": -1205, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "medicham-2",
+            "pokemon": "medicham",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-38",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 786, "maxX": 973, "minZ": -1205, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "chingling-1",
+            "pokemon": "chingling",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-38",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 786, "maxX": 973, "minZ": -1205, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "bronzong-1",
+            "pokemon": "bronzong",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-38",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 786, "maxX": 973, "minZ": -1205, "maxZ": -847, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "clefairy-1",
+            "pokemon": "clefairy",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-39",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,night",
+                "minX": 620, "maxX": 766, "minZ": -1204, "maxZ": -1059, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-39",
+            "weight": 4,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day",
+                "minX": 620, "maxX": 766, "minZ": -1204, "maxZ": -1059, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "golbat-2",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-39",
+            "weight": 14,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 620, "maxX": 766, "minZ": -1204, "maxZ": -1059, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "machoke-1",
+            "pokemon": "machoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-39",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 620, "maxX": 766, "minZ": -1204, "maxZ": -1059, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "graveler-1",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-39",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,night",
+                "minX": 620, "maxX": 766, "minZ": -1204, "maxZ": -1059, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "graveler-2",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-39",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "day",
+                "minX": 620, "maxX": 766, "minZ": -1204, "maxZ": -1059, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "nosepass-1",
+            "pokemon": "nosepass",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-39",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 620, "maxX": 766, "minZ": -1204, "maxZ": -1059, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "medicham-1",
+            "pokemon": "medicham",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-39",
+            "weight": 21,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day",
+                "minX": 620, "maxX": 766, "minZ": -1204, "maxZ": -1059, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "medicham-2",
+            "pokemon": "medicham",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-39",
+            "weight": 11,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 620, "maxX": 766, "minZ": -1204, "maxZ": -1059, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "chingling-1",
+            "pokemon": "chingling",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-39",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 620, "maxX": 766, "minZ": -1204, "maxZ": -1059, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "bronzong-1",
+            "pokemon": "bronzong",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-39",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 620, "maxX": 766, "minZ": -1204, "maxZ": -1059, "minY": 15, "maxY": 58
+            }
+        },
+        {
+            "id": "clefairy-1",
+            "pokemon": "clefairy",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-39",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,night",
+                "minX": 504, "maxX": 765, "minZ": -1993, "maxZ": -1804, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-39",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day",
+                "minX": 504, "maxX": 765, "minZ": -1993, "maxZ": -1804, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "golbat-2",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-39",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 504, "maxX": 765, "minZ": -1993, "maxZ": -1804, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "machoke-1",
+            "pokemon": "machoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-39",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 504, "maxX": 765, "minZ": -1993, "maxZ": -1804, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "graveler-1",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-39",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,night",
+                "minX": 504, "maxX": 765, "minZ": -1993, "maxZ": -1804, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "graveler-2",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-39",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "day",
+                "minX": 504, "maxX": 765, "minZ": -1993, "maxZ": -1804, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "nosepass-1",
+            "pokemon": "nosepass",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-39",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 504, "maxX": 765, "minZ": -1993, "maxZ": -1804, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "medicham-1",
+            "pokemon": "medicham",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-39",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day",
+                "minX": 504, "maxX": 765, "minZ": -1993, "maxZ": -1804, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "medicham-2",
+            "pokemon": "medicham",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-39",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 504, "maxX": 765, "minZ": -1993, "maxZ": -1804, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "chingling-1",
+            "pokemon": "chingling",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-39",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 504, "maxX": 765, "minZ": -1993, "maxZ": -1804, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "bronzong-1",
+            "pokemon": "bronzong",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-39",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 504, "maxX": 765, "minZ": -1993, "maxZ": -1804, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "zubat-1",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "surface",
+            "presets": [
+                "water"
+            ],
+            "bucket": "common",
+            "level": "20-40",
+            "weight": 90,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 504, "maxX": 765, "minZ": -1993, "maxZ": -1804, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "surface",
+            "presets": [
+                "water"
+            ],
+            "bucket": "common",
+            "level": "20-40",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 504, "maxX": 765, "minZ": -1993, "maxZ": -1804, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "magikarp-1",
+            "pokemon": "magikarp",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "3-15",
+            "weight": 100,
+            "condition": {
+                "minX": 504, "maxX": 765, "minZ": -1993, "maxZ": -1804, "minY": -2, "maxY": 58,
+                "minLureLevel": 1,
+                "maxLureLevel": 1
+            }
+        },
+        {
+            "id": "magikarp-1",
+            "pokemon": "magikarp",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "10-25",
+            "weight": 55,
+            "condition": {
+                "minX": 504, "maxX": 765, "minZ": -1993, "maxZ": -1804, "minY": -2, "maxY": 58,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+        {
+            "id": "barboach-1",
+            "pokemon": "barboach",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "10-25",
+            "weight": 45,
+            "condition": {
+                "minX": 504, "maxX": 765, "minZ": -1993, "maxZ": -1804, "minY": -2, "maxY": 58,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+        {
+            "id": "gyarados-1",
+            "pokemon": "gyarados",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-55",
+            "weight": 40,
+            "condition": {
+                "minX": 504, "maxX": 765, "minZ": -1993, "maxZ": -1804, "minY": -2, "maxY": 58,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+        {
+            "id": "dratini-1",
+            "pokemon": "dratini",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-55",
+            "weight": 40,
+            "condition": {
+                "minX": 504, "maxX": 765, "minZ": -1993, "maxZ": -1804, "minY": -2, "maxY": 58,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+        {
+            "id": "dragonair-1",
+            "pokemon": "dragonair",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-55",
+            "weight": 5,
+            "condition": {
+                "minX": 504, "maxX": 765, "minZ": -1993, "maxZ": -1804, "minY": -2, "maxY": 58,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+        {
+            "id": "whiscash-1",
+            "pokemon": "whiscash",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-55",
+            "weight": 15,
+            "condition": {
+                "minX": 504, "maxX": 765, "minZ": -1993, "maxZ": -1804, "minY": -2, "maxY": 58,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+        {
+            "id": "clefairy-1",
+            "pokemon": "clefairy",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-39",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,night",
+                "minX": 498, "maxX": 993, "minZ": -2196, "maxZ": -2013, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-39",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day",
+                "minX": 498, "maxX": 993, "minZ": -2196, "maxZ": -2013, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "golbat-2",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-39",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 498, "maxX": 993, "minZ": -2196, "maxZ": -2013, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "machoke-1",
+            "pokemon": "machoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-39",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 498, "maxX": 993, "minZ": -2196, "maxZ": -2013, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "graveler-1",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-39",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,night",
+                "minX": 498, "maxX": 993, "minZ": -2196, "maxZ": -2013, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "graveler-2",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-39",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "day",
+                "minX": 498, "maxX": 993, "minZ": -2196, "maxZ": -2013, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "nosepass-1",
+            "pokemon": "nosepass",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-39",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 498, "maxX": 993, "minZ": -2196, "maxZ": -2013, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "medicham-1",
+            "pokemon": "medicham",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-39",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day",
+                "minX": 498, "maxX": 993, "minZ": -2196, "maxZ": -2013, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "medicham-2",
+            "pokemon": "medicham",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-39",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 498, "maxX": 993, "minZ": -2196, "maxZ": -2013, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "chingling-1",
+            "pokemon": "chingling",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-39",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 498, "maxX": 993, "minZ": -2196, "maxZ": -2013, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "bronzong-1",
+            "pokemon": "bronzong",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-39",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 498, "maxX": 993, "minZ": -2196, "maxZ": -2013, "minY": -2, "maxY": 58
+            }
+        },
+        {
+            "id": "clefairy-1",
+            "pokemon": "clefairy",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-39",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,night",
+                "minX": 767, "maxX": 949, "minZ": -1574, "maxZ": -1229, "minY": 0, "maxY": 79
+            }
+        },
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-39",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day",
+                "minX": 767, "maxX": 949, "minZ": -1574, "maxZ": -1229, "minY": 0, "maxY": 79
+            }
+        },
+        {
+            "id": "golbat-2",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-39",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 767, "maxX": 949, "minZ": -1574, "maxZ": -1229, "minY": 0, "maxY": 79
+            }
+        },
+        {
+            "id": "machoke-1",
+            "pokemon": "machoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-39",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 767, "maxX": 949, "minZ": -1574, "maxZ": -1229, "minY": 0, "maxY": 79
+            }
+        },
+        {
+            "id": "graveler-1",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-39",
+            "weight": 40,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,night",
+                "minX": 767, "maxX": 949, "minZ": -1574, "maxZ": -1229, "minY": 0, "maxY": 79
+            }
+        },
+        {
+            "id": "graveler-2",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-39",
+            "weight": 50,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "day",
+                "minX": 767, "maxX": 949, "minZ": -1574, "maxZ": -1229, "minY": 0, "maxY": 79
+            }
+        },
+        {
+            "id": "nosepass-1",
+            "pokemon": "nosepass",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-39",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 767, "maxX": 949, "minZ": -1574, "maxZ": -1229, "minY": 0, "maxY": 79
+            }
+        },
+        {
+            "id": "medicham-1",
+            "pokemon": "medicham",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-39",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day",
+                "minX": 767, "maxX": 949, "minZ": -1574, "maxZ": -1229, "minY": 0, "maxY": 79
+            }
+        },
+        {
+            "id": "medicham-2",
+            "pokemon": "medicham",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-39",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 767, "maxX": 949, "minZ": -1574, "maxZ": -1229, "minY": 0, "maxY": 79
+            }
+        },
+        {
+            "id": "chingling-1",
+            "pokemon": "chingling",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-39",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning,evening,day,night",
+                "minX": 767, "maxX": 949, "minZ": -1574, "maxZ": -1229, "minY": 0, "maxY": 79
+            }
+        },
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-40",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 619, "maxX": 972, "minZ": -1808, "maxZ": -1263, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "machoke-1",
+            "pokemon": "machoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-40",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day,night",
+                "minX": 619, "maxX": 972, "minZ": -1808, "maxZ": -1263, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "noctowl-1",
+            "pokemon": "noctowl",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-40",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 619, "maxX": 972, "minZ": -1808, "maxZ": -1263, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "nosepass-1",
+            "pokemon": "nosepass",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-40",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day,night",
+                "minX": 619, "maxX": 972, "minZ": -1808, "maxZ": -1263, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "medicham-1",
+            "pokemon": "medicham",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-40",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day",
+                "minX": 619, "maxX": 972, "minZ": -1808, "maxZ": -1263, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "medicham-2",
+            "pokemon": "medicham",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-40",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 619, "maxX": 972, "minZ": -1808, "maxZ": -1263, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "absol-1",
+            "pokemon": "absol",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-40",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day,night",
+                "minX": 619, "maxX": 972, "minZ": -1808, "maxZ": -1263, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "chingling-1",
+            "pokemon": "chingling",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-40",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day,night",
+                "minX": 619, "maxX": 972, "minZ": -1808, "maxZ": -1263, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "snover-1",
+            "pokemon": "snover",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-40",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day,night",
+                "minX": 619, "maxX": 972, "minZ": -1808, "maxZ": -1263, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "abomasnow-1",
+            "pokemon": "abomasnow",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-40",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "morning,evening,day",
+                "minX": 619, "maxX": 972, "minZ": -1808, "maxZ": -1263, "minY": 59, "maxY": 319
+            }
+        },
+        {
+            "id": "abomasnow-2",
+            "pokemon": "abomasnow",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-40",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "timeRange": "night",
+                "minX": 619, "maxX": 972, "minZ": -1808, "maxZ": -1263, "minY": 59, "maxY": 319
+            }
+        }
+    ]
+}
