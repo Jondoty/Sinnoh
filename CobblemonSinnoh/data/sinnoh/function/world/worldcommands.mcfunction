@@ -5,6 +5,11 @@
 
 
 
+#Relog function, commands when the player joins back into the world.
+execute as @a[scores={relog=1..}] run function sinnoh:triggers/relog
+
+
+
 #Determines time of day for events/music
 #Runs daily commands, sets time to armor stand based on game time
 execute store result score @e[x=1389,y=62,z=-1662,dy=3,type=armor_stand] DayTime run time query daytime
@@ -17,10 +22,9 @@ tag @e[x=1389,y=62,z=-1662,dy=3,type=armor_stand,scores={DayTime=..1000},tag=Dai
 #Removes a MusicCooldown score each run, resets music at 0
 scoreboard players remove @a[scores={MusicCooldown=1..}] MusicCooldown 1
 
-
-
 #Battle Music
 #Runs battle music and post-battle events
+
 #Battle endings
 execute as @a[scores={BattleEnd=1..}] run function sinnoh:battles/battleend
 
