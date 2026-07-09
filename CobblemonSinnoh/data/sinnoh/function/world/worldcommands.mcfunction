@@ -5,9 +5,14 @@
 
 
 
+#Determines time of day for events/music
+#Runs daily commands, sets time to armor stand based on game time
+execute store result score @e[x=1389,y=62,z=-1662,dy=3,type=armor_stand] DayTime run time query daytime
+execute if entity @e[x=1389,y=62,z=-1662,dy=3,type=armor_stand,scores={DayTime=18000..},tag=!DailyExecuted] run function sinnoh:triggers/dailycommands
+execute if entity @e[x=1389,y=62,z=-1662,dy=3,type=armor_stand,scores={DayTime=18000..},tag=!DailyExecuted] run tag @e[x=1389,y=62,z=-1662,dy=3,type=armor_stand] add DailyExecuted
+tag @e[x=1389,y=62,z=-1662,dy=3,type=armor_stand,scores={DayTime=..1000},tag=DailyExecuted] remove DailyExecuted
 
-
-
+#----------------------------------------------------------------
 
 #Runs music function
 execute as @a[tag=!RadioOff,scores={MusicCooldown=0}] run function sinnoh:world/music
@@ -31,7 +36,7 @@ title @a[team=shops] actionbar ["",{"text":"Your Money Balance: $"},{"score":{"n
 title @a[team=battlepoints] actionbar ["",{"text":"Your Battle Points: "},{"score":{"name":"*","objective":"BattlePoints"}}]
 
 
-
+#----------------------------------------------------------------
 
 
 
