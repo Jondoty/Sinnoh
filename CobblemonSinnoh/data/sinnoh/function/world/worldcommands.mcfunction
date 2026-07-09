@@ -14,9 +14,6 @@ tag @e[x=1389,y=62,z=-1662,dy=3,type=armor_stand,scores={DayTime=..1000},tag=Dai
 
 #----------------------------------------------------------------
 
-#Runs music function
-execute as @a[tag=!RadioOff,scores={MusicCooldown=0}] run function sinnoh:world/music
-
 #Removes a MusicCooldown score each run, resets music at 0
 scoreboard players remove @a[scores={MusicCooldown=1..}] MusicCooldown 1
 
@@ -34,6 +31,10 @@ execute as @a[scores={BattleStart=1..},tag=!BattleMusicCooldown] run function si
 #Displays the player's Battle Points or Money if in a shop that uses them
 title @a[team=shops] actionbar ["",{"text":"Your Money Balance: $"},{"score":{"name":"*","objective":"Money"}}]
 title @a[team=battlepoints] actionbar ["",{"text":"Your Battle Points: "},{"score":{"name":"*","objective":"BattlePoints"}}]
+
+
+#Runs music function for the world
+execute as @a[tag=!RadioOff,scores={MusicCooldown=0}] run function sinnoh:world/music
 
 
 #----------------------------------------------------------------

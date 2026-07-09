@@ -847,6 +847,14 @@
       }
     ]
   },
+  "eterna_forest": {
+    "sounds": [
+      {
+        "name": "sinnoh/world/eterna_forest",
+        "stream": true
+      }
+    ]
+  },
   "galactic_eterna": {
     "sounds": [
       {
