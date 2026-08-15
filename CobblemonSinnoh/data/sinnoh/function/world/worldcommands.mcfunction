@@ -2,7 +2,8 @@
 
 
 
-
+#Tracks players movements and refreshes music/displays title moving between zones
+execute as @a run function sinnoh:world/musictitles
 
 
 #Relog function, commands when the player joins back into the world.
