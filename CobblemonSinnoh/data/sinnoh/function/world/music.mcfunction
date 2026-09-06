@@ -489,7 +489,8 @@ scoreboard players set @s[x=1135,y=59,z=-1430,dx=322,dy=260,dz=249,scores={Music
 
 
 #Battle Tower
-#
+playsound battle_tower record @s[x=2102,y=37,z=-3330,dx=214,dy=21,dz=134,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2102,y=37,z=-3330,dx=214,dy=21,dz=134,scores={MusicCooldown=0}] MusicCooldown 158
 
 
 #Battle Park
@@ -625,8 +626,8 @@ scoreboard players set @s[x=-716,y=59,z=-3791,dx=278,dy=260,dz=279,scores={Music
 
 
 #Old Chateau (Int)
-#playsound old_chateau record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 299
+playsound old_chateau record @s[x=-184,y=27,z=-2467,dx=174,dy=31,dz=156,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-184,y=27,z=-2467,dx=174,dy=31,dz=156,scores={MusicCooldown=0}] MusicCooldown 299
 
 
 #Oreburgh Gate
@@ -645,8 +646,8 @@ scoreboard players set @s[x=246,y=59,z=-280,dx=475,dy=260,dz=394,scores={MusicCo
 
 
 #Pokémon Mansion
-#playsound route209_day record @s[tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 219
+playsound route209_day record @s[x=1093,y=39,z=-755,dx=239,dy=19,dz=115,tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1093,y=39,z=-755,dx=239,dy=19,dz=115,tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 219
 
 #playsound route209_night record @s[tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 #scoreboard players set @s[tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 219
@@ -754,13 +755,13 @@ scoreboard players set @s[tag=PlayNight,x=2479,y=59,z=-867,dx=285,dy=16,dz=376,s
 
 
 #Veilstone Galactic Building
-#playsound galactic_hq record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 159
+playsound galactic_hq record @s[x=2417,y=39,z=-1954,dx=333,dy=19,dz=211,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2417,y=39,z=-1954,dx=333,dy=19,dz=211,scores={MusicCooldown=0}] MusicCooldown 159
 
 
 #Galactic Warehouse
-#playsound galactic_eterna record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 102
+playsound galactic_eterna record @s[x=2431,y=39,z=-1737,dx=321,dy=19,dz=56,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2431,y=39,z=-1737,dx=321,dy=19,dz=56,scores={MusicCooldown=0}] MusicCooldown 102
 
 
 #Verity Lakefront
