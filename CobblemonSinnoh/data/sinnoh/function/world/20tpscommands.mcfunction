@@ -2,4 +2,4 @@
 
 
 #Portal blocks
-execute at @a run execute if block ~ ~ ~ minecraft:magenta_carpet run function sinnoh:world/portals
+execute as @a at @s if block ~ ~ ~ minecraft:magenta_carpet run function sinnoh:world/portals

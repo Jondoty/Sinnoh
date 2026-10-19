@@ -1,0 +1,10 @@
+{
+  "door": {
+    "sounds": [
+      {
+        "name": "door",
+        "stream": true
+      }
+    ]
+  }
+}
