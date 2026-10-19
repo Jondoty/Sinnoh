@@ -10,6 +10,9 @@ execute as @a run function sinnoh:world/musictitles
 execute as @a[scores={relog=1..}] run function sinnoh:triggers/relog
 
 
+#Cave portals, also moves the players around
+execute as @a run function sinnoh:world/cavewarps
+
 
 #Determines time of day for events/music
 #Runs daily commands, sets time to armor stand based on game time
