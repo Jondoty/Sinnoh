@@ -55,9 +55,25 @@ execute as @s[x=-377,y=47,z=-817,dx=5,dy=5,dz=3] at @s if block -377 51 -815 min
 
 
 
+#------------
+#Wayward Cave
+
+#Western Entrance Stairs
+execute as @s[x=631,y=49,z=-1551,dx=12,dy=10,dz=10] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=631,y=49,z=-1551,dx=12,dy=10,dz=10] run tp @s 289 46 -1557
+
+execute as @s[x=271,y=31,z=-1565,dx=12,dy=13,dz=12] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=271,y=31,z=-1565,dx=12,dy=13,dz=12] run tp @s 625 42 -1545
 
 
+#Loot room stairs
+execute as @s[x=756,y=49,z=-1562,dx=13,dy=10,dz=10] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=756,y=49,z=-1562,dx=13,dy=10,dz=10] run tp @s 161 46 -1557
 
+execute as @s[x=143,y=31,z=-1565,dx=12,dy=13,dz=12] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=143,y=31,z=-1565,dx=12,dy=13,dz=12] run tp @s 750 42 -1557
+
+#------------
 
 
 
