@@ -716,25 +716,257 @@ execute as @s[x=369,y=68,z=-513,dx=8,dy=3] run playsound door ambient @s ~ ~ ~ 1
 execute as @s[x=369,y=68,z=-513,dx=8,dy=3] run tp @s 373 40 -486
 
 
+#------------
+#Route 208
+
+#NPC House
+execute as @s[x=1054,y=63,z=-975,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1054,y=63,z=-975,dx=3,dy=3] run tp @s 1056 74 -974
+
+execute as @s[x=1055,y=74,z=-975,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1055,y=74,z=-975,dx=3,dy=3] run tp @s 1056 63 -976
+
+#------------
+#Hearthome City
+
+#Church
+execute as @s[x=1171,y=40,z=-1016,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1171,y=40,z=-1016,dx=5,dy=3] run tp @s 1173 74 -1015
+
+execute as @s[x=1171,y=74,z=-1016,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1171,y=74,z=-1016,dx=4,dy=3] run tp @s 1174 40 -1017
+
+
+#NPC House Poffin Shop, Left of mart
+execute as @s[x=1240,y=48,z=-1010,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1240,y=48,z=-1010,dx=3,dy=3] run tp @s 1242 74 -1009
+
+execute as @s[x=1241,y=74,z=-1010,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1241,y=74,z=-1010,dx=3,dy=3] run tp @s 1242 48 -1011
+
+
+#Poke Mart
+execute as @s[x=1269,y=48,z=-1008,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1269,y=48,z=-1008,dx=3,dy=3] run tp @s 1270 73 -1007
+
+execute as @s[x=1269,y=73,z=-1008,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1269,y=73,z=-1008,dx=3,dy=3] run tp @s 1271 48 -1009
+
+
+#NPC House Fan Club, right of Mart
+execute as @s[x=1331,y=48,z=-1011,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1331,y=48,z=-1011,dx=3,dy=3] run tp @s 1332 74 -1010
+
+execute as @s[x=1331,y=74,z=-1011,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1331,y=74,z=-1011,dx=3,dy=3] run tp @s 1333 48 -1012
 
 
 
+#NPC High Rise, Southeast
+execute as @s[x=1368,y=38,z=-1010,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1368,y=38,z=-1010,dx=3,dy=3] run tp @s 1369 74 -1009
+
+execute as @s[x=1368,y=74,z=-1010,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1368,y=74,z=-1010,dx=3,dy=3] run tp @s 1370 38 -1011
+
+
+#Pokemon Center
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 1202 72 -1077
+#
+#execute as @s[x=1199,y=72,z=-1078,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=1199,y=72,z=-1078,dx=6,dy=3] run tp @s 
+
+
+#NPC House, right of Center
+execute as @s[x=1230,y=48,z=-1085,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1230,y=48,z=-1085,dx=3,dy=3] run tp @s 1232 74 -1084
+
+execute as @s[x=1231,y=74,z=-1085,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1231,y=74,z=-1085,dx=3,dy=3] run tp @s 1232 48 -1086
+
+
+#NPC High Rise, North center
+execute as @s[x=1321,y=38,z=-1085,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1321,y=38,z=-1085,dx=3,dy=3] run tp @s 1322 74 -1084
+
+execute as @s[x=1321,y=74,z=-1085,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1321,y=74,z=-1085,dx=3,dy=3] run tp @s 1323 38 -1086
+
+
+#Gym
+execute as @s[x=1385,y=19,z=-1086,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1385,y=19,z=-1086,dx=4,dy=3] run tp @s 1400 74 -1085
+
+execute as @s[x=1397,y=74,z=-1086,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1397,y=74,z=-1086,dx=6,dy=3] run tp @s 1387 19 -1087
+
+
+#------------
+#Hearthome Gym
+
+
+#1F Lift
+execute as @s[x=1386,y=49,z=-1116,dx=2,dy=3] run tp @s 1387 19 -1114
+execute as @s[x=1386,y=19,z=-1115,dx=2,dy=3] run tp @s 1387 49 -1117
+
+
+#1F Left (Incorrect)
+execute as @s[x=1384,y=19,z=-1164,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1384,y=19,z=-1164,dx=3,dy=3] run tp @s 1372 49 -1144
+
+execute as @s[x=1371,y=49,z=-1145,dx=2,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1371,y=49,z=-1145,dx=2,dy=3] run tp @s 1386 19 -1165
+
+
+#1F Center (Incorrect)
+execute as @s[x=1384,y=19,z=-1196,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1384,y=19,z=-1196,dx=3,dy=3] run tp @s 1387 49 -1144
+
+execute as @s[x=1386,y=49,z=-1145,dx=2,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1386,y=49,z=-1145,dx=2,dy=3] run tp @s 1386 19 -1197
+
+
+#1F Right (Correct)
+execute as @s[x=1445,y=19,z=-1086,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1445,y=19,z=-1086,dx=4,dy=3] run tp @s 1402 49 -1144
+
+execute as @s[x=1401,y=49,z=-1145,dx=2,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1401,y=49,z=-1145,dx=2,dy=3] run tp @s 1447 19 -1087
 
 
 
+#2F Lift
+execute as @s[x=1446,y=49,z=-1116,dx=2,dy=3] run tp @s 1447 19 -1114
+execute as @s[x=1446,y=19,z=-1115,dx=2,dy=3] run tp @s 1447 49 -1117
+
+
+#2F Left (Incorrect)
+execute as @s[x=1444,y=19,z=-1164,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1444,y=19,z=-1164,dx=3,dy=3] run tp @s 1432 49 -1144
+
+execute as @s[x=1431,y=49,z=-1145,dx=2,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1431,y=49,z=-1145,dx=2,dy=3] run tp @s 1446 19 -1165
+
+
+#2F Center (Correct)
+execute as @s[x=1505,y=19,z=-1086,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1505,y=19,z=-1086,dx=3,dy=3] run tp @s 1447 49 -1144
+
+execute as @s[x=1446,y=49,z=-1145,dx=2,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1446,y=49,z=-1145,dx=2,dy=3] run tp @s 1507 19 -1087
+
+
+#2F Right (Incorrect)
+execute as @s[x=1444,y=19,z=-1196,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1444,y=19,z=-1196,dx=3,dy=3] run tp @s 1462 49 -1144
+
+execute as @s[x=1461,y=49,z=-1145,dx=2,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1461,y=49,z=-1145,dx=2,dy=3] run tp @s 1446 19 -1197
 
 
 
+#3F Lift
+execute as @s[x=1506,y=49,z=-1116,dx=2,dy=3] run tp @s 1507 19 -1114
+execute as @s[x=1506,y=19,z=-1115,dx=2,dy=3] run tp @s 1507 49 -1117
+
+
+#3F Left (Correct)
+execute as @s[x=1565,y=19,z=-1086,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1565,y=19,z=-1086,dx=4,dy=3] run tp @s 1492 49 -1144
+
+execute as @s[x=1491,y=49,z=-1145,dx=2,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1491,y=49,z=-1145,dx=2,dy=3] run tp @s 1567 19 -1087
+
+
+#3F Center (Incorrect)
+execute as @s[x=1504,y=19,z=-1164,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1504,y=19,z=-1164,dx=3,dy=3] run tp @s 1507 49 -1144
+
+execute as @s[x=1506,y=49,z=-1145,dx=2,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1506,y=49,z=-1145,dx=2,dy=3] run tp @s 1506 19 -1165
+
+
+#3F Right (Incorrect)
+execute as @s[x=1504,y=19,z=-1196,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1504,y=19,z=-1196,dx=3,dy=3] run tp @s 1522 49 -1144
+
+execute as @s[x=1521,y=49,z=-1145,dx=2,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1521,y=49,z=-1145,dx=2,dy=3] run tp @s 1506 19 -1197
 
 
 
+#4F Lift
+execute as @s[x=1566,y=49,z=-1116,dx=2,dy=3] run tp @s 1567 19 -1114
+execute as @s[x=1566,y=19,z=-1115,dx=2,dy=3] run tp @s 1567 49 -1117
 
 
+#3F Left (Incorrect)
+execute as @s[x=1564,y=19,z=-1164,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1564,y=19,z=-1164,dx=3,dy=3] run tp @s 1552 49 -1144
+
+execute as @s[x=1551,y=49,z=-1145,dx=2,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1551,y=49,z=-1145,dx=2,dy=3] run tp @s 1566 19 -1165
 
 
+#3F Center (Incorrect)
+execute as @s[x=1564,y=19,z=-1196,dx=2,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1564,y=19,z=-1196,dx=2,dy=3] run tp @s 1567 49 -1144
+
+execute as @s[x=1566,y=49,z=-1145,dx=2,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1566,y=49,z=-1145,dx=2,dy=3] run tp @s 1566 19 -1197
 
 
+#3F Right (Correct)
+execute as @s[x=1474,y=48,z=-1163,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1474,y=48,z=-1163,dx=3,dy=3] run tp @s 1582 49 -1144
 
+execute as @s[x=1581,y=49,z=-1145,dx=2,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1581,y=49,z=-1145,dx=2,dy=3] run tp @s 1476 48 -1164
+
+
+#------------
+#Route 209, Lost Tower
+
+
+#Main Entrance
+execute as @s[x=1678,y=47,z=-1153,dx=2,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1678,y=47,z=-1153,dx=2,dy=3] run tp @s 1797 66 -1179
+
+execute as @s[x=1796,y=66,z=-1180,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1796,y=66,z=-1180,dx=3,dy=3] run tp @s 1679 47 -1154
+
+#Stair returns without portals in the CaveWarps function
+#1F to 2F
+#execute as @s[x=1746,y=42,z=-1195,dx=3,dy=3,dz=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=1746,y=42,z=-1195,dx=3,dy=3,dz=3] run tp @s 1675 53 -1194
+
+execute as @s[x=1676,y=53,z=-1195,dx=1,dy=3,dz=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1676,y=53,z=-1195,dx=1,dy=3,dz=3] run tp @s 1751 47 -1193
+
+
+#2F to 3F
+#execute as @s[x=1806,y=41,z=-1195,dx=3,dy=3,dz=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=1806,y=41,z=-1195,dx=3,dy=3,dz=3] run tp @s 1735 53 -1194
+
+execute as @s[x=1736,y=53,z=-1195,dx=1,dy=3,dz=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1736,y=53,z=-1195,dx=1,dy=3,dz=3] run tp @s 1812 47 -1193
+
+
+#3F to 4F
+#execute as @s[x=1864,y=42,z=-1195,dx=3,dy=3,dz=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=1864,y=42,z=-1195,dx=3,dy=3,dz=3] run tp @s 1795 53 -1194
+
+execute as @s[x=1796,y=53,z=-1195,dx=1,dy=3,dz=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1796,y=53,z=-1195,dx=1,dy=3,dz=3] run tp @s 1869 47 -1193
+
+
+#4F to 5F
+#execute as @s[x=1921,y=41,z=-1195,dx=3,dy=3,dz=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=1921,y=41,z=-1195,dx=3,dy=3,dz=3] run tp @s 1853 53 -1194
+
+execute as @s[x=1854,y=53,z=-1195,dx=1,dy=3,dz=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1854,y=53,z=-1195,dx=1,dy=3,dz=3] run tp @s 1927 47 -1193
 
 
 

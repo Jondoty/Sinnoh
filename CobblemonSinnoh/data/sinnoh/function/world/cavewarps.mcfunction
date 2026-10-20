@@ -76,7 +76,27 @@ execute as @s[x=143,y=31,z=-1565,dx=12,dy=13,dz=12] run tp @s 750 42 -1557
 #------------
 
 
+#Route 209, Lost Tower
+#Stair returns
 
+#2F to 1F
+execute as @s[x=1746,y=42,z=-1195,dx=3,dy=3,dz=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1746,y=42,z=-1195,dx=3,dy=3,dz=3] run tp @s 1675 53 -1194
+
+#3F to 2F
+execute as @s[x=1806,y=41,z=-1195,dx=3,dy=3,dz=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1806,y=41,z=-1195,dx=3,dy=3,dz=3] run tp @s 1735 53 -1194
+
+#4F to 3F
+execute as @s[x=1864,y=42,z=-1195,dx=3,dy=3,dz=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1864,y=42,z=-1195,dx=3,dy=3,dz=3] run tp @s 1795 53 -1194
+
+#5F to 4F
+execute as @s[x=1921,y=41,z=-1195,dx=3,dy=3,dz=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1921,y=41,z=-1195,dx=3,dy=3,dz=3] run tp @s 1853 53 -1194
+
+
+#------------
 
 
 
