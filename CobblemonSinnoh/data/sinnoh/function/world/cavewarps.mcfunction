@@ -74,8 +74,6 @@ execute as @s[x=143,y=31,z=-1565,dx=12,dy=13,dz=12] run playsound door ambient @
 execute as @s[x=143,y=31,z=-1565,dx=12,dy=13,dz=12] run tp @s 750 42 -1557
 
 #------------
-
-
 #Route 209, Lost Tower
 #Stair returns
 
@@ -97,16 +95,140 @@ execute as @s[x=1921,y=41,z=-1195,dx=3,dy=3,dz=3] run tp @s 1853 53 -1194
 
 
 #------------
+#Lake Valor
+
+#Regular lake
+execute as @s[x=3215,y=-24,z=800,dx=10,dy=10,dz=24] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3215,y=-24,z=800,dx=10,dy=10,dz=24] run tp @s 2653 66 -715
+
+execute as @s[x=2614,y=66,z=-725,dx=18,dy=10,dz=33] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2614,y=66,z=-725,dx=18,dy=10,dz=33] run tp @s 3212 -23 805
+
+#Drained Lake
+execute as @s[x=2837,y=-24,z=875,dx=10,dy=10,dz=10] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2837,y=-24,z=875,dx=10,dy=10,dz=10] run tp @s 2653 66 -715
+
+execute as @s[x=2614,y=66,z=-725,dx=18,dy=10,dz=33] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2614,y=66,z=-725,dx=18,dy=10,dz=33] run tp @s 2832 -29 880
 
 
 
+#------------
+#Veilstone Department Store Elevators
 
+#B1F
+execute as @s[x=2563,y=2,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 3 -1643 minecraft:stone_button[powered=true] run tellraw @s {"text":"You are currently on this floor!","italic":true,"color":"gray"}
+execute as @s[x=2563,y=2,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 3 -1643 minecraft:stone_button[powered=true] run tp @s ~ ~ ~
 
+execute as @s[x=2563,y=2,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 4 -1643 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=2,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 4 -1643 minecraft:stone_button[powered=true] run tp @s ~ ~9 ~
 
+execute as @s[x=2563,y=2,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 5 -1643 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=2,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 5 -1643 minecraft:stone_button[powered=true] run tp @s ~ ~18 ~
 
+execute as @s[x=2563,y=2,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 3 -1644 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=2,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 3 -1644 minecraft:stone_button[powered=true] run tp @s ~ ~27 ~
 
+execute as @s[x=2563,y=2,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 4 -1644 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=2,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 4 -1644 minecraft:stone_button[powered=true] run tp @s ~ ~36 ~
 
+execute as @s[x=2563,y=2,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 5 -1644 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=2,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 5 -1644 minecraft:stone_button[powered=true] run tp @s ~ ~45 ~
 
+#1F
+execute as @s[x=2563,y=11,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 12 -1643 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=11,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 12 -1643 minecraft:stone_button[powered=true] run tp @s ~ ~-9 ~
+
+execute as @s[x=2563,y=11,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 13 -1643 minecraft:stone_button[powered=true] run tellraw @s {"text":"You are currently on this floor!","italic":true,"color":"gray"}
+execute as @s[x=2563,y=11,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 13 -1643 minecraft:stone_button[powered=true] run tp @s ~ ~ ~
+
+execute as @s[x=2563,y=11,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 14 -1643 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=11,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 14 -1643 minecraft:stone_button[powered=true] run tp @s ~ ~9 ~
+
+execute as @s[x=2563,y=11,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 12 -1644 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=11,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 12 -1644 minecraft:stone_button[powered=true] run tp @s ~ ~18 ~
+
+execute as @s[x=2563,y=11,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 13 -1644 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=11,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 13 -1644 minecraft:stone_button[powered=true] run tp @s ~ ~27 ~
+
+execute as @s[x=2563,y=11,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 14 -1644 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=11,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 14 -1644 minecraft:stone_button[powered=true] run tp @s ~ ~36 ~
+
+#2F
+execute as @s[x=2563,y=20,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 21 -1643 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=20,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 21 -1643 minecraft:stone_button[powered=true] run tp @s ~ ~-18 ~
+
+execute as @s[x=2563,y=20,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 22 -1643 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=20,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 22 -1643 minecraft:stone_button[powered=true] run tp @s ~ ~-9 ~
+
+execute as @s[x=2563,y=20,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 23 -1643 minecraft:stone_button[powered=true] run tellraw @s {"text":"You are currently on this floor!","italic":true,"color":"gray"}
+execute as @s[x=2563,y=20,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 23 -1643 minecraft:stone_button[powered=true] run tp @s ~ ~ ~
+
+execute as @s[x=2563,y=20,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 21 -1644 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=20,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 21 -1644 minecraft:stone_button[powered=true] run tp @s ~ ~9 ~
+
+execute as @s[x=2563,y=20,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 22 -1644 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=20,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 22 -1644 minecraft:stone_button[powered=true] run tp @s ~ ~18 ~
+
+execute as @s[x=2563,y=20,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 23 -1644 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=20,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 23 -1644 minecraft:stone_button[powered=true] run tp @s ~ ~27 ~
+
+#3F
+execute as @s[x=2563,y=29,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 30 -1643 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=29,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 30 -1643 minecraft:stone_button[powered=true] run tp @s ~ ~-27 ~
+
+execute as @s[x=2563,y=29,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 31 -1643 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=29,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 31 -1643 minecraft:stone_button[powered=true] run tp @s ~ ~-18 ~
+
+execute as @s[x=2563,y=29,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 32 -1643 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=29,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 32 -1643 minecraft:stone_button[powered=true] run tp @s ~ ~-9 ~
+
+execute as @s[x=2563,y=29,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 30 -1644 minecraft:stone_button[powered=true] run tellraw @s {"text":"You are currently on this floor!","italic":true,"color":"gray"}
+execute as @s[x=2563,y=29,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 30 -1644 minecraft:stone_button[powered=true] run tp @s ~ ~ ~
+
+execute as @s[x=2563,y=29,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 31 -1644 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=29,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 31 -1644 minecraft:stone_button[powered=true] run tp @s ~ ~9 ~
+
+execute as @s[x=2563,y=29,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 32 -1644 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=29,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 32 -1644 minecraft:stone_button[powered=true] run tp @s ~ ~18 ~
+
+#4F
+execute as @s[x=2563,y=38,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 39 -1643 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=38,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 39 -1643 minecraft:stone_button[powered=true] run tp @s ~ ~-36 ~
+
+execute as @s[x=2563,y=38,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 40 -1643 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=38,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 40 -1643 minecraft:stone_button[powered=true] run tp @s ~ ~-27 ~
+
+execute as @s[x=2563,y=38,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 41 -1643 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=38,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 41 -1643 minecraft:stone_button[powered=true] run tp @s ~ ~-18 ~
+
+execute as @s[x=2563,y=38,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 39 -1644 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=38,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 39 -1644 minecraft:stone_button[powered=true] run tp @s ~ ~-9 ~
+
+execute as @s[x=2563,y=38,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 40 -1644 minecraft:stone_button[powered=true] run tellraw @s {"text":"You are currently on this floor!","italic":true,"color":"gray"}
+execute as @s[x=2563,y=38,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 40 -1644 minecraft:stone_button[powered=true] run tp @s ~ ~ ~
+
+execute as @s[x=2563,y=38,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 41 -1644 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=38,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 41 -1644 minecraft:stone_button[powered=true] run tp @s ~ ~9 ~
+
+#5F
+execute as @s[x=2563,y=47,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 48 -1643 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=47,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 48 -1643 minecraft:stone_button[powered=true] run tp @s ~ ~-45 ~
+
+execute as @s[x=2563,y=47,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 49 -1643 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=47,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 49 -1643 minecraft:stone_button[powered=true] run tp @s ~ ~-36 ~
+
+execute as @s[x=2563,y=47,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 50 -1643 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=47,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 50 -1643 minecraft:stone_button[powered=true] run tp @s ~ ~-27 ~
+
+execute as @s[x=2563,y=47,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 48 -1644 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=47,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 48 -1644 minecraft:stone_button[powered=true] run tp @s ~ ~-18 ~
+
+execute as @s[x=2563,y=47,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 49 -1644 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=2563,y=47,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 49 -1644 minecraft:stone_button[powered=true] run tp @s ~ ~-9 ~
+
+execute as @s[x=2563,y=47,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 50 -1644 minecraft:stone_button[powered=true] run tellraw @s {"text":"You are currently on this floor!","italic":true,"color":"gray"}
+execute as @s[x=2563,y=47,z=-1645,dx=5,dy=3,dz=3] at @s if block 2563 50 -1644 minecraft:stone_button[powered=true] run tp @s ~ ~ ~
 
 
 
