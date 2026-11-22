@@ -55,11 +55,11 @@ execute as @s[x=-684,y=70,z=-84,dx=4,dy=3] run tp @s -682 48 -85
 #------------
 #Lake Verity
 
-#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
-#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s -965 68 -400
-#
-#execute as @s[x=-968,y=68,z=-401,dx=8,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
-#execute as @s[x=-968,y=68,z=-401,dx=8,dy=3] run tp @s 
+execute as @s[x=-965,y=31,z=-401,dx=2,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-965,y=31,z=-401,dx=2,dy=3] run tp @s -965 68 -400
+
+execute as @s[x=-968,y=68,z=-401,dx=8,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-968,y=68,z=-401,dx=8,dy=3] run tp @s -964 31 -402
 
 #------------
 #Sandgem Town
@@ -771,11 +771,11 @@ execute as @s[x=1368,y=74,z=-1010,dx=3,dy=3] run tp @s 1370 38 -1011
 
 
 #Pokemon Center
-#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
-#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 1202 72 -1077
-#
-#execute as @s[x=1199,y=72,z=-1078,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
-#execute as @s[x=1199,y=72,z=-1078,dx=6,dy=3] run tp @s 
+execute as @s[x=1200,y=48,z=-1078,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1200,y=48,z=-1078,dx=4,dy=3] run tp @s 1202 72 -1077
+
+execute as @s[x=1199,y=72,z=-1078,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1199,y=72,z=-1078,dx=6,dy=3] run tp @s 1202 48 -1079
 
 
 #NPC House, right of Center
@@ -1022,11 +1022,11 @@ execute as @s[x=1286,y=45,z=-696,dx=1,dy=3] run tp @s 1286 45 -701
 
 
 #Southern NPC House
-#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
-#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
-#
-#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
-#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+execute as @s[x=1499,y=48,z=-224,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1499,y=48,z=-224,dx=3,dy=3] run tp @s 1501 67 -222
+
+execute as @s[x=1500,y=68,z=-224,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1500,y=68,z=-224,dx=3,dy=3] run tp @s 1501 48 -225
 
 
 #------------
@@ -1189,12 +1189,18 @@ execute as @s[x=2645,y=86,z=-598,dx=3,dy=3] run tp @s 2647 48 -599
 #------------
 #Sendoff Spring Cave Entrance
 
-#
-#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
-#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 2962 72 -1230
-#
-#execute as @s[x=2959,y=72,z=-1231,dx=7,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
-#execute as @s[x=2959,y=72,z=-1231,dx=7,dy=3] run tp @s 
+#Turnback Cave entrance
+execute as @s[x=2959,y=24,z=-1304,dx=7,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2959,y=24,z=-1304,dx=7,dy=3] run tp @s 2962 72 -1230
+
+execute as @s[x=2959,y=72,z=-1231,dx=7,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2959,y=72,z=-1231,dx=7,dy=3] run tp @s 2962 24 -1305
+
+
+
+#Turnback Cave puzzle TBD
+
+
 
 
 #------------
@@ -1375,11 +1381,11 @@ execute as @s[x=1246,y=102,z=-2134,dx=3,dy=3] run tp @s 1247 76 -2135
 
 
 #Town Cave
-#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
-#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 1190 89 -2108
-#
-#execute as @s[x=1187,y=89,z=-2109,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
-#execute as @s[x=1187,y=89,z=-2109,dx=6,dy=3] run tp @s 
+execute as @s[x=1189,y=64,z=-2109,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1189,y=64,z=-2109,dx=3,dy=3] run tp @s 1190 89 -2108
+
+execute as @s[x=1187,y=89,z=-2109,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1187,y=89,z=-2109,dx=6,dy=3] run tp @s 1190 64 -2110
 
 
 #------------
@@ -1471,6 +1477,92 @@ execute as @s[x=2655,y=74,z=-1630,dx=3,dy=3] run tp @s 2656 48 -1631
 
 
 
+
+
+#------------
+#Route 216 NPC House
+execute as @s[x=596,y=48,z=-2873,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=596,y=48,z=-2873,dx=3,dy=3] run tp @s 597 80 -2872
+
+execute as @s[x=596,y=80,z=-2873,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=596,y=80,z=-2873,dx=3,dy=3] run tp @s 598 48 -2874
+
+
+#------------
+#Route 217 NPC House South
+execute as @s[x=538,y=48,z=-3384,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=538,y=48,z=-3384,dx=3,dy=3] run tp @s 539 79 -3383
+
+execute as @s[x=538,y=79,z=-3384,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=538,y=79,z=-3384,dx=3,dy=3] run tp @s 540 48 -3385
+
+
+#Route 217 NPC House North
+execute as @s[x=673,y=48,z=-3537,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=673,y=48,z=-3537,dx=3,dy=3] run tp @s 674 79 -3536
+
+execute as @s[x=673,y=79,z=-3537,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=673,y=79,z=-3537,dx=3,dy=3] run tp @s 675 48 -3538
+
+
+#------------
+#Lake Acuity
+execute as @s[x=707,y=39,z=-3975,dx=2,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=707,y=39,z=-3975,dx=2,dy=3] run tp @s 708 77 -3974
+
+execute as @s[x=704,y=77,z=-3975,dx=8,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=704,y=77,z=-3975,dx=8,dy=3] run tp @s 708 39 -3976
+
+
+#------------
+#Snowpoint City
+
+#Mart
+execute as @s[x=890,y=65,z=-3847,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=890,y=65,z=-3847,dx=3,dy=3] run tp @s 892 79 -3846
+
+execute as @s[x=891,y=79,z=-3847,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=891,y=79,z=-3847,dx=3,dy=3] run tp @s 892 65 -3848
+
+
+#Gym
+execute as @s[x=972,y=40,z=-3874,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=972,y=40,z=-3874,dx=3,dy=3] run tp @s 975 80 -3909
+
+execute as @s[x=972,y=80,z=-3910,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=972,y=80,z=-3910,dx=6,dy=3] run tp @s 973 40 -3875
+
+
+#Pokemon Center
+execute as @s[x=1043,y=78,z=-3844,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1043,y=78,z=-3844,dx=6,dy=3] run tp @s 1046 65 -3845
+
+execute as @s[x=1044,y=65,z=-3844,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1044,y=65,z=-3844,dx=4,dy=3] run tp @s 1046 78 -3843
+
+
+#Northwest House
+execute as @s[x=889,y=65,z=-3987,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=889,y=65,z=-3987,dx=3,dy=3] run tp @s 890 79 -3986
+
+execute as @s[x=889,y=79,z=-3987,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=889,y=79,z=-3987,dx=3,dy=3] run tp @s 891 65 -3988
+
+
+#Northeast House
+execute as @s[x=1046,y=65,z=-3987,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1046,y=65,z=-3987,dx=3,dy=3] run tp @s 1047 79 -3986
+
+execute as @s[x=1046,y=79,z=-3987,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1046,y=79,z=-3987,dx=3,dy=3] run tp @s 1048 65 -3988
+
+
+#Snowpoint Temple
+execute as @s[x=969,y=47,z=-4087,dx=7,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=969,y=47,z=-4087,dx=7,dy=3] run tp @s 972 85 -4056
+
+execute as @s[x=968,y=85,z=-4057,dx=8,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=968,y=85,z=-4057,dx=8,dy=3] run tp @s 973 47 -4088
 
 
 
@@ -1607,26 +1699,210 @@ execute as @s[x=3516,y=19,z=-1825,dz=13,dy=3] run tp @s 3551 95 -1749
 
 
 
+#------------
+#Battle Area
+
+#Pokemon Center
+execute as @s[x=2160,y=48,z=-2870,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2160,y=48,z=-2870,dx=4,dy=3] run tp @s 2162 66 -2869
+
+execute as @s[x=2159,y=66,z=-2870,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2159,y=66,z=-2870,dx=6,dy=3] run tp @s 2162 48 -2871
+
+
+#Mart
+execute as @s[x=2260,y=48,z=-2881,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2260,y=48,z=-2881,dx=3,dy=3] run tp @s 2261 67 -2880
+
+execute as @s[x=2260,y=67,z=-2881,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2260,y=67,z=-2881,dx=3,dy=3] run tp @s 2262 48 -2882
+
+
+#Southwest NPC House
+execute as @s[x=2149,y=48,z=-2825,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2149,y=48,z=-2825,dx=3,dy=3] run tp @s 2150 68 -2824
+
+execute as @s[x=2148,y=68,z=-2825,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2148,y=68,z=-2825,dx=5,dy=3] run tp @s 2151 48 -2826
+
+
+#Southeast NPC House
+execute as @s[x=2200,y=48,z=-2825,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2200,y=48,z=-2825,dx=3,dy=3] run tp @s 2201 68 -2824
+
+execute as @s[x=2199,y=68,z=-2825,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2199,y=68,z=-2825,dx=5,dy=3] run tp @s 2202 48 -2826
+
+
+
+#Battle Park Redemption Building Left 
+execute as @s[x=2130,y=41,z=-3203,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2130,y=41,z=-3203,dx=5,dy=3] run tp @s 2201 66 -3077
+
+execute as @s[x=2200,y=66,z=-3078,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2200,y=66,z=-3078,dx=3,dy=3] run tp @s 2133 41 -3204
+
+
+#Battle Park Redemption Building Right 
+execute as @s[x=2194,y=41,z=-3203,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2194,y=41,z=-3203,dx=5,dy=3] run tp @s 2250 66 -3076
+
+execute as @s[x=2249,y=66,z=-3077,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2249,y=66,z=-3077,dx=3,dy=3] run tp @s 2196 41 -3204
+
+
+#Battle Tower
+execute as @s[x=2268,y=45,z=-3203,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2268,y=45,z=-3203,dx=4,dy=3] run tp @s 2226 66 -3202
+
+execute as @s[x=2221,y=66,z=-3203,dx=10,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2221,y=66,z=-3203,dx=10,dy=3] run tp @s 2270 45 -3204
+
+
+#------------
+#Route 225 NPC House
+execute as @s[x=1985,y=48,z=-3246,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1985,y=48,z=-3246,dx=3,dy=3] run tp @s 1986 68 -3245
+
+execute as @s[x=1984,y=68,z=-3246,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1984,y=68,z=-3246,dx=5,dy=3] run tp @s 1987 48 -3247
+
+
+#------------
+#Survival Area
+
+#Pokemon Center
+execute as @s[x=2222,y=48,z=-3416,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2222,y=48,z=-3416,dx=4,dy=3] run tp @s 2224 66 -3415
+
+execute as @s[x=2221,y=66,z=-3416,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2221,y=66,z=-3416,dx=6,dy=3] run tp @s 2224 48 -3417
+
+
+#Mart
+execute as @s[x=2249,y=33,z=-3426,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2249,y=33,z=-3426,dx=3,dy=3] run tp @s 2250 67 -3425
+
+execute as @s[x=2249,y=67,z=-3426,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2249,y=67,z=-3426,dx=3,dy=3] run tp @s 2251 33 -3427
+
+
+#South NPC House
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#Middle NPC House
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#Cliff-side House
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
 
 
 
 
+#------------
+#Route 226 NPC House
+execute as @s[x=2702,y=48,z=-3421,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2702,y=48,z=-3421,dx=3,dy=3] run tp @s 2703 68 -3420
+
+execute as @s[x=2701,y=68,z=-3421,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2701,y=68,z=-3421,dx=5,dy=3] run tp @s 2704 48 -3422
+
+#------------
+#Route 227 NPC House
+execute as @s[x=2706,y=48,z=-3636,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2706,y=48,z=-3636,dx=3,dy=3] run tp @s 2707 68 -3635
+
+execute as @s[x=2705,y=68,z=-3636,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2705,y=68,z=-3636,dx=3,dy=3] run tp @s 2708 48 -3637
 
 
+#------------
+#Stark Mountain
+#Main Entrance
+execute as @s[x=2728,y=20,z=-3673,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2728,y=20,z=-3673,dx=4,dy=3] run tp @s 2750 124 -4045
+
+execute as @s[x=2746,y=124,z=-4046,dx=8,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2746,y=124,z=-4046,dx=8,dy=3] run tp @s 2730 20 -3674
+
+#1F to 2F
+execute as @s[x=2716,y=40,z=-3830,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2716,y=40,z=-3830,dx=3,dy=3] run tp @s 2715 17 -3793
+
+execute as @s[x=2713,y=17,z=-3794,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2713,y=17,z=-3794,dx=4,dy=3] run tp @s 2718 40 -3831
+
+#2F to Heatran
+execute as @s[x=2886,y=-2,z=-3696,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2886,y=-2,z=-3696,dx=4,dy=3] run tp @s 2736 36 -4161
+
+execute as @s[x=2734,y=36,z=-4162,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2734,y=36,z=-4162,dx=5,dy=3] run tp @s 2888 -2 -3697
 
 
+#------------
+#Route 228 North House
+execute as @s[x=2993,y=48,z=-3319,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2993,y=48,z=-3319,dx=3,dy=3] run tp @s 2994 68 -3318
+
+execute as @s[x=2992,y=68,z=-3319,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2992,y=68,z=-3319,dx=5,dy=3] run tp @s 2995 48 -3320
+
+#Route 228 South House
+execute as @s[x=2910,y=48,z=-3141,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2910,y=48,z=-3141,dx=3,dy=3] run tp @s 2911 73 -3140
+
+execute as @s[x=2909,y=73,z=-3141,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2909,y=73,z=-3141,dx=5,dy=3] run tp @s 2912 48 -3142
 
 
+#------------
+#Resort Area
+
+#Northwest NPC House
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+#Ribbon Syndicate Building
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+#Southwest NPC House
+execute as @s[x=3071,y=48,z=-2679,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3071,y=48,z=-2679,dx=3,dy=3] run tp @s 3072 68 -2678
+
+execute as @s[x=3070,y=68,z=-2679,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3070,y=68,z=-2679,dx=5,dy=3] run tp @s 3073 48 -2680
+
+#Southeast NPC House
+execute as @s[x=3152,y=48,z=-2656,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3152,y=48,z=-2656,dx=3,dy=3] run tp @s 3153 68 -2655
+
+execute as @s[x=3151,y=68,z=-2656,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3151,y=68,z=-2656,dx=5,dy=3] run tp @s 3154 48 -2657
 
 
-
-
-
-
-
-
-
-
+#------------
 
 
 
