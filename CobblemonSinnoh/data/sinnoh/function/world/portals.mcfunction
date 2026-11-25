@@ -1187,6 +1187,25 @@ execute as @s[x=2645,y=86,z=-598,dx=3,dy=3] run tp @s 2647 48 -599
 
 
 #------------
+#Lake Valor
+
+#Drained
+execute as @s[x=2787,y=-24,z=975,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2787,y=-24,z=975,dx=3,dy=3] run tp @s 2788 10 976
+
+execute as @s[x=2784,y=10,z=975,dx=8,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2784,y=10,z=975,dx=8,dy=3] run tp @s 2788 -24 974
+
+
+#Normal
+execute as @s[x=3143,y=-24,z=911,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3143,y=-24,z=911,dx=3,dy=3] run tp @s 3144 27 912
+
+execute as @s[x=3140,y=27,z=911,dx=8,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3140,y=27,z=911,dx=8,dy=3] run tp @s 3144 -24 910
+
+
+#------------
 #Sendoff Spring Cave Entrance
 
 #Turnback Cave entrance
@@ -1467,14 +1486,28 @@ execute as @s[x=2655,y=74,z=-1630,dx=3,dy=3] run tp @s 2656 48 -1631
 #------------
 #Veilstone Galactic Headquarters
 
-#
+#Middle Entrance
+execute as @s[x=2524,y=47,z=-1747,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2524,y=47,z=-1747,dx=4,dy=3] run tp @s 2656 90 -1706
+
+execute as @s[x=2653,y=90,z=-1707,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2653,y=90,z=-1707,dx=6,dy=3] run tp @s 2526 47 -1748
+
+
+#Left Entrance
+execute as @s[x=2468,y=47,z=-1747,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2468,y=47,z=-1747,dx=4,dy=3] run tp @s 2638 89 -1704
+
+execute as @s[x=2636,y=89,z=-1705,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2636,y=89,z=-1705,dx=4,dy=3] run tp @s 2470 47 -1748
+
+
+#Right Entrance
 #execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 #execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
 #
 #execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 #execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
-
-
 
 
 
@@ -1565,6 +1598,20 @@ execute as @s[x=968,y=85,z=-4057,dx=8,dy=3] run playsound door ambient @s ~ ~ ~ 
 execute as @s[x=968,y=85,z=-4057,dx=8,dy=3] run tp @s 973 47 -4088
 
 
+#------------
+#Route 222 left house
+execute as @s[x=3106,y=48,z=-583,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3106,y=48,z=-583,dx=3,dy=3] run tp @s 3107 69 -582
+
+execute as @s[x=3105,y=69,z=-583,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3105,y=69,z=-583,dx=5,dy=3] run tp @s 3108 48 -584
+
+#Route 222 right house
+execute as @s[x=3136,y=48,z=-583,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3136,y=48,z=-583,dx=3,dy=3] run tp @s 3138 69 -582
+
+execute as @s[x=3136,y=69,z=-583,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3136,y=69,z=-583,dx=4,dy=3] run tp @s 3138 48 -584
 
 
 #------------
@@ -1903,6 +1950,166 @@ execute as @s[x=3151,y=68,z=-2656,dx=5,dy=3] run tp @s 3154 48 -2657
 
 
 #------------
+#Mt Coronet
+
+#Oreburgh City side
+#Lower entrance
+execute as @s[x=598,y=32,z=-973,dz=7,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=598,y=32,z=-973,dz=7,dy=3] run tp @s 611 90 -1003
+
+execute as @s[x=612,y=90,z=-1007,dz=8,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=612,y=90,z=-1007,dz=8,dy=3] run tp @s 599 32 -969
+
+
+#Elevated Exit
+execute as @s[x=802,y=42,z=-890,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=802,y=42,z=-890,dz=5,dy=3] run tp @s 653 119 -974
+
+execute as @s[x=654,y=119,z=-978,dz=8,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=654,y=119,z=-978,dz=8,dy=3] run tp @s 803 42 -887
+
+
+#Route 208 Entrance
+execute as @s[x=747,y=32,z=-921,dz=7,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=747,y=32,z=-921,dz=7,dy=3] run tp @s 769 89 -930
+
+execute as @s[x=768,y=89,z=-934,dz=8,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=768,y=89,z=-934,dz=8,dy=3] run tp @s 746 32 -918
+
+
+#2F behind the stone bricks
+execute as @s[x=834,y=37,z=-1116,dx=7,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=834,y=37,z=-1116,dx=7,dy=3] run tp @s 838 37 -1077
+
+execute as @s[x=834,y=37,z=-1082,dx=7,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=834,y=37,z=-1082,dx=7,dy=3] run tp @s 838 37 -1117
+
+
+#3F to exterior mountainside
+execute as @s[x=736,y=138,z=-1397,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=736,y=138,z=-1397,dx=6,dy=3] run tp @s 646 42 -1082
+
+execute as @s[x=642,y=42,z=-1081,dx=7,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=642,y=42,z=-1081,dx=7,dy=3] run tp @s 739 138 -1396
+
+#Mountainside bottom right to 4F R1
+execute as @s[x=693,y=20,z=-1847,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=693,y=20,z=-1847,dx=6,dy=3] run tp @s 882 154 -1486
+
+execute as @s[x=879,y=154,z=-1487,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=879,y=154,z=-1487,dx=6,dy=3] run tp @s 696 20 -1848
+
+
+#Mountainside bottom left to 4F R1
+execute as @s[x=549,y=27,z=-1839,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=549,y=27,z=-1839,dx=6,dy=3] run tp @s 736 160 -1486
+
+execute as @s[x=733,y=160,z=-1487,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=733,y=160,z=-1487,dx=6,dy=3] run tp @s 552 27 -1840
+
+
+#4F Waterfall Door
+execute as @s[x=528,y=46,z=-2037,dx=7,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=528,y=46,z=-2037,dx=7,dy=3] run tp @s 603 36 -1959 
+
+execute as @s[x=601,y=36,z=-1960,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=601,y=36,z=-1960,dx=5,dy=3] run tp @s 532 46 -2038
+
+
+#4F to Mountainside West
+execute as @s[x=874,y=176,z=-1551,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=874,y=176,z=-1551,dz=5,dy=3] run tp @s 733 41 -1929
+
+execute as @s[x=734,y=41,z=-1932,dz=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=734,y=41,z=-1932,dz=6,dy=3] run tp @s 875 176 -1548
+
+#Mountainside Valley to tunnel room
+execute as @s[x=776,y=69,z=-1268,dz=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=776,y=69,z=-1268,dz=6,dy=3] run tp @s 920 159 -1610
+
+execute as @s[x=921,y=159,z=-1613,dz=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=921,y=159,z=-1613,dz=6,dy=3] run tp @s 777 69 -1265
+
+
+#Tunnel Room to Northern 1F room 1 
+execute as @s[x=722,y=41,z=-2277,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=722,y=41,z=-2277,dx=6,dy=3] run tp @s 861 17 -1507
+
+execute as @s[x=858,y=17,z=-1508,dx=7,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=858,y=17,z=-1508,dx=7,dy=3] run tp @s 725 41 -2278
+
+
+#Northern 1F Celestic Town Side
+execute as @s[x=916,y=101,z=-2069,dz=8,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=916,y=101,z=-2069,dz=8,dy=3] run tp @s 781 41 -2422
+
+execute as @s[x=782,y=41,z=-2425,dz=7,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=782,y=41,z=-2425,dz=7,dy=3] run tp @s 917 101 -2065
+
+
+#Northern 1F Eterna City Side
+execute as @s[x=837,y=102,z=-2029,dz=8,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=837,y=102,z=-2029,dz=8,dy=3] run tp @s 612 41 -2388
+
+execute as @s[x=611,y=41,z=-2392,dz=7,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=611,y=41,z=-2392,dz=7,dy=3] run tp @s 836 102 -2025
+
+
+#Mountainside Northwest to 4F room 3
+execute as @s[x=600,y=15,z=-2068,dz=7,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=600,y=15,z=-2068,dz=7,dy=3] run tp @s 763 175 -1657
+
+execute as @s[x=764,y=175,z=-1660,dz=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=764,y=175,z=-1660,dz=6,dy=3] run tp @s 601 15 -2065
+
+
+#6F to Spear Pillar
+execute as @s[x=1169,y=198,z=1140,dx=10,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1169,y=198,z=1140,dx=10,dy=3] run tp @s 930 38 -2175
+
+execute as @s[x=927,y=38,z=-2176,dx=7,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=927,y=38,z=-2176,dx=7,dy=3] run tp @s 1174 198 1139
+
+#Hall of Origin Return
+execute as @s[x=1835,y=198,z=1141,dx=10,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1835,y=198,z=1141,dx=10,dy=3] run tp @s 930 38 -2175
+
+
+#Northern 1F room 2 to Route 216
+execute as @s[x=1042,y=108,z=-2847,dz=8,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1042,y=108,z=-2847,dz=8,dy=3] run tp @s 895 36 -2697
+
+execute as @s[x=894,y=36,z=-2700,dz=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=894,y=36,z=-2700,dz=6,dy=3] run tp @s 1041 108 -2843
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
