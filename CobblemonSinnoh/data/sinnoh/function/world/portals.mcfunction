@@ -10,8 +10,8 @@
 
 #------------
 #Lobby to Twinleaf
-execute as @s[x=1383,y=63,z=-1641,dy=3,dz=1] run playsound door ambient @s ~ ~ ~ 1 1 1
-execute as @s[x=1383,y=63,z=-1641,dy=3,dz=1] run tp @s -697 48 -33 -108 10
+execute as @s[x=1383,y=63,z=-1641,dy=3,dz=1,tag=InitialTags] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1383,y=63,z=-1641,dy=3,dz=1,tag=InitialTags] run tp @s -697 48 -33 -108 10
 
 execute as @s[x=-698,y=48,z=-33,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=-698,y=48,z=-33,dy=3] run tp @s 1364 63 -1640.0 -90 15

@@ -1,6 +1,19 @@
 #Function that runs a vast majority of the map's commands, and points to different functions for all the different situations
 
 
+#Auto reloads the server if function fails to load (should thus fix itself by reloading)
+tag @e[x=1389,y=61,z=-1662,dy=3,type=armor_stand] remove ReloadCheck
+function sinnoh:triggers/autoreload
+execute if entity @e[x=1389,y=61,z=-1662,dy=3,type=armor_stand,tag=!ReloadCheck] run reload
+
+
+#Aligns and gets rid of nametags on NPCs
+execute as @e[type=cobblemon:npc,nbt={PersistenceRequired:0b}] run data merge entity @s {PersistenceRequired:1b,HideNPCNameTag:1b}
+
+
+#Runs the beginning commands if a player is near spawn without initial tag
+execute as @a[x=1372,y=63,z=-1640,distance=..25,tag=!InitialTags] run function sinnoh:triggers/startingcommands
+
 
 #Tracks players movements and refreshes music/displays title moving between zones
 execute as @a run function sinnoh:world/musictitles
