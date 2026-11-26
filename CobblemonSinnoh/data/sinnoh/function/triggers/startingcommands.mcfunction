@@ -22,6 +22,12 @@ scoreboard objectives setdisplay list
 
 #Player tags
 
+#Misc scores
+scoreboard players set @s Badges 0
+scoreboard players set @s PokemonLeague 0
+scoreboard players set @s MusicCooldown 0
+
+
 #Removes player's current advancements
 advancement revoke @s everything
 
