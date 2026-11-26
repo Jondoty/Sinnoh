@@ -501,10 +501,10 @@ execute as @s[x=-41,y=36,z=-2419,dx=3,dy=3] run tp @s -47 36 -2424
 
 #Eterna Galactic
 execute as @s[x=390,y=54,z=-2095,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
-execute as @s[x=390,y=54,z=-2095,dx=3,dy=3] run tp @s 391 103 -2094
+execute as @s[x=390,y=54,z=-2095,dx=3,dy=3] run tp @s 391 102 -2095
 
-execute as @s[x=382,y=103,z=-2095,dx=18,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
-execute as @s[x=382,y=103,z=-2095,dx=18,dy=3] run tp @s 392 54 -2096
+execute as @s[x=388,y=102,z=-2096,dx=18,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=388,y=102,z=-2096,dx=18,dy=3] run tp @s 392 54 -2096
 
 #Emergency exit
 execute as @s[x=370,y=54,z=-2122,dx=3,dy=3] at @s run tp @s ~ ~ ~5
@@ -1300,18 +1300,18 @@ execute as @s[x=1870,y=73,z=-1320,dx=3,dy=3] run tp @s 1872 48 -1321
 
 
 #Daycare Entrance
-#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
-#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 1709 75 -1384
-#
-#execute as @s[x=1707,y=75,z=-1385,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
-#execute as @s[x=1707,y=75,z=-1385,dx=5,dy=3] run tp @s 
+execute as @s[x=1709,y=48,z=-1354,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1709,y=48,z=-1354,dx=3,dy=3] run tp @s 1709 75 -1384
+
+execute as @s[x=1707,y=75,z=-1385,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1707,y=75,z=-1385,dx=5,dy=3] run tp @s 1710 48 -1355
 
 #Daycare back door
-#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
-#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 1710 75 -1397
-#
-#execute as @s[x=1707,y=75,z=-1396,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
-#execute as @s[x=1707,y=75,z=-1396,dx=5,dy=3] run tp @s 
+execute as @s[x=1709,y=48,z=-1373,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1709,y=48,z=-1373,dx=3,dy=3] run tp @s 1710 75 -1397
+
+execute as @s[x=1707,y=75,z=-1396,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1707,y=75,z=-1396,dx=5,dy=3] run tp @s 1710 48 -1372
 
 
 #NPC House Middle Center
@@ -2101,10 +2101,1616 @@ execute as @s[x=894,y=36,z=-2700,dz=6,dy=3] run tp @s 1041 108 -2843
 
 
 
+#-----------------------------------------
+#Grand Underground
+
+#------------
+#Big Bluff Cavern
+
+#South
+execute as @s[x=3714,y=-60,z=-1573,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3714,y=-60,z=-1573,dx=4,dy=3] run tp @s 3767 -36 -1599
+
+execute as @s[x=3765,y=-36,z=-1598,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3765,y=-36,z=-1598,dx=4,dy=3] run tp @s 3716 -60 -1572
 
 
+#------------
+#Bogsunk Cavern
+#North
+execute as @s[x=2577,y=-60,z=-530,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2577,y=-60,z=-530,dx=4,dy=3] run tp @s 2582 -36 -488
+
+execute as @s[x=2581,y=-36,z=-489,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2581,y=-36,z=-489,dx=3,dy=3] run tp @s 2579 -60 -531
 
 
+#------------
+#Glacial Cavern
+#South
+execute as @s[x=1601,y=-60,z=-2640,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1601,y=-60,z=-2640,dx=4,dy=3] run tp @s 1590 -36 -2688
+
+execute as @s[x=1588,y=-36,z=-2687,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1588,y=-36,z=-2687,dx=4,dy=3] run tp @s 1603 -60 -2639
+
+
+#------------
+#Stargleam Cavern
+#East
+execute as @s[x=2179,y=-60,z=-1502,dz=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2179,y=-60,z=-1502,dz=4,dy=3] run tp @s 2197 -37 -1511
+
+execute as @s[x=2198,y=-37,z=-1512,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2198,y=-37,z=-1512,dz=3,dy=3] run tp @s 2180 -60 -1500
+
+#West
+execute as @s[x=2009,y=-60,z=-1568,dz=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2009,y=-60,z=-1568,dz=4,dy=3] run tp @s 2007 -37 -1579
+
+execute as @s[x=2006,y=-37,z=-1581,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2006,y=-37,z=-1581,dz=3,dy=3] run tp @s 2008 -60 -1566
+
+#------------
+#Still-Water Cavern
+#North
+execute as @s[x=553,y=-60,z=-1502,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=553,y=-60,z=-1502,dx=4,dy=3] run tp @s 504 -36 -1530
+
+execute as @s[x=503,y=-36,z=-1531,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=503,y=-36,z=-1531,dx=3,dy=3] run tp @s 555 -60 -1503
+
+#------------
+#Sunlit Cavern
+#East upper
+execute as @s[x=1668,y=-59,z=-762,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1668,y=-59,z=-762,dz=3,dy=3] run tp @s 1690 -36 -753
+
+execute as @s[x=1691,y=-36,z=-754,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1691,y=-36,z=-754,dz=3,dy=3] run tp @s 1669 -59 -760
+
+
+#East lower
+execute as @s[x=1668,y=-59,z=-696,dz=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1668,y=-59,z=-696,dz=4,dy=3] run tp @s 1690 -36 -698
+
+execute as @s[x=1691,y=-36,z=-699,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1691,y=-36,z=-699,dz=3,dy=3] run tp @s 1669 -59 -694
+
+#West upper
+execute as @s[x=1469,y=-59,z=-769,dz=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1469,y=-59,z=-769,dz=4,dy=3] run tp @s 1506 -36 -753
+
+execute as @s[x=1505,y=-36,z=-754,dz=2,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1505,y=-36,z=-754,dz=2,dy=3] run tp @s 1468 -59 -767
+
+#West lower
+execute as @s[x=1469,y=-59,z=-702,dz=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1469,y=-59,z=-702,dz=4,dy=3] run tp @s 1506 -36 -685
+
+execute as @s[x=1505,y=-36,z=-687,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1505,y=-36,z=-687,dz=3,dy=3] run tp @s 1468 -59 -701
+
+#------------
+#Typhlo Cavern
+
+#East Upper
+execute as @s[x=2795,y=-60,z=-2446,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2795,y=-60,z=-2446,dz=5,dy=3] run tp @s 2790 -30 -2459
+
+execute as @s[x=2791,y=-30,z=-2460,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2791,y=-30,z=-2460,dz=3,dy=3] run tp @s 2796 -60 -2443
+
+#East Lower
+execute as @s[x=2795,y=-60,z=-2379,dz=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2795,y=-60,z=-2379,dz=4,dy=3] run tp @s 2790 -30 -2391
+
+execute as @s[x=2791,y=-30,z=-2392,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2791,y=-30,z=-2392,dz=3,dy=3] run tp @s 2796 -60 -2377
+
+
+#West Upper
+execute as @s[x=2596,y=-60,z=-2452,dz=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2596,y=-60,z=-2452,dz=4,dy=3] run tp @s 2601 -30 -2458
+
+execute as @s[x=2600,y=-30,z=-2460,dz=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2600,y=-30,z=-2460,dz=4,dy=3] run tp @s 2595 -60 -2450
+
+#West Lower
+execute as @s[x=2596,y=-60,z=-2386,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2596,y=-60,z=-2386,dz=5,dy=3] run tp @s 2601 -30 -2390
+
+execute as @s[x=2600,y=-30,z=-2392,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2600,y=-30,z=-2392,dz=3,dy=3] run tp @s 2595 -60 -2384
+
+#------------
+#Dazzling Cave #1
+#North
+execute as @s[x=2995,y=-60,z=-2779,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2995,y=-60,z=-2779,dx=4,dy=3] run tp @s 2991 -36 -2774
+
+execute as @s[x=2990,y=-36,z=-2775,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2990,y=-36,z=-2775,dx=3,dy=3] run tp @s 2997 -60 -2780
+
+
+#------------
+#Dazzling Cave #2
+#North
+execute as @s[x=3144,y=-60,z=-858,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3144,y=-60,z=-858,dx=5,dy=3] run tp @s 3131 -36 -908
+
+execute as @s[x=3130,y=-36,z=-909,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3130,y=-36,z=-909,dx=3,dy=3] run tp @s 3147 -60 -859
+
+#------------
+#Dazzling Cave #3
+#North
+execute as @s[x=2280,y=-60,z=-1399,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2280,y=-60,z=-1399,dx=4,dy=3] run tp @s 2276 -36 -1434
+
+execute as @s[x=2275,y=-36,z=-1435,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2275,y=-36,z=-1435,dx=3,dy=3] run tp @s 2282 -60 -1400
+
+#West
+execute as @s[x=2242,y=-60,z=-1358,dz=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2242,y=-60,z=-1358,dz=4,dy=3] run tp @s 2208 -36 -1382
+
+execute as @s[x=2207,y=-36,z=-1383,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2207,y=-36,z=-1383,dz=3,dy=3] run tp @s 2241 -60 -1356
+
+#------------
+#Dazzling Cave #4
+
+#East
+execute as @s[x=825,y=-60,z=-2251,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=825,y=-60,z=-2251,dz=5,dy=3] run tp @s 846 -36 -2244
+
+execute as @s[x=847,y=-36,z=-2245,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=847,y=-36,z=-2245,dz=3,dy=3] run tp @s 826 -60 -2249
+
+
+#West
+execute as @s[x=744,y=-60,z=-2251,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=744,y=-60,z=-2251,dz=5,dy=3] run tp @s 713 -36 -2244
+
+execute as @s[x=712,y=-36,z=-2245,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=712,y=-36,z=-2245,dz=3,dy=3] run tp @s 743 -60 -2248
+
+#------------
+#Fountainspring Cave #1
+
+#East
+execute as @s[x=1085,y=-60,z=-720,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1085,y=-60,z=-720,dz=3,dy=3] run tp @s 1094 -33 -717
+
+execute as @s[x=1095,y=-33,z=-718,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1095,y=-33,z=-718,dz=3,dy=3] run tp @s 1086 -60 -718
+
+
+#------------
+#Fountainspring Cave #2
+#North
+execute as @s[x=2059,y=-60,z=-343,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2059,y=-60,z=-343,dx=3,dy=3] run tp @s 2058 -33 -299
+
+execute as @s[x=2057,y=-33,z=-300,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2057,y=-33,z=-300,dx=3,dy=3] run tp @s 2061 -60 -344
+
+
+#East
+execute as @s[x=2173,y=-60,z=-214,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2173,y=-60,z=-214,dz=5,dy=3] run tp @s 2128 -33 -252
+
+execute as @s[x=2129,y=-33,z=-253,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2129,y=-33,z=-253,dz=3,dy=3] run tp @s 2174 -60 -212
+
+
+#------------
+#Fountainspring Cave #3
+#North
+execute as @s[x=2953,y=-60,z=-485,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2953,y=-60,z=-485,dx=5,dy=3] run tp @s 3002 -33 -413
+
+execute as @s[x=3001,y=-33,z=-414,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3001,y=-33,z=-414,dx=3,dy=3] run tp @s 2955 -60 -486
+
+
+#East
+execute as @s[x=3081,y=-60,z=-292,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3081,y=-60,z=-292,dz=3,dy=3] run tp @s 3072 -33 -367
+
+execute as @s[x=3073,y=-33,z=-368,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3073,y=-33,z=-368,dz=3,dy=3] run tp @s 3082 -60 -290
+
+
+#West
+execute as @s[x=2956,y=-60,z=-336,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2956,y=-60,z=-336,dz=5,dy=3] run tp @s 2939 -33 -367
+
+execute as @s[x=2938,y=-33,z=-368,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2938,y=-33,z=-368,dz=3,dy=3] run tp @s 2955 -60 -334
+
+#------------
+#Fountainspring Cave #4
+#North
+execute as @s[x=2878,y=-60,z=-2039,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2878,y=-60,z=-2039,dx=5,dy=3] run tp @s 2876 -33 -2015
+
+execute as @s[x=2875,y=-33,z=-2016,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2875,y=-33,z=-2016,dx=3,dy=3] run tp @s 2880 -60 -2040
+
+
+#East
+execute as @s[x=2920,y=-60,z=-1998,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2920,y=-60,z=-1998,dz=5,dy=3] run tp @s 2946 -33 -1967
+
+execute as @s[x=2947,y=-33,z=-1968,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2947,y=-33,z=-1968,dz=3,dy=3] run tp @s 2921 -60 -1996
+
+
+#West
+execute as @s[x=2839,y=-60,z=-1998,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2839,y=-60,z=-1998,dz=5,dy=3] run tp @s 2813 -33 -1966
+
+execute as @s[x=2812,y=-33,z=-1967,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2812,y=-33,z=-1967,dz=3,dy=3] run tp @s 2838 -60 -1995
+
+#------------
+#Fountainspring Cave #5
+#North
+execute as @s[x=1671,y=-60,z=-1759,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1671,y=-60,z=-1759,dx=4,dy=3] run tp @s 1665 -33 -1734
+
+execute as @s[x=1664,y=-33,z=-1735,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1664,y=-33,z=-1735,dx=3,dy=3] run tp @s 1673 -60 -1760
+
+
+#East
+execute as @s[x=1713,y=-60,z=-1718,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1713,y=-60,z=-1718,dz=5,dy=3] run tp @s 1737 -33 -1687
+
+execute as @s[x=1738,y=-33,z=-1688,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1738,y=-33,z=-1688,dz=3,dy=3] run tp @s 1714 -60 -1716
+
+
+#West
+execute as @s[x=1632,y=-60,z=-1718,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1632,y=-60,z=-1718,dz=5,dy=3] run tp @s 1604 -33 -1682
+
+execute as @s[x=1603,y=-33,z=-1683,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1603,y=-33,z=-1683,dz=3,dy=3] run tp @s 1631 -60 -1715
+
+#------------
+#Fountainspring Cave #6
+
+#East
+execute as @s[x=1599,y=-60,z=-2212,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1599,y=-60,z=-2212,dz=5,dy=3] run tp @s 1578 -33 -2243
+
+execute as @s[x=1577,y=-33,z=-2244,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1577,y=-33,z=-2244,dz=3,dy=3] run tp @s 1598 -60 -2209
+
+#------------
+#Fountainspring Cave #7
+
+#East
+execute as @s[x=1909,y=-60,z=-2083,dz=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1909,y=-60,z=-2083,dz=4,dy=3] run tp @s 1888 -33 -2104
+
+execute as @s[x=1887,y=-33,z=-2105,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1887,y=-33,z=-2105,dz=3,dy=3] run tp @s 1908 -60 -2081
+
+
+#West
+execute as @s[x=1990,y=-60,z=-2083,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1990,y=-60,z=-2083,dz=5,dy=3] run tp @s 2021 -33 -2104
+
+execute as @s[x=2022,y=-33,z=-2105,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2022,y=-33,z=-2105,dz=3,dy=3] run tp @s 1991 -60 -2081
+
+#------------
+#Grassland Cave #1
+#North
+execute as @s[x=3113,y=-60,z=-2210,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3113,y=-60,z=-2210,dx=5,dy=3] run tp @s 3103 -36 -2238
+
+execute as @s[x=3102,y=-36,z=-2239,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3102,y=-36,z=-2239,dx=3,dy=3] run tp @s 3115 -60 -2211
+
+
+#East
+execute as @s[x=3154,y=-60,z=-2169,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3154,y=-60,z=-2169,dz=5,dy=3] run tp @s 3174 -36 -2190
+
+execute as @s[x=3175,y=-36,z=-2191,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3175,y=-36,z=-2191,dz=3,dy=3] run tp @s 3155 -60 -2166
+
+
+#South
+execute as @s[x=3121,y=-60,z=-2110,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3121,y=-60,z=-2110,dx=5,dy=3] run tp @s 3110 -36 -2140
+
+execute as @s[x=3109,y=-36,z=-2139,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3109,y=-36,z=-2139,dx=3,dy=3] run tp @s 3123 -60 -2109
+
+
+#West
+execute as @s[x=3074,y=-60,z=-2169,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3074,y=-60,z=-2169,dz=5,dy=3] run tp @s 3041 -36 -2186
+
+execute as @s[x=3040,y=-36,z=-2187,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3040,y=-36,z=-2187,dz=3,dy=3] run tp @s 3073 -60 -2167
+
+#------------
+#Grassland Cave #2
+#North
+execute as @s[x=1249,y=-60,z=-1987,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1249,y=-60,z=-1987,dx=5,dy=3] run tp @s 1240 -36 -2027
+
+execute as @s[x=1239,y=-36,z=-2028,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1239,y=-36,z=-2028,dx=3,dy=3] run tp @s 1251 -60 -1988
+
+#South
+execute as @s[x=1249,y=-60,z=-1903,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1249,y=-60,z=-1903,dx=5,dy=3] run tp @s 1246 -36 -1929
+
+execute as @s[x=1245,y=-36,z=-1928,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1245,y=-36,z=-1928,dx=3,dy=3] run tp @s 1251 -60 -1902
+
+#------------
+#Grassland Cave #3
+#North
+execute as @s[x=899,y=-60,z=-1722,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=899,y=-60,z=-1722,dx=5,dy=3] run tp @s 875 -36 -1668
+
+execute as @s[x=874,y=-36,z=-1669,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=874,y=-36,z=-1669,dx=3,dy=3] run tp @s 901 -60 -1723
+
+
+#South
+execute as @s[x=885,y=-60,z=-1530,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=885,y=-60,z=-1530,dx=5,dy=3] run tp @s 885 -36 -1570
+
+execute as @s[x=884,y=-36,z=-1569,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=884,y=-36,z=-1569,dx=3,dy=3] run tp @s 887 -60 -1529
+
+
+#------------
+#Grassland Cave #4
+#North
+execute as @s[x=1153,y=-60,z=-1064,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1153,y=-60,z=-1064,dx=5,dy=3] run tp @s 1116 -36 -1038
+
+execute as @s[x=1115,y=-36,z=-1039,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1115,y=-36,z=-1039,dx=3,dy=3] run tp @s 1155 -60 -1065
+
+
+#East
+execute as @s[x=1207,y=-60,z=-909,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1207,y=-60,z=-909,dz=5,dy=3] run tp @s 1183 -36 -990
+
+execute as @s[x=1184,y=-36,z=-991,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1184,y=-36,z=-991,dz=3,dy=3] run tp @s 1208 -60 -907
+
+
+#South
+execute as @s[x=1164,y=-60,z=-864,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1164,y=-60,z=-864,dx=5,dy=3] run tp @s 1117 -36 -940
+
+execute as @s[x=1116,y=-36,z=-939,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1116,y=-36,z=-939,dx=3,dy=3] run tp @s 1166 -60 -863
+
+
+#West
+execute as @s[x=1030,y=-60,z=-973,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1030,y=-60,z=-973,dz=5,dy=3] run tp @s 1050 -36 -985
+
+execute as @s[x=1049,y=-36,z=-986,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1049,y=-36,z=-986,dz=3,dy=3] run tp @s 1029 -60 -971
+
+#------------
+#Grassland Cave #5
+
+#South
+execute as @s[x=971,y=-60,z=-333,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=971,y=-60,z=-333,dx=5,dy=3] run tp @s 969 -36 -362
+
+execute as @s[x=968,y=-36,z=-361,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=968,y=-36,z=-361,dx=3,dy=3] run tp @s 973 -60 -332
+
+#------------
+#Icy Cave #1
+
+#East
+execute as @s[x=1946,y=-60,z=-1712,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1946,y=-60,z=-1712,dz=5,dy=3] run tp @s 1970 -34 -1750
+
+execute as @s[x=1971,y=-34,z=-1751,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1971,y=-34,z=-1751,dz=3,dy=3] run tp @s 1947 -60 -1710
+
+
+#South
+execute as @s[x=1903,y=-60,z=-1670,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1903,y=-60,z=-1670,dx=5,dy=3] run tp @s 1908 -34 -1700
+
+execute as @s[x=1907,y=-34,z=-1699,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1907,y=-34,z=-1699,dx=3,dy=3] run tp @s 1906 -60 -1669
+
+
+#------------
+#Icy Cave #2
+
+#East
+execute as @s[x=738,y=-60,z=-2949,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=738,y=-60,z=-2949,dz=5,dy=3] run tp @s 760 -34 -2987
+
+execute as @s[x=761,y=-34,z=-2988,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=761,y=-34,z=-2988,dz=3,dy=3] run tp @s 739 -60 -2947
+
+
+#South
+execute as @s[x=696,y=-60,z=-2906,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=696,y=-60,z=-2906,dx=5,dy=3] run tp @s 698 -34 -2941
+
+execute as @s[x=697,y=-34,z=-2940,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=697,y=-34,z=-2940,dx=3,dy=3] run tp @s 698 -60 -2905
+
+
+#------------
+#Icy Cave #3
+
+#East
+execute as @s[x=860,y=-60,z=-2628,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=860,y=-60,z=-2628,dz=5,dy=3] run tp @s 858 -34 -2619
+
+execute as @s[x=859,y=-34,z=-2620,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=859,y=-34,z=-2620,dz=3,dy=3] run tp @s 861 -60 -2626
+
+
+#South
+execute as @s[x=782,y=-60,z=-2529,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=782,y=-60,z=-2529,dx=5,dy=3] run tp @s 795 -34 -2569
+
+execute as @s[x=794,y=-34,z=-2568,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=794,y=-34,z=-2568,dx=3,dy=3] run tp @s 784 -60 -2528
+
+
+#West
+execute as @s[x=744,y=-60,z=-2572,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=744,y=-60,z=-2572,dz=3,dy=3] run tp @s 724 -34 -2612
+
+execute as @s[x=723,y=-34,z=-2613,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=723,y=-34,z=-2613,dz=3,dy=3] run tp @s 743 -60 -2569
+
+#------------
+#Icy Cave #4
+
+#East
+execute as @s[x=1397,y=-60,z=-2984,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1397,y=-60,z=-2984,dz=5,dy=3] run tp @s 1421 -34 -3014
+
+execute as @s[x=1422,y=-34,z=-3015,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1422,y=-34,z=-3015,dz=3,dy=3] run tp @s 1398 -60 -2982
+
+
+#West
+execute as @s[x=1316,y=-60,z=-2984,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1316,y=-60,z=-2984,dz=5,dy=3] run tp @s 1288 -34 -3011
+
+execute as @s[x=1287,y=-34,z=-3012,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1287,y=-34,z=-3012,dz=3,dy=3] run tp @s 1315 -60 -2981
+
+#------------
+#Riverbank Cave #1
+
+#West
+execute as @s[x=800,y=-60,z=-556,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=800,y=-60,z=-556,dz=5,dy=3] run tp @s 785 -33 -579
+
+execute as @s[x=784,y=-33,z=-580,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=784,y=-33,z=-580,dz=3,dy=3] run tp @s 799 -60 -554
+
+#------------
+#Riverbank Cave #2
+
+#South
+execute as @s[x=1736,y=-60,z=-391,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1736,y=-60,z=-391,dx=5,dy=3] run tp @s 1736 -33 -412
+
+execute as @s[x=1735,y=-33,z=-411,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1735,y=-33,z=-411,dx=3,dy=3] run tp @s 1738 -60 -390
+
+#------------
+#Riverbank Cave #3
+
+#East
+execute as @s[x=1052,y=-60,z=-1682,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1052,y=-60,z=-1682,dz=5,dy=3] run tp @s 1123 -33 -1691
+
+execute as @s[x=1124,y=-33,z=-1692,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1124,y=-33,z=-1692,dz=3,dy=3] run tp @s 1053 -60 -1680
+
+#------------
+#Rocky Cave #1
+
+#North
+execute as @s[x=3524,y=-60,z=-2451,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3524,y=-60,z=-2451,dx=5,dy=3] run tp @s 3537 -34 -2479
+
+execute as @s[x=3536,y=-34,z=-2480,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3536,y=-34,z=-2480,dx=3,dy=3] run tp @s 3526 -60 -2452
+
+
+#East
+execute as @s[x=3567,y=-60,z=-2410,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3567,y=-60,z=-2410,dz=5,dy=3] run tp @s 3595 -34 -2428
+
+execute as @s[x=3596,y=-34,z=-2429,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3596,y=-34,z=-2429,dz=3,dy=3] run tp @s 3568 -60 -2408
+
+
+#South
+execute as @s[x=3521,y=-60,z=-2336,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3521,y=-60,z=-2336,dx=5,dy=3] run tp @s 3529 -34 -2384
+
+execute as @s[x=3528,y=-34,z=-2383,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3528,y=-34,z=-2383,dx=3,dy=3] run tp @s 3523 -60 -2335
+
+#------------
+#Rocky Cave #2
+
+#East
+execute as @s[x=2751,y=-60,z=-2268,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2751,y=-60,z=-2268,dz=5,dy=3] run tp @s 2762 -34 -2277
+
+execute as @s[x=2763,y=-34,z=-2278,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2763,y=-34,z=-2278,dz=3,dy=3] run tp @s 2752 -60 -2266
+
+
+#South
+execute as @s[x=2689,y=-60,z=-2199,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2689,y=-60,z=-2199,dx=5,dy=3] run tp @s 2696 -34 -2233
+
+execute as @s[x=2695,y=-34,z=-2232,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2695,y=-34,z=-2232,dx=3,dy=3] run tp @s 2691 -60 -2198
+
+
+#West
+execute as @s[x=2640,y=-60,z=-2275,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2640,y=-60,z=-2275,dz=5,dy=3] run tp @s 2629 -34 -2277
+
+execute as @s[x=2628,y=-34,z=-2278,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2628,y=-34,z=-2278,dz=3,dy=3] run tp @s 2639 -60 -2273
+
+#------------
+#Rocky Cave #3
+#North
+execute as @s[x=3381,y=-60,z=-1545,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3381,y=-60,z=-1545,dx=3,dy=3] run tp @s 3381 -34 -1493
+
+execute as @s[x=3380,y=-34,z=-1494,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3380,y=-34,z=-1494,dx=3,dy=3] run tp @s 3384 -60 -1546
+
+
+#South
+execute as @s[x=3368,y=-60,z=-1353,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3368,y=-60,z=-1353,dx=5,dy=3] run tp @s 3375 -34 -1399
+
+execute as @s[x=3374,y=-34,z=-1398,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3374,y=-34,z=-1398,dx=3,dy=3] run tp @s 3370 -60 -1352
+
+
+#------------
+#Rocky Cave #4
+#North
+
+#East
+execute as @s[x=2666,y=-60,z=-886,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2666,y=-60,z=-886,dz=5,dy=3] run tp @s 2691 -34 -910
+
+execute as @s[x=2692,y=-34,z=-911,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2692,y=-34,z=-911,dz=3,dy=3] run tp @s 2667 -60 -884
+
+#------------
+#Rocky Cave #5
+
+#East
+execute as @s[x=2313,y=-60,z=-986,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2313,y=-60,z=-986,dz=5,dy=3] run tp @s 2344 -34 -1006
+
+execute as @s[x=2345,y=-34,z=-1007,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2345,y=-34,z=-1007,dz=3,dy=3] run tp @s 2314 -60 -984
+
+
+#West
+execute as @s[x=2232,y=-60,z=-986,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2232,y=-60,z=-986,dz=5,dy=3] run tp @s 2211 -34 -1001
+
+execute as @s[x=2210,y=-34,z=-1002,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2210,y=-34,z=-1002,dz=3,dy=3] run tp @s 2231 -60 -984
+
+#------------
+#Rocky Cave #6
+#North
+execute as @s[x=3537,y=-60,z=-187,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3537,y=-60,z=-187,dx=5,dy=3] run tp @s 3553 -34 -225
+
+execute as @s[x=3552,y=-34,z=-226,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3552,y=-34,z=-226,dx=3,dy=3] run tp @s 3539 -60 -188
+
+
+#West
+execute as @s[x=3499,y=-60,z=-149,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3499,y=-60,z=-149,dz=5,dy=3] run tp @s 3479 -34 -175
+
+execute as @s[x=3478,y=-34,z=-176,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3478,y=-34,z=-176,dz=3,dy=3] run tp @s 3498 -60 -146
+
+#------------
+#Sandsear Cave #1
+
+#East
+execute as @s[x=3493,y=-60,z=-847,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3493,y=-60,z=-847,dz=5,dy=3] run tp @s 3513 -35 -886
+
+execute as @s[x=3514,y=-35,z=-887,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3514,y=-35,z=-887,dz=3,dy=3] run tp @s 3494 -60 -845
+
+
+#West
+execute as @s[x=3412,y=-60,z=-847,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3412,y=-60,z=-847,dz=5,dy=3] run tp @s 3380 -35 -880
+
+execute as @s[x=3379,y=-35,z=-881,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3379,y=-35,z=-881,dz=3,dy=3] run tp @s 3411 -60 -845
+
+
+#------------
+#Sandsear Cave #2
+
+#South
+execute as @s[x=3200,y=-60,z=-930,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3200,y=-60,z=-930,dx=5,dy=3] run tp @s 3175 -35 -948
+
+execute as @s[x=3174,y=-35,z=-947,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3174,y=-35,z=-947,dx=3,dy=3] run tp @s 3202 -60 -929
+
+
+#------------
+#Sandsear Cave #3
+
+#East
+execute as @s[x=3423,y=-60,z=-2521,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3423,y=-60,z=-2521,dz=5,dy=3] run tp @s 3415 -35 -2559
+
+execute as @s[x=3416,y=-35,z=-2560,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3416,y=-35,z=-2560,dz=3,dy=3] run tp @s 3424 -60 -2519
+
+
+#------------
+#Spacious Cave #1
+
+#West
+execute as @s[x=3196,y=-60,z=-2357,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3196,y=-60,z=-2357,dz=5,dy=3] run tp @s 3159 -36 -2344
+
+execute as @s[x=3158,y=-36,z=-2345,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3158,y=-36,z=-2345,dz=3,dy=3] run tp @s 3195 -60 -2355
+
+
+#------------
+#Spacious Cave #2
+
+#East
+execute as @s[x=2387,y=-60,z=-1905,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2387,y=-60,z=-1905,dz=5,dy=3] run tp @s 2362 -36 -1899
+
+execute as @s[x=2363,y=-36,z=-1900,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2363,y=-36,z=-1900,dz=3,dy=3] run tp @s 2388 -60 -1903
+
+
+#West
+execute as @s[x=2208,y=-60,z=-1884,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2208,y=-60,z=-1884,dz=5,dy=3] run tp @s 2229 -36 -1895
+
+execute as @s[x=2228,y=-36,z=-1896,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2228,y=-36,z=-1896,dz=3,dy=3] run tp @s 2207 -60 -1881
+
+#------------
+#Spacious Cave #3
+
+#East
+execute as @s[x=1275,y=-60,z=-2806,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1275,y=-60,z=-2806,dz=5,dy=3] run tp @s 1291 -36 -2751
+
+execute as @s[x=1292,y=-36,z=-2752,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1292,y=-36,z=-2752,dz=3,dy=3] run tp @s 1276 -60 -2804
+
+
+#South
+execute as @s[x=1225,y=-60,z=-2685,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1225,y=-60,z=-2685,dx=5,dy=3] run tp @s 1229 -36 -2698
+
+execute as @s[x=1228,y=-36,z=-2697,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1228,y=-36,z=-2697,dx=3,dy=3] run tp @s 1228 -60 -2684
+
+
+#West
+execute as @s[x=1156,y=-60,z=-2805,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1156,y=-60,z=-2805,dz=5,dy=3] run tp @s 1158 -36 -2730
+
+execute as @s[x=1157,y=-36,z=-2731,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1157,y=-36,z=-2731,dz=3,dy=3] run tp @s 1155 -60 -2803
+
+#------------
+#Spacious Cave #4
+
+#West
+execute as @s[x=1264,y=-60,z=-2550,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1264,y=-60,z=-2550,dz=5,dy=3] run tp @s 1239 -36 -2551
+
+execute as @s[x=1238,y=-36,z=-2552,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1238,y=-36,z=-2552,dz=3,dy=3] run tp @s 1263 -60 -2548
+
+#------------
+#Spacious Cave #5
+#North
+execute as @s[x=1061,y=-60,z=-2164,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1061,y=-60,z=-2164,dx=5,dy=3] run tp @s 1063 -36 -2166
+
+execute as @s[x=1062,y=-36,z=-2167,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1062,y=-36,z=-2167,dx=3,dy=3] run tp @s 1063 -60 -2165
+
+
+#------------
+#Spacious Cave #6
+#North
+execute as @s[x=1416,y=-60,z=-1953,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1416,y=-60,z=-1953,dx=5,dy=3] run tp @s 1420 -36 -1921
+
+execute as @s[x=1419,y=-36,z=-1922,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1419,y=-36,z=-1922,dx=3,dy=3] run tp @s 1418 -60 -1954
+
+
+#South
+execute as @s[x=1427,y=-60,z=-1775,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1427,y=-60,z=-1775,dx=5,dy=3] run tp @s 1426 -36 -1823
+
+execute as @s[x=1425,y=-36,z=-1822,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1425,y=-36,z=-1822,dx=3,dy=3] run tp @s 1429 -60 -1774
+
+
+#West
+execute as @s[x=1377,y=-60,z=-1913,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1377,y=-60,z=-1913,dz=5,dy=3] run tp @s 1354 -36 -1862
+
+execute as @s[x=1353,y=-36,z=-1863,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1353,y=-36,z=-1863,dz=3,dy=3] run tp @s 1376 -60 -1910
+
+#------------
+#Spacious Cave #7
+#North
+execute as @s[x=1427,y=-60,z=-1659,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1427,y=-60,z=-1659,dx=5,dy=3] run tp @s 1404 -36 -1616
+
+execute as @s[x=1403,y=-36,z=-1617,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1403,y=-36,z=-1617,dx=3,dy=3] run tp @s 1429 -60 -1660
+
+
+#East
+execute as @s[x=1471,y=-60,z=-1524,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1471,y=-60,z=-1524,dz=5,dy=3] run tp @s 1452 -36 -1577
+
+execute as @s[x=1453,y=-36,z=-1578,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1453,y=-36,z=-1578,dz=3,dy=3] run tp @s 1472 -60 -1522
+
+
+#South
+execute as @s[x=1429,y=-60,z=-1482,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1429,y=-60,z=-1482,dx=5,dy=3] run tp @s 1390 -36 -1518
+
+execute as @s[x=1389,y=-36,z=-1517,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1389,y=-36,z=-1517,dx=3,dy=3] run tp @s 1431 -60 -1481
+
+
+#West
+execute as @s[x=1326,y=-60,z=-1571,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1326,y=-60,z=-1571,dz=5,dy=3] run tp @s 1319 -36 -1572
+
+execute as @s[x=1318,y=-36,z=-1573,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1318,y=-36,z=-1573,dz=3,dy=3] run tp @s 1325 -60 -1569
+
+#------------
+#Spacious Cave #8
+
+#West
+execute as @s[x=736,y=-60,z=-1573,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=736,y=-60,z=-1573,dz=5,dy=3] run tp @s 626 -36 -1590
+
+execute as @s[x=625,y=-36,z=-1591,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=625,y=-36,z=-1591,dz=3,dy=3] run tp @s 735 -60 -1571
+
+#------------
+#Spacious Cave #9
+
+#East
+execute as @s[x=2014,y=-60,z=-1186,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2014,y=-60,z=-1186,dz=3,dy=3] run tp @s 1981 -36 -1197
+
+execute as @s[x=1982,y=-36,z=-1198,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1982,y=-36,z=-1198,dz=3,dy=3] run tp @s 2015 -60 -1184
+
+
+#West
+execute as @s[x=1855,y=-60,z=-1204,dz=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1855,y=-60,z=-1204,dz=6,dy=3] run tp @s 1848 -36 -1200
+
+execute as @s[x=1847,y=-36,z=-1201,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1847,y=-36,z=-1201,dz=3,dy=3] run tp @s 1854 -60 -1201
+
+#------------
+#Spacious Cave #10
+#North
+execute as @s[x=2791,y=-60,z=-1290,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2791,y=-60,z=-1290,dx=5,dy=3] run tp @s 2841 -36 -1259
+
+execute as @s[x=2840,y=-36,z=-1260,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2840,y=-36,z=-1260,dx=3,dy=3] run tp @s 2793 -60 -1291
+
+
+#East
+execute as @s[x=2888,y=-60,z=-1186,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2888,y=-60,z=-1186,dz=5,dy=3] run tp @s 2908 -36 -1220
+
+execute as @s[x=2909,y=-36,z=-1221,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2909,y=-36,z=-1221,dz=3,dy=3] run tp @s 2889 -60 -1184
+
+
+#South
+execute as @s[x=2845,y=-60,z=-1141,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2845,y=-60,z=-1141,dx=5,dy=3] run tp @s 2846 -36 -1161
+
+execute as @s[x=2845,y=-36,z=-1160,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2845,y=-36,z=-1160,dx=3,dy=3] run tp @s 2847 -60 -1140
+
+#------------
+#Spacious Cave #11
+#North
+execute as @s[x=2809,y=-60,z=-1622,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2809,y=-60,z=-1622,dx=3,dy=3] run tp @s 2823 -36 -1551
+
+execute as @s[x=2822,y=-36,z=-1552,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2822,y=-36,z=-1552,dx=3,dy=3] run tp @s 2811 -60 -1623
+
+
+#East
+execute as @s[x=2945,y=-60,z=-1508,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2945,y=-60,z=-1508,dz=5,dy=3] run tp @s 2885 -36 -1523
+
+execute as @s[x=2886,y=-36,z=-1524,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2886,y=-36,z=-1524,dz=3,dy=3] run tp @s 2946 -60 -1506
+
+
+#South
+execute as @s[x=2791,y=-60,z=-1406,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2791,y=-60,z=-1406,dx=5,dy=3] run tp @s 2821 -36 -1453
+
+execute as @s[x=2820,y=-36,z=-1452,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2820,y=-36,z=-1452,dx=3,dy=3] run tp @s 2793 -60 -1405
+
+
+#West
+execute as @s[x=2771,y=-60,z=-1584,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2771,y=-60,z=-1584,dz=5,dy=3] run tp @s 2752 -36 -1484
+
+execute as @s[x=2751,y=-36,z=-1485,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2751,y=-36,z=-1485,dz=3,dy=3] run tp @s 2770 -60 -1581
+
+#------------
+#Spacious Cave #12
+
+#West
+execute as @s[x=3219,y=-60,z=-1398,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3219,y=-60,z=-1398,dz=5,dy=3] run tp @s 3111 -36 -1396
+
+execute as @s[x=3110,y=-36,z=-1397,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3110,y=-36,z=-1397,dz=3,dy=3] run tp @s 3218 -60 -1396
+
+#------------
+#Spacious Cave #13
+
+#East
+execute as @s[x=3535,y=-60,z=-1506,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3535,y=-60,z=-1506,dz=5,dy=3] run tp @s 3632 -36 -1485
+
+execute as @s[x=3633,y=-36,z=-1486,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3633,y=-36,z=-1486,dz=3,dy=3] run tp @s 3536 -60 -1504
+
+
+#------------
+#Spacious Cave #14
+#North
+execute as @s[x=3451,y=-60,z=-564,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3451,y=-60,z=-564,dx=5,dy=3] run tp @s 3433 -36 -560
+
+execute as @s[x=3432,y=-36,z=-561,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3432,y=-36,z=-561,dx=3,dy=3] run tp @s 3453 -60 -565
+
+
+#East
+execute as @s[x=3493,y=-60,z=-526,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3493,y=-60,z=-526,dz=5,dy=3] run tp @s 3500 -36 -524
+
+execute as @s[x=3501,y=-36,z=-525,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3501,y=-36,z=-525,dz=3,dy=3] run tp @s 3494 -60 -524
+
+
+#West
+execute as @s[x=3377,y=-60,z=-470,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3377,y=-60,z=-470,dz=5,dy=3] run tp @s 3367 -36 -494
+
+execute as @s[x=3366,y=-36,z=-495,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3366,y=-36,z=-495,dz=3,dy=3] run tp @s 3376 -60 -467
+
+#------------
+#Spacious Cave #15
+
+#East
+execute as @s[x=2919,y=-60,z=-624,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2919,y=-60,z=-624,dz=5,dy=3] run tp @s 2906 -36 -665
+
+execute as @s[x=2907,y=-36,z=-666,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2907,y=-36,z=-666,dz=3,dy=3] run tp @s 2920 -60 -622
+
+
+#------------
+#Spacious Cave #16
+
+#East
+execute as @s[x=2287,y=-60,z=-702,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2287,y=-60,z=-702,dz=3,dy=3] run tp @s 2285 -36 -705
+
+execute as @s[x=2286,y=-36,z=-706,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2286,y=-36,z=-706,dz=3,dy=3] run tp @s 2288 -60 -700
+
+
+#West
+execute as @s[x=2175,y=-60,z=-681,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2175,y=-60,z=-681,dz=5,dy=3] run tp @s 2152 -36 -687
+
+execute as @s[x=2151,y=-36,z=-688,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2151,y=-36,z=-688,dz=3,dy=3] run tp @s 2174 -60 -679
+
+#------------
+#Spacious Cave #17
+
+#East
+execute as @s[x=1624,y=-59,z=-585,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1624,y=-59,z=-585,dz=5,dy=3] run tp @s 1631 -36 -533
+
+execute as @s[x=1632,y=-36,z=-534,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1632,y=-36,z=-534,dz=3,dy=3] run tp @s 1625 -59 -583
+
+
+#South
+execute as @s[x=1569,y=-60,z=-469,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1569,y=-60,z=-469,dx=5,dy=3] run tp @s 1570 -36 -481
+
+execute as @s[x=1569,y=-36,z=-480,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1569,y=-36,z=-480,dx=3,dy=3] run tp @s 1571 -60 -468
+
+
+#West
+execute as @s[x=1513,y=-59,z=-592,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1513,y=-59,z=-592,dz=5,dy=3] run tp @s 1498 -36 -520
+
+execute as @s[x=1497,y=-36,z=-521,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1497,y=-36,z=-521,dz=3,dy=3] run tp @s 1512 -59 -590
+
+#------------
+#Spacious Cave #18
+#North
+execute as @s[x=1585,y=-60,z=-976,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1585,y=-60,z=-976,dx=5,dy=3] run tp @s 1560 -36 -931
+
+execute as @s[x=1559,y=-36,z=-932,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1559,y=-36,z=-932,dx=3,dy=3] run tp @s 1587 -60 -977
+
+
+#East
+execute as @s[x=1624,y=-59,z=-873,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1624,y=-59,z=-873,dz=5,dy=3] run tp @s 1614 -36 -892
+
+execute as @s[x=1615,y=-36,z=-893,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1615,y=-36,z=-893,dz=3,dy=3] run tp @s 1625 -59 -871
+
+
+#West
+execute as @s[x=1513,y=-59,z=-880,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1513,y=-59,z=-880,dz=5,dy=3] run tp @s 1481 -36 -876
+
+execute as @s[x=1480,y=-36,z=-877,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1480,y=-36,z=-877,dz=3,dy=3] run tp @s 1512 -59 -878
+
+#------------
+#Spacious Cave #19
+
+#East
+execute as @s[x=1439,y=-60,z=-1179,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1439,y=-60,z=-1179,dz=5,dy=3] run tp @s 1460 -36 -1201
+
+execute as @s[x=1461,y=-36,z=-1202,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1461,y=-36,z=-1202,dz=3,dy=3] run tp @s 1440 -60 -1176
+
+
+#South
+execute as @s[x=1397,y=-60,z=-1136,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1397,y=-60,z=-1136,dx=5,dy=3] run tp @s 1394 -36 -1145
+
+execute as @s[x=1393,y=-36,z=-1144,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1393,y=-36,z=-1144,dx=3,dy=3] run tp @s 1399 -60 -1135
+
+
+#West
+execute as @s[x=1358,y=-60,z=-1179,dz=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1358,y=-60,z=-1179,dz=5,dy=3] run tp @s 1327 -36 -1176
+
+execute as @s[x=1326,y=-36,z=-1177,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=1326,y=-36,z=-1177,dz=3,dy=3] run tp @s 1357 -60 -1177
+
+#------------
+#Spacious Cave #20
+
+#East
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 755 -36 -746
+#
+#execute as @s[x=756,y=-36,z=-747,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=756,y=-36,z=-747,dz=3,dy=3] run tp @s 
+
+
+#South
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 693 -36 -687
+#
+#execute as @s[x=692,y=-36,z=-686,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=692,y=-36,z=-686,dx=3,dy=3] run tp @s 
+
+
+#West
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 622 -36 -726
+#
+#execute as @s[x=621,y=-36,z=-727,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=621,y=-36,z=-727,dz=3,dy=3] run tp @s 
+
+#------------
+#Swampy Cave #1
+#North
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#East
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+
+#South
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#West
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+#------------
+#Swampy Cave #2
+#North
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#East
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+
+#South
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#West
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+#------------
+#Swampy Cave #3
+#North
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#East
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+
+#South
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#West
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+#------------
+#Swampy Cave #4
+#North
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#East
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+
+#South
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#West
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+#------------
+#Swampy Cave #5
+#North
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#East
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+
+#South
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#West
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+#------------
+#Swampy Cave #6
+#North
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#East
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+
+#South
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#West
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+#------------
+#Swampy Cave #7
+#North
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#East
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+
+#South
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#West
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+#------------
+#Volcanic Cave #1
+#North
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#East
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+
+#South
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#West
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+#------------
+#Volcanic Cave #2
+#North
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#East
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+
+#South
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#West
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+#------------
+#Volcanic Cave #3
+#North
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#East
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+
+#South
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#West
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+#------------
+#Volcanic Cave #4
+#North
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#East
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+
+#South
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#West
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+#------------
+#Volcanic Cave #5
+#North
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#East
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+
+#South
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#West
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+#------------
+#Whiteout Cave #1
+#North
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#East
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+
+#South
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#West
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+#------------
+#Whiteout Cave #2
+#North
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#East
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+
+#South
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#West
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+#------------
+#Whiteout Cave #3
+#North
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#East
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+
+#South
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#West
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+#------------
+#Whiteout Cave #4
+#North
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#East
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+
+
+#South
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dx=3,dy=3] run tp @s 
+
+
+#West
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
+#
+#execute as @s[x=,y=,z=,dz=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
+#execute as @s[x=,y=,z=,dz=3,dy=3] run tp @s 
 
 
 
