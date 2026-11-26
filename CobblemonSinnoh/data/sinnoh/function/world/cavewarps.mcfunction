@@ -276,6 +276,23 @@ execute as @s[x=3632,y=47,z=-557,dx=5,dy=3,dz=3] at @s if block 3632 49 -555 min
 execute as @s[x=3632,y=47,z=-557,dx=5,dy=3,dz=3] at @s if block 3632 50 -555 minecraft:stone_button[powered=true] run tellraw @s {"text":"You are currently on this floor!","italic":true,"color":"gray"}
 execute as @s[x=3632,y=47,z=-557,dx=5,dy=3,dz=3] at @s if block 3632 50 -555 minecraft:stone_button[powered=true] run tp @s ~ ~ ~
 
+#------------
+#Ribbon Syndicate Elevator
+
+#Ground level
+execute as @s[x=3193,y=37,z=-2787,dx=5,dy=3,dz=3] at @s if block 3193 39 -2785 minecraft:stone_button[powered=true] run tellraw @s {"text":"You are currently on this floor!","italic":true,"color":"gray"}
+execute as @s[x=3193,y=37,z=-2787,dx=5,dy=3,dz=3] at @s if block 3193 39 -2785 minecraft:stone_button[powered=true] run tp @s ~ ~ ~
+
+execute as @s[x=3193,y=37,z=-2787,dx=5,dy=3,dz=3] at @s if block 3193 40 -2785 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=3193,y=37,z=-2787,dx=5,dy=3,dz=3] at @s if block 3193 40 -2785 minecraft:stone_button[powered=true] run tp @s ~ ~10 ~
+
+#Top
+execute as @s[x=3193,y=47,z=-2787,dx=5,dy=3,dz=3] at @s if block 3193 49 -2785 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @s[x=3193,y=47,z=-2787,dx=5,dy=3,dz=3] at @s if block 3193 49 -2785 minecraft:stone_button[powered=true] run tp @s ~ ~-10 ~
+
+execute as @s[x=3193,y=47,z=-2787,dx=5,dy=3,dz=3] at @s if block 3193 50 -2785 minecraft:stone_button[powered=true] run tellraw @s {"text":"You are currently on this floor!","italic":true,"color":"gray"}
+execute as @s[x=3193,y=47,z=-2787,dx=5,dy=3,dz=3] at @s if block 3193 50 -2785 minecraft:stone_button[powered=true] run tp @s ~ ~ ~
+
 
 #------------
 #Victory Road, TBD
