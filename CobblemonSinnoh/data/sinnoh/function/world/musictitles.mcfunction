@@ -18,10 +18,15 @@
 
 
 
+#Rowan's Lab
+execute as @s[x=-396,y=47,z=-302,dx=41,dy=9,dz=29] unless entity @s[scores={Location=110}] run title @s actionbar {"text":"Rowan's Lab"}
+execute as @s[x=-396,y=47,z=-302,dx=41,dy=9,dz=29] unless entity @s[scores={Location=110}] run function sinnoh:triggers/stopsound
+execute as @s[x=-396,y=47,z=-302,dx=41,dy=9,dz=29] unless entity @s[scores={Location=110}] run scoreboard players set @s Location 110
 
 
 
-
+#-----------------------------
+#General World
 
 #Twinleaf Town
 execute as @s[x=-803,y=59,z=-165,dx=185,dy=260,dz=226] unless entity @s[scores={Location=1}] run title @s title {"text":"Twinleaf Town","color":"dark_green"}
@@ -339,9 +344,9 @@ execute as @s[x=2122,y=59,z=-3325,dx=196,dy=260,dz=371] unless entity @s[scores=
 execute as @s[x=2122,y=59,z=-3325,dx=196,dy=260,dz=371] unless entity @s[scores={Location=53}] run scoreboard players set @s Location 53
 
 #Distortion World
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=54}] run title @s actionbar {"text":"Distortion World"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=54}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=54}] run scoreboard players set @s Location 54
+execute as @s[x=-1348,y=-64,z=349,dx=1526,dy=383,dz=1399] unless entity @s[scores={Location=54}] run title @s actionbar {"text":"Distortion World"}
+execute as @s[x=-1348,y=-64,z=349,dx=1526,dy=383,dz=1399] unless entity @s[scores={Location=54}] run function sinnoh:triggers/stopsound
+execute as @s[x=-1348,y=-64,z=349,dx=1526,dy=383,dz=1399] unless entity @s[scores={Location=54}] run scoreboard players set @s Location 54
 
 #Eterna Forest
 execute as @s[x=-468,y=59,z=-2418,dx=571,dy=260,dz=637] unless entity @s[scores={Location=55}] run title @s actionbar {"text":"Eterna Forest"}
@@ -349,14 +354,19 @@ execute as @s[x=-468,y=59,z=-2418,dx=571,dy=260,dz=637] unless entity @s[scores=
 execute as @s[x=-468,y=59,z=-2418,dx=571,dy=260,dz=637] unless entity @s[scores={Location=55}] run scoreboard players set @s Location 55
 
 #Eterna Galactic Building
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=56}] run title @s actionbar {"text":"Eterna Galactic Building"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=56}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=56}] run scoreboard players set @s Location 56
+execute as @s[x=359,y=52,z=-2151,dx=74,dy=44,dz=57] unless entity @s[scores={Location=56}] run title @s actionbar {"text":"Eterna Galactic Building"}
+execute as @s[x=359,y=52,z=-2151,dx=74,dy=44,dz=57] unless entity @s[scores={Location=56}] run function sinnoh:triggers/stopsound
+execute as @s[x=359,y=52,z=-2151,dx=74,dy=44,dz=57] unless entity @s[scores={Location=56}] run scoreboard players set @s Location 56
 
 #Elite Four Chambers
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=57}] run title @s actionbar {"text":"Elite Four Chambers"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=57}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=57}] run scoreboard players set @s Location 57
+execute as @s[x=3472,y=-40,z=-2306,dx=601,dy=98,dz=277] unless entity @s[scores={Location=57}] run title @s actionbar {"text":"Elite Four Chambers"}
+execute as @s[x=3472,y=-40,z=-2306,dx=601,dy=98,dz=277] unless entity @s[scores={Location=57}] run function sinnoh:triggers/stopsound
+execute as @s[x=3472,y=-40,z=-2306,dx=601,dy=98,dz=277] unless entity @s[scores={Location=57}] run scoreboard players set @s Location 57
+
+execute as @s[x=3867,y=-38,z=-2413,dx=82,dy=93,dz=101] unless entity @s[scores={Location=57}] run title @s actionbar {"text":"Elite Four Chambers"}
+execute as @s[x=3867,y=-38,z=-2413,dx=82,dy=93,dz=101] unless entity @s[scores={Location=57}] run function sinnoh:triggers/stopsound
+execute as @s[x=3867,y=-38,z=-2413,dx=82,dy=93,dz=101] unless entity @s[scores={Location=57}] run scoreboard players set @s Location 57
+
 
 #Floaroma Meadow
 execute as @s[x=-435,y=59,z=-1598,dx=182,dy=260,dz=183] unless entity @s[scores={Location=58}] run title @s actionbar {"text":"Floaroma Meadow"}
@@ -374,9 +384,9 @@ execute as @s[x=-468,y=59,z=-1780,dx=215,dy=260,dz=181] unless entity @s[scores=
 execute as @s[x=-468,y=59,z=-1780,dx=215,dy=260,dz=181] unless entity @s[scores={Location=60}] run scoreboard players set @s Location 60
 
 #Fuego Ironworks (Int)
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=61}] run title @s actionbar {"text":"Fuego Ironworks"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=61}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=61}] run scoreboard players set @s Location 61
+execute as @s[x=-459,y=64,z=-1786,dx=158,dy=19,dz=77] unless entity @s[scores={Location=61}] run title @s actionbar {"text":"Fuego Ironworks"}
+execute as @s[x=-459,y=64,z=-1786,dx=158,dy=19,dz=77] unless entity @s[scores={Location=61}] run function sinnoh:triggers/stopsound
+execute as @s[x=-459,y=64,z=-1786,dx=158,dy=19,dz=77] unless entity @s[scores={Location=61}] run scoreboard players set @s Location 61
 
 #Fullmoon Island
 execute as @s[x=-1214,y=59,z=-3764,dx=262,dy=260,dz=306] unless entity @s[scores={Location=62}] run title @s actionbar {"text":"Fullmoon Island"}
@@ -407,14 +417,14 @@ execute as @s[x=553,y=57,z=-4157,dx=313,dy=262,dz=288] unless entity @s[scores={
 execute as @s[x=553,y=57,z=-4157,dx=313,dy=262,dz=288] unless entity @s[scores={Location=70}] run scoreboard players set @s Location 70
 
 #Lake Valor (Drained)
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=71}] run title @s actionbar {"text":"Lake Valor"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=71}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=71}] run scoreboard players set @s Location 71
+execute as @s[x=2528,y=-60,z=709,dx=433,dy=158,dz=429] unless entity @s[scores={Location=71}] run title @s actionbar {"text":"Lake Valor"}
+execute as @s[x=2528,y=-60,z=709,dx=433,dy=158,dz=429] unless entity @s[scores={Location=71}] run function sinnoh:triggers/stopsound
+execute as @s[x=2528,y=-60,z=709,dx=433,dy=158,dz=429] unless entity @s[scores={Location=71}] run scoreboard players set @s Location 71
 
 #Lake Valor (Normal)
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=71}] run title @s actionbar {"text":"Lake Valor"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=71}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=71}] run scoreboard players set @s Location 71
+execute as @s[x=2962,y=-60,z=709,dx=384,dy=158,dz=429] unless entity @s[scores={Location=71}] run title @s actionbar {"text":"Lake Valor"}
+execute as @s[x=2962,y=-60,z=709,dx=384,dy=158,dz=429] unless entity @s[scores={Location=71}] run function sinnoh:triggers/stopsound
+execute as @s[x=2962,y=-60,z=709,dx=384,dy=158,dz=429] unless entity @s[scores={Location=71}] run scoreboard players set @s Location 71
 
 #Lake Verity
 execute as @s[x=-1100,y=45,z=-521,dx=338,dy=274,dz=264] unless entity @s[scores={Location=72}] run title @s actionbar {"text":"Lake Verity"}
@@ -497,24 +507,24 @@ execute as @s[x=2765,y=59,z=-1319,dx=347,dy=260,dz=427] unless entity @s[scores=
 execute as @s[x=2765,y=59,z=-1319,dx=347,dy=260,dz=427] unless entity @s[scores={Location=85}] run scoreboard players set @s Location 85
 
 #Snowpoint Temple
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=86}] run title @s actionbar {"text":"Snowpoint Temple"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=86}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=86}] run scoreboard players set @s Location 86
+execute as @s[x=905,y=-61,z=-4202,dx=255,dy=136,dz=180] unless entity @s[scores={Location=86}] run title @s actionbar {"text":"Snowpoint Temple"}
+execute as @s[x=905,y=-61,z=-4202,dx=255,dy=136,dz=180] unless entity @s[scores={Location=86}] run function sinnoh:triggers/stopsound
+execute as @s[x=905,y=-61,z=-4202,dx=255,dy=136,dz=180] unless entity @s[scores={Location=86}] run scoreboard players set @s Location 86
 
 #Solaceon Ruins
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=87}] run title @s actionbar {"text":"Solaceon Ruins"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=87}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=87}] run scoreboard players set @s Location 87
+execute as @s[x=1599,y=-41,z=-1537,dx=244,dy=103,dz=139] unless entity @s[scores={Location=87}] run title @s actionbar {"text":"Solaceon Ruins"}
+execute as @s[x=1599,y=-41,z=-1537,dx=244,dy=103,dz=139] unless entity @s[scores={Location=87}] run function sinnoh:triggers/stopsound
+execute as @s[x=1599,y=-41,z=-1537,dx=244,dy=103,dz=139] unless entity @s[scores={Location=87}] run scoreboard players set @s Location 87
 
 #Spear Pillar
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=88}] run title @s actionbar {"text":"Spear Pillar"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=88}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=88}] run scoreboard players set @s Location 88
+execute as @s[x=924,y=-61,z=704,dx=584,dy=380,dz=508] unless entity @s[scores={Location=88}] run title @s actionbar {"text":"Spear Pillar"}
+execute as @s[x=924,y=-61,z=704,dx=584,dy=380,dz=508] unless entity @s[scores={Location=88..89}] run function sinnoh:triggers/stopsound
+execute as @s[x=924,y=-61,z=704,dx=584,dy=380,dz=508] unless entity @s[scores={Location=88}] run scoreboard players set @s Location 88
 
 #Hall of Origin
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=89}] run title @s actionbar {"text":"Hall of Origin"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=89}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=89}] run scoreboard players set @s Location 89
+execute as @s[x=1509,y=-61,z=704,dx=571,dy=380,dz=508] unless entity @s[scores={Location=89}] run title @s actionbar {"text":"Hall of Origin"}
+execute as @s[x=1509,y=-61,z=704,dx=571,dy=380,dz=508] unless entity @s[scores={Location=88..89}] run function sinnoh:triggers/stopsound
+execute as @s[x=1509,y=-61,z=704,dx=571,dy=380,dz=508] unless entity @s[scores={Location=89}] run scoreboard players set @s Location 89
 
 #Stark Mountain (Int)
 execute as @s[x=2552,y=-3,z=-4173,dx=377,dy=61,dz=514] unless entity @s[scores={Location=90..91}] run title @s actionbar {"text":"Stark Mountain"}
@@ -532,9 +542,9 @@ execute as @s[x=1187,y=59,z=-844,dx=93,dy=256,dz=165] unless entity @s[scores={L
 execute as @s[x=1187,y=59,z=-844,dx=93,dy=256,dz=165] unless entity @s[scores={Location=92}] run scoreboard players set @s Location 92
 
 #Turnback Cave
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=93}] run title @s actionbar {"text":"Turnback Cave"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=93}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=93}] run scoreboard players set @s Location 93
+execute as @s[x=2857,y=-14,z=-1622,dx=209,dy=72,dz=366] unless entity @s[scores={Location=93}] run title @s actionbar {"text":"Turnback Cave"}
+execute as @s[x=2857,y=-14,z=-1622,dx=209,dy=72,dz=366] unless entity @s[scores={Location=93}] run function sinnoh:triggers/stopsound
+execute as @s[x=2857,y=-14,z=-1622,dx=209,dy=72,dz=366] unless entity @s[scores={Location=93}] run scoreboard players set @s Location 93
 
 #Valley Windworks (ext)
 execute as @s[x=-67,y=59,z=-1419,dx=190,dy=260,dz=198] unless entity @s[scores={Location=94}] run title @s actionbar {"text":"Valley Windworks"}
@@ -582,75 +592,90 @@ execute as @s[x=24,y=19,z=-1821,dx=754,dy=39,dz=307] unless entity @s[scores={Lo
 execute as @s[x=24,y=19,z=-1821,dx=754,dy=39,dz=307] unless entity @s[scores={Location=101}] run scoreboard players set @s Location 101
 
 #Oreburgh Gym
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=102}] run title @s actionbar {"text":"Oreburgh Gym"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=102}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=102}] run scoreboard players set @s Location 102
+execute as @s[x=233,y=30,z=-740,dx=51,dy=26,dz=85] unless entity @s[scores={Location=102}] run title @s actionbar {"text":"Oreburgh Gym"}
+execute as @s[x=233,y=30,z=-740,dx=51,dy=26,dz=85] unless entity @s[scores={Location=102}] run function sinnoh:triggers/stopsound
+execute as @s[x=233,y=30,z=-740,dx=51,dy=26,dz=85] unless entity @s[scores={Location=102}] run scoreboard players set @s Location 102
 
 #Eterna Gym
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=103}] run title @s actionbar {"text":"Eterna Gym"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=103}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=103}] run scoreboard players set @s Location 103
+execute as @s[x=383,y=60,z=-1858,dx=94,dy=23,dz=142] unless entity @s[scores={Location=103}] run title @s actionbar {"text":"Eterna Gym"}
+execute as @s[x=383,y=60,z=-1858,dx=94,dy=23,dz=142] unless entity @s[scores={Location=103}] run function sinnoh:triggers/stopsound
+execute as @s[x=383,y=60,z=-1858,dx=94,dy=23,dz=142] unless entity @s[scores={Location=103}] run scoreboard players set @s Location 103
 
 #Hearthome Gym
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=104}] run title @s actionbar {"text":"Hearthome Gym"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=104}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=104}] run scoreboard players set @s Location 104
+execute as @s[x=1358,y=18,z=-1221,dx=235,dy=40,dz=136] unless entity @s[scores={Location=104}] run title @s actionbar {"text":"Hearthome Gym"}
+execute as @s[x=1358,y=18,z=-1221,dx=235,dy=40,dz=136] unless entity @s[scores={Location=104}] run function sinnoh:triggers/stopsound
+execute as @s[x=1358,y=18,z=-1221,dx=235,dy=40,dz=136] unless entity @s[scores={Location=104}] run scoreboard players set @s Location 104
 
 #Veilstone Gym
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=105}] run title @s actionbar {"text":"Veilstone Gym"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=105}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=105}] run scoreboard players set @s Location 105
+execute as @s[x=2413,y=42,z=-1638,dx=77,dy=14,dz=79] unless entity @s[scores={Location=105}] run title @s actionbar {"text":"Veilstone Gym"}
+execute as @s[x=2413,y=42,z=-1638,dx=77,dy=14,dz=79] unless entity @s[scores={Location=105}] run function sinnoh:triggers/stopsound
+execute as @s[x=2413,y=42,z=-1638,dx=77,dy=14,dz=79] unless entity @s[scores={Location=105}] run scoreboard players set @s Location 105
 
 #Pastoria Gym
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=106}] run title @s actionbar {"text":"Pastoria Gym"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=106}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=106}] run scoreboard players set @s Location 106
+execute as @s[x=1880,y=0,z=-342,dx=77,dy=38,dz=126] unless entity @s[scores={Location=106}] run title @s actionbar {"text":"Pastoria Gym"}
+execute as @s[x=1880,y=0,z=-342,dx=77,dy=38,dz=126] unless entity @s[scores={Location=106}] run function sinnoh:triggers/stopsound
+execute as @s[x=1880,y=0,z=-342,dx=77,dy=38,dz=126] unless entity @s[scores={Location=106}] run scoreboard players set @s Location 106
 
 #Canalave Gym
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=107}] run title @s actionbar {"text":"Canalave Gym"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=107}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=107}] run scoreboard players set @s Location 107
+execute as @s[x=386,y=-60,z=768,dx=93,dy=299,dz=81] unless entity @s[scores={Location=107}] run title @s actionbar {"text":"Canalave Gym"}
+execute as @s[x=386,y=-60,z=768,dx=93,dy=299,dz=81] unless entity @s[scores={Location=107}] run function sinnoh:triggers/stopsound
+execute as @s[x=386,y=-60,z=768,dx=93,dy=299,dz=81] unless entity @s[scores={Location=107}] run scoreboard players set @s Location 107
 
 #Snowpoint Gym
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=108}] run title @s actionbar {"text":"Snowpoint Gym"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=108}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=108}] run scoreboard players set @s Location 108
+execute as @s[x=937,y=24,z=-3959,dx=72,dy=34,dz=91] unless entity @s[scores={Location=108}] run title @s actionbar {"text":"Snowpoint Gym"}
+execute as @s[x=937,y=24,z=-3959,dx=72,dy=34,dz=91] unless entity @s[scores={Location=108}] run function sinnoh:triggers/stopsound
+execute as @s[x=937,y=24,z=-3959,dx=72,dy=34,dz=91] unless entity @s[scores={Location=108}] run scoreboard players set @s Location 108
 
 #Sunyshore Gym
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=109}] run title @s actionbar {"text":"Sunyshore Gym"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=109}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=109}] run scoreboard players set @s Location 109
-
-#Rowan's Lab
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=110}] run title @s actionbar {"text":"Rowan's Lab"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=110}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=110}] run scoreboard players set @s Location 110
-
-#Game Corner
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=111}] run title @s actionbar {"text":"Game Corner"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=111}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=111}] run scoreboard players set @s Location 111
+execute as @s[x=3360,y=-7,z=-832,dx=79,dy=50,dz=263] unless entity @s[scores={Location=109}] run title @s actionbar {"text":"Sunyshore Gym"}
+execute as @s[x=3360,y=-7,z=-832,dx=79,dy=50,dz=263] unless entity @s[scores={Location=109}] run function sinnoh:triggers/stopsound
+execute as @s[x=3360,y=-7,z=-832,dx=79,dy=50,dz=263] unless entity @s[scores={Location=109}] run scoreboard players set @s Location 109
 
 #Lobby
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=112}] run title @s actionbar {"text":"Lobby"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=112}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=112}] run scoreboard players set @s Location 112
+execute as @s[x=1344,y=60,z=-1664,dx=47,dy=21,dz=47] unless entity @s[scores={Location=112}] run title @s actionbar {"text":"Lobby"}
+execute as @s[x=1344,y=60,z=-1664,dx=47,dy=21,dz=47] unless entity @s[scores={Location=112}] run function sinnoh:triggers/stopsound
+execute as @s[x=1344,y=60,z=-1664,dx=47,dy=21,dz=47] unless entity @s[scores={Location=112}] run scoreboard players set @s Location 112
 
 
 #Grand Underground
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=200}] run title @s actionbar {"text":"Grand Underground"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=200}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=200}] run scoreboard players set @s Location 200
+execute as @s[x=480,y=-62,z=-3101,dx=3326,dy=20,dz=3065] unless entity @s[scores={Location=200}] run title @s actionbar {"text":"Grand Underground"}
+execute as @s[x=480,y=-62,z=-3101,dx=3326,dy=20,dz=3065] unless entity @s[scores={Location=200}] run function sinnoh:triggers/stopsound
+execute as @s[x=480,y=-62,z=-3101,dx=3326,dy=20,dz=3065] unless entity @s[scores={Location=200}] run scoreboard players set @s Location 200
 
 #Big Bluff Cavern
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=201}] run title @s actionbar {"text":"Big Bluff Cavern"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=201}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=201}] run scoreboard players set @s Location 201
+execute as @s[x=3653,y=-41,z=-1746,dx=217,dy=27,dz=158] unless entity @s[scores={Location=201}] run title @s actionbar {"text":"Big Bluff Cavern"}
+execute as @s[x=3653,y=-41,z=-1746,dx=217,dy=27,dz=158] unless entity @s[scores={Location=201}] run function sinnoh:triggers/stopsound
+execute as @s[x=3653,y=-41,z=-1746,dx=217,dy=27,dz=158] unless entity @s[scores={Location=201}] run scoreboard players set @s Location 201
 
 #Bogsunk Cavern
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=202}] run title @s actionbar {"text":"Bogsunk Cavern"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=202}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=202}] run scoreboard players set @s Location 202
+execute as @s[x=2473,y=-41,z=-499,dx=216,dy=31,dz=156] unless entity @s[scores={Location=202}] run title @s actionbar {"text":"Bogsunk Cavern"}
+execute as @s[x=2473,y=-41,z=-499,dx=216,dy=31,dz=156] unless entity @s[scores={Location=202}] run function sinnoh:triggers/stopsound
+execute as @s[x=2473,y=-41,z=-499,dx=216,dy=31,dz=156] unless entity @s[scores={Location=202}] run scoreboard players set @s Location 202
+
+#Glacial Cavern
+execute as @s[x=1507,y=-41,z=-2840,dx=217,dy=24,dz=167] unless entity @s[scores={Location=205}] run title @s actionbar {"text":"Glacial Cavern"}
+execute as @s[x=1507,y=-41,z=-2840,dx=217,dy=24,dz=167] unless entity @s[scores={Location=205}] run function sinnoh:triggers/stopsound
+execute as @s[x=1507,y=-41,z=-2840,dx=217,dy=24,dz=167] unless entity @s[scores={Location=205}] run scoreboard players set @s Location 205
+
+#Stargleam Cavern
+execute as @s[x=1992,y=-41,z=-1628,dx=218,dy=34,dz=166] unless entity @s[scores={Location=212}] run title @s actionbar {"text":"Stargleam Cavern"}
+execute as @s[x=1992,y=-41,z=-1628,dx=218,dy=34,dz=166] unless entity @s[scores={Location=212}] run function sinnoh:triggers/stopsound
+execute as @s[x=1992,y=-41,z=-1628,dx=218,dy=34,dz=166] unless entity @s[scores={Location=212}] run scoreboard players set @s Location 212
+
+#Still-Water Cavern
+execute as @s[x=399,y=-41,z=-1542,dx=214,dy=31,dz=159] unless entity @s[scores={Location=213}] run title @s actionbar {"text":"Still-Water Cavern"}
+execute as @s[x=399,y=-41,z=-1542,dx=214,dy=31,dz=159] unless entity @s[scores={Location=213}] run function sinnoh:triggers/stopsound
+execute as @s[x=399,y=-41,z=-1542,dx=214,dy=31,dz=159] unless entity @s[scores={Location=213}] run scoreboard players set @s Location 213
+
+#Sunlit Cavern
+execute as @s[x=1489,y=-41,z=-800,dx=219,dy=31,dz=146] unless entity @s[scores={Location=214}] run title @s actionbar {"text":"Sunlit Cavern"}
+execute as @s[x=1489,y=-41,z=-800,dx=219,dy=31,dz=146] unless entity @s[scores={Location=214}] run function sinnoh:triggers/stopsound
+execute as @s[x=1489,y=-41,z=-800,dx=219,dy=31,dz=146] unless entity @s[scores={Location=214}] run scoreboard players set @s Location 214
+
+#Typhlo Cavern
+execute as @s[x=2587,y=-41,z=-2507,dx=217,dy=29,dz=160] unless entity @s[scores={Location=216}] run title @s actionbar {"text":"Typhlo Cavern"}
+execute as @s[x=2587,y=-41,z=-2507,dx=217,dy=29,dz=160] unless entity @s[scores={Location=216}] run function sinnoh:triggers/stopsound
+execute as @s[x=2587,y=-41,z=-2507,dx=217,dy=29,dz=160] unless entity @s[scores={Location=216}] run scoreboard players set @s Location 216
 
 #Dazzling Cave
 #execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=203}] run title @s actionbar {"text":"Dazzling Cave"}
@@ -661,11 +686,6 @@ execute as @s[x=24,y=19,z=-1821,dx=754,dy=39,dz=307] unless entity @s[scores={Lo
 #execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=204}] run title @s actionbar {"text":"Fountainspring Cave"}
 #execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=204}] run function sinnoh:triggers/stopsound
 #execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=204}] run scoreboard players set @s Location 204
-
-#Glacial Cavern
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=205}] run title @s actionbar {"text":"Glacial Cavern"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=205}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=205}] run scoreboard players set @s Location 205
 
 #Grassland Cave
 #execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=206}] run title @s actionbar {"text":"Grassland Cave"}
@@ -697,30 +717,10 @@ execute as @s[x=24,y=19,z=-1821,dx=754,dy=39,dz=307] unless entity @s[scores={Lo
 #execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=211}] run function sinnoh:triggers/stopsound
 #execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=211}] run scoreboard players set @s Location 211
 
-#Stargleam Cavern
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=212}] run title @s actionbar {"text":"Stargleam Cavern"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=212}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=212}] run scoreboard players set @s Location 212
-
-#Still-Water Cavern
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=213}] run title @s actionbar {"text":"Still-Water Cavern"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=213}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=213}] run scoreboard players set @s Location 213
-
-#Sunlit Cavern
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=214}] run title @s actionbar {"text":"Sunlit Cavern"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=214}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=214}] run scoreboard players set @s Location 214
-
 #Swampy Cave
 #execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=215}] run title @s actionbar {"text":"Swampy Cave"}
 #execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=215}] run function sinnoh:triggers/stopsound
 #execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=215}] run scoreboard players set @s Location 215
-
-#Typhlo Cavern
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=216}] run title @s actionbar {"text":"Typhlo Cavern"}
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=216}] run function sinnoh:triggers/stopsound
-#execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=216}] run scoreboard players set @s Location 216
 
 #Volcanic Cave
 #execute as @s[x=,y=,z=,dx=,dy=,dz=] unless entity @s[scores={Location=217}] run title @s actionbar {"text":"Volcanic Cave"}

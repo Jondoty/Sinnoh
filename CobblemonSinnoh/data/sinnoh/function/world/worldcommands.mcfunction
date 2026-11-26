@@ -59,8 +59,11 @@ execute as @a[tag=!RadioOff,scores={MusicCooldown=0}] run function sinnoh:world/
 
 
 #----------------------------------------------------------------
+#Misc World features
 
-
+#Distortion World potion effects
+execute as @a[x=-1348,y=-64,z=349,dx=1526,dy=383,dz=1399] run effect give @s minecraft:slow_falling 60 10 true
+execute as @a[x=-1348,y=-64,z=349,dx=1526,dy=383,dz=1399] run effect give @s minecraft:jump_boost 60 5 true
 
 
 

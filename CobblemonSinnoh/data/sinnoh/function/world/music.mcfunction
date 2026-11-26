@@ -23,22 +23,219 @@ execute unless entity @e[x=1389,y=62,z=-1662,dy=3,type=armor_stand,scores={DayTi
 #Areas within areas, takes priority
 
 
+#Oreburgh Gym
+playsound gym record @s[x=233,y=30,z=-740,dx=51,dy=26,dz=85,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=233,y=30,z=-740,dx=51,dy=26,dz=85,scores={MusicCooldown=0}] MusicCooldown 161
+
+#Eterna Gym
+playsound gym record @s[x=383,y=60,z=-1858,dx=94,dy=23,dz=142,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=383,y=60,z=-1858,dx=94,dy=23,dz=142,scores={MusicCooldown=0}] MusicCooldown 161
+
+#Hearthome Gym
+playsound gym record @s[x=1358,y=18,z=-1221,dx=235,dy=40,dz=136,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1358,y=18,z=-1221,dx=235,dy=40,dz=136,scores={MusicCooldown=0}] MusicCooldown 161
+
+#Veilstone Gym
+playsound gym record @s[x=2413,y=42,z=-1638,dx=77,dy=14,dz=79,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2413,y=42,z=-1638,dx=77,dy=14,dz=79,scores={MusicCooldown=0}] MusicCooldown 161
+
+#Pastoria Gym
+playsound gym record @s[x=1880,y=0,z=-342,dx=77,dy=38,dz=126,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1880,y=0,z=-342,dx=77,dy=38,dz=126,scores={MusicCooldown=0}] MusicCooldown 161
+
+#Canalave Gym
+playsound gym record @s[x=386,y=-60,z=768,dx=93,dy=299,dz=81,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=386,y=-60,z=768,dx=93,dy=299,dz=81,scores={MusicCooldown=0}] MusicCooldown 161
+
+#Snowpoint Gym
+playsound gym record @s[x=937,y=24,z=-3959,dx=72,dy=34,dz=91,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=937,y=24,z=-3959,dx=72,dy=34,dz=91,scores={MusicCooldown=0}] MusicCooldown 161
+
+#Sunyshore Gym
+playsound gym record @s[x=3360,y=-7,z=-832,dx=79,dy=50,dz=263,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3360,y=-7,z=-832,dx=79,dy=50,dz=263,scores={MusicCooldown=0}] MusicCooldown 161
+
+#Rowan's Lab
+playsound pokemon_lab record @s[x=-396,y=47,z=-302,dx=41,dy=9,dz=29,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-396,y=47,z=-302,dx=41,dy=9,dz=29,scores={MusicCooldown=0}] MusicCooldown 198
+
 
 
 
 
 
 #Poke Marts
+#x=,y=,z=,dx=31,dy=10,dz=20,
 #playsound poke_mart record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 #scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 135
 
+#Sandgem
+playsound poke_mart record @s[x=-290,y=48,z=-291,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-290,y=48,z=-291,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 135
 
-#Poke Centers
-#playsound pokemon_center_day record @s[tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 128
+#Jubilife
+playsound poke_mart record @s[x=-336,y=48,z=-717,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-336,y=48,z=-717,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 135
 
-#playsound pokemon_center_night record @s[tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 243
+#Canalave
+playsound poke_mart record @s[x=-1053,y=48,z=-864,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-1053,y=48,z=-864,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 135
+
+#Oreburgh
+playsound poke_mart record @s[x=263,y=21,z=-830,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=263,y=21,z=-830,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 135
+
+#Floaroma
+playsound poke_mart record @s[x=-308,y=78,z=-1335,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-308,y=78,z=-1335,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 135
+
+#Eterna
+playsound poke_mart record @s[x=398,y=90,z=-1952,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=398,y=90,z=-1952,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 135
+
+#Hearthome
+playsound poke_mart record @s[x=1260,y=48,z=-1028,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1260,y=48,z=-1028,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 135
+
+#Solaceon
+playsound poke_mart record @s[x=1802,y=48,z=-1289,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1802,y=48,z=-1289,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 135
+
+#Pastoria
+playsound poke_mart record @s[x=1974,y=48,z=-255,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1974,y=48,z=-255,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 135
+
+#Sunnyshore
+playsound poke_mart record @s[x=3430,y=48,z=-693,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3430,y=48,z=-693,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 135
+
+#Snowpoint
+playsound poke_mart record @s[x=880,y=65,z=-3867,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=880,y=65,z=-3867,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 135
+
+#Fight Area
+playsound poke_mart record @s[x=2250,y=48,z=-2901,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2250,y=48,z=-2901,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 135
+
+#Survival Area
+playsound poke_mart record @s[x=2239,y=33,z=-3446,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2239,y=33,z=-3446,dx=31,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 135
+
+
+#Poke Centers'
+#x=,y=,z=,dx=33,dy=10,dz=24,
+
+#Sandgem
+playsound pokemon_center_day record @s[x=-346,y=47,z=-289,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-346,y=47,z=-289,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 128
+
+playsound pokemon_center_night record @s[x=-346,y=47,z=-289,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-346,y=47,z=-289,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 243
+
+#Jubilife
+playsound pokemon_center_day record @s[x=-335,y=47,z=-655,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-335,y=47,z=-655,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 128
+
+playsound pokemon_center_night record @s[x=-335,y=47,z=-655,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-335,y=47,z=-655,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 243
+
+#Canalave
+playsound pokemon_center_day record @s[x=-1027,y=47,z=-961,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-1027,y=47,z=-961,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 128
+
+playsound pokemon_center_night record @s[x=-1027,y=47,z=-961,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-1027,y=47,z=-961,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 243
+
+#Oreburgh
+playsound pokemon_center_day record @s[x=363,y=47,z=-769,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=363,y=47,z=-769,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 128
+
+playsound pokemon_center_night record @s[x=363,y=47,z=-769,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=363,y=47,z=-769,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 243
+
+#Floaroma
+playsound pokemon_center_day record @s[x=-357,y=77,z=-1278,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-357,y=77,z=-1278,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 128
+
+playsound pokemon_center_night record @s[x=-357,y=77,z=-1278,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-357,y=77,z=-1278,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 243
+
+#Eterna
+playsound pokemon_center_day record @s[x=375,y=89,z=-2049,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=375,y=89,z=-2049,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 128
+
+playsound pokemon_center_night record @s[x=375,y=89,z=-2049,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=375,y=89,z=-2049,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 243
+
+#Celestic
+playsound pokemon_center_day record @s[x=1227,y=87,z=-2017,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1227,y=87,z=-2017,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 128
+
+playsound pokemon_center_night record @s[x=1227,y=87,z=-2017,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1227,y=87,z=-2017,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 243
+
+#Hearthome
+playsound pokemon_center_day record @s[x=1186,y=47,z=-1101,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1186,y=47,z=-1101,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 128
+
+playsound pokemon_center_night record @s[x=1186,y=47,z=-1101,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1186,y=47,z=-1101,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 243
+
+#Pastoria
+playsound pokemon_center_day record @s[x=1966,y=47,z=-418,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1966,y=47,z=-418,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 128
+
+playsound pokemon_center_night record @s[x=1966,y=47,z=-418,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1966,y=47,z=-418,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 243
+
+#Solaceon
+playsound pokemon_center_day record @s[x=1769,y=47,z=-1337,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1769,y=47,z=-1337,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 128
+
+playsound pokemon_center_night record @s[x=1769,y=47,z=-1337,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1769,y=47,z=-1337,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 243
+
+#Veilstone
+playsound pokemon_center_day record @s[x=2640,y=47,z=-1597,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2640,y=47,z=-1597,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 128
+
+playsound pokemon_center_night record @s[x=2640,y=47,z=-1597,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2640,y=47,z=-1597,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 243
+
+#Sunnyshore
+playsound pokemon_center_day record @s[x=3467,y=47,z=-597,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3467,y=47,z=-597,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 128
+
+playsound pokemon_center_night record @s[x=3467,y=47,z=-597,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3467,y=47,z=-597,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 243
+
+#Victory Road
+playsound pokemon_center_day record @s[x=3452,y=58,z=-1675,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3452,y=58,z=-1675,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 128
+
+playsound pokemon_center_night record @s[x=3452,y=58,z=-1675,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3452,y=58,z=-1675,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 243
+
+#Snowpoint
+playsound pokemon_center_day record @s[x=1030,y=64,z=-3867,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1030,y=64,z=-3867,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 128
+
+playsound pokemon_center_night record @s[x=1030,y=64,z=-3867,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1030,y=64,z=-3867,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 243
+
+#Fight Area
+playsound pokemon_center_day record @s[x=2146,y=47,z=-2893,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2146,y=47,z=-2893,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 128
+
+playsound pokemon_center_night record @s[x=2146,y=47,z=-2893,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2146,y=47,z=-2893,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 243
+
+#Survival Area
+playsound pokemon_center_day record @s[x=2208,y=47,z=-3439,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2208,y=47,z=-3439,dx=33,dy=10,dz=24,tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 128
+
+playsound pokemon_center_night record @s[x=2208,y=47,z=-3439,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2208,y=47,z=-3439,dx=33,dy=10,dz=24,tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 243
 
 #---------------------------------------------------------------------------------------------------------------------------
 #World Music
@@ -502,8 +699,8 @@ scoreboard players set @s[tag=PlayNight,x=2122,y=59,z=-3325,dx=196,dy=260,dz=371
 
 
 #Distortion World
-#playsound distortion_world record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 315
+playsound distortion_world record @s[x=-1348,y=-64,z=349,dx=1526,dy=383,dz=1399,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-1348,y=-64,z=349,dx=1526,dy=383,dz=1399,scores={MusicCooldown=0}] MusicCooldown 315
 
 
 #Eterna Forest
@@ -512,15 +709,23 @@ scoreboard players set @s[x=-468,y=59,z=-2418,dx=571,dy=260,dz=637,scores={Music
 
 
 #Eterna Galactic Building
-#playsound galactic_eterna record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 102
+playsound galactic_eterna record @s[x=359,y=52,z=-2151,dx=74,dy=44,dz=57,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=359,y=52,z=-2151,dx=74,dy=44,dz=57,scores={MusicCooldown=0}] MusicCooldown 102
 
 
 #Elite Four Chambers
-#playsound pokemon_league_day record @s[tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 245
-#playsound pokemon_league_night record @s[tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 242
+playsound pokemon_league_day record @s[x=3472,y=-40,z=-2306,dx=601,dy=98,dz=277,tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3472,y=-40,z=-2306,dx=601,dy=98,dz=277,tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 245
+
+playsound pokemon_league_night record @s[x=3472,y=-40,z=-2306,dx=601,dy=98,dz=277,tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3472,y=-40,z=-2306,dx=601,dy=98,dz=277,tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 242
+
+
+playsound pokemon_league_day record @s[x=3867,y=-38,z=-2413,dx=82,dy=93,dz=101,tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3867,y=-38,z=-2413,dx=82,dy=93,dz=101,tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 245
+
+playsound pokemon_league_night record @s[x=3867,y=-38,z=-2413,dx=82,dy=93,dz=101,tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3867,y=-38,z=-2413,dx=82,dy=93,dz=101,tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 242
 
 
 #Floaroma Meadow
@@ -548,8 +753,8 @@ scoreboard players set @s[tag=PlayNight,x=-468,y=59,z=-1780,dx=215,dy=260,dz=181
 
 
 #Fuego Ironworks (Int)
-#playsound oreburgh_mine record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 264
+playsound oreburgh_mine record @s[x=-459,y=64,z=-1786,dx=158,dy=19,dz=77,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-459,y=64,z=-1786,dx=158,dy=19,dz=77,scores={MusicCooldown=0}] MusicCooldown 264
 
 
 #Fullmoon Island
@@ -581,13 +786,13 @@ scoreboard players set @s[x=553,y=57,z=-4157,dx=313,dy=262,dz=288,scores={MusicC
 
 
 #Lake Valor (Drained)
-#playsound lake record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 197
+playsound lake record @s[x=2528,y=-60,z=709,dx=433,dy=158,dz=429,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2528,y=-60,z=709,dx=433,dy=158,dz=429,scores={MusicCooldown=0}] MusicCooldown 197
 
 
 #Lake Valor (Normal)
-#playsound lake record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 197
+playsound lake record @s[x=2962,y=-60,z=709,dx=384,dy=158,dz=429,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2962,y=-60,z=709,dx=384,dy=158,dz=429,scores={MusicCooldown=0}] MusicCooldown 197
 
 
 #Lake Verity
@@ -649,8 +854,8 @@ scoreboard players set @s[x=246,y=59,z=-280,dx=475,dy=260,dz=394,scores={MusicCo
 playsound route209_day record @s[x=1093,y=39,z=-755,dx=239,dy=19,dz=115,tag=PlayDay,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=1093,y=39,z=-755,dx=239,dy=19,dz=115,tag=PlayDay,scores={MusicCooldown=0}] MusicCooldown 219
 
-#playsound route209_night record @s[tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 219
+playsound route209_night record @s[x=1093,y=39,z=-755,dx=239,dy=19,dz=115,tag=PlayNight,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1093,y=39,z=-755,dx=239,dy=19,dz=115,tag=PlayNight,scores={MusicCooldown=0}] MusicCooldown 219
 
 
 #Ravaged Path
@@ -680,23 +885,23 @@ scoreboard players set @s[tag=PlayNight,x=2765,y=59,z=-1319,dx=347,dy=260,dz=427
 
 
 #Snowpoint Temple
-#playsound eterna_forest record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 221
+playsound eterna_forest record @s[x=905,y=-61,z=-4202,dx=255,dy=136,dz=180,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=905,y=-61,z=-4202,dx=255,dy=136,dz=180,scores={MusicCooldown=0}] MusicCooldown 221
 
 
 #Solaceon Ruins
-#playsound eterna_forest record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 221
+playsound eterna_forest record @s[x=1599,y=-41,z=-1537,dx=244,dy=103,dz=139,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1599,y=-41,z=-1537,dx=244,dy=103,dz=139,scores={MusicCooldown=0}] MusicCooldown 221
 
 
 #Spear Pillar
-#playsound spear_pillar record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 131
+playsound spear_pillar record @s[x=924,y=-61,z=704,dx=584,dy=380,dz=508,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=924,y=-61,z=704,dx=584,dy=380,dz=508,scores={MusicCooldown=0}] MusicCooldown 131
 
 
 #Hall of Origin
-#playsound hall_of_origin record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 77
+playsound hall_of_origin record @s[x=1509,y=-61,z=704,dx=571,dy=380,dz=508,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1509,y=-61,z=704,dx=571,dy=380,dz=508,scores={MusicCooldown=0}] MusicCooldown 77
 
 
 #Stark Mountain (Int)
@@ -721,8 +926,8 @@ scoreboard players set @s[tag=PlayNight,x=1187,y=59,z=-844,dx=93,dy=256,dz=165,s
 
 
 #Turnback Cave
-#playsound old_chateau record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 299
+playsound old_chateau record @s[x=2857,y=-14,z=-1622,dx=209,dy=72,dz=366,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2857,y=-14,z=-1622,dx=209,dy=72,dz=366,scores={MusicCooldown=0}] MusicCooldown 299
 
 
 #Valley Windworks (ext)
@@ -782,64 +987,15 @@ playsound oreburgh_gate record @s[x=24,y=19,z=-1821,dx=754,dy=39,dz=307,scores={
 scoreboard players set @s[x=24,y=19,z=-1821,dx=754,dy=39,dz=307,scores={MusicCooldown=0}] MusicCooldown 240
 
 
-#Oreburgh Gym
-#playsound gym record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 161
-
-
-#Eterna Gym
-#playsound gym record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 161
-
-
-#Hearthome Gym
-#playsound gym record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 161
-
-
-#Veilstone Gym
-#playsound gym record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 161
-
-
-#Pastoria Gym
-#playsound gym record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 161
-
-
-#Canalave Gym
-#playsound gym record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 161
-
-
-#Snowpoint Gym
-#playsound gym record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 161
-
-
-#Sunyshore Gym
-#playsound gym record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 161
-
-
-#Rowan's Lab
-#playsound pokemon_lab record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 198
-
-
-#Game Corner
-#playsound game_corner record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 201
-
 
 #Lobby
-#playsound lobby record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 49
+playsound lobby record @s[x=1344,y=60,z=-1664,dx=47,dy=21,dz=47,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1344,y=60,z=-1664,dx=47,dy=21,dz=47,scores={MusicCooldown=0}] MusicCooldown 49
 
 
 #Grand Underground (All areas)
-#playsound underground record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-#scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 222
+playsound underground record @s[scores={MusicCooldown=0,Location=200..220}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,Location=200..220}] MusicCooldown 222
 
 
 #---------------------------------------------------------------------------------------------------------------------------

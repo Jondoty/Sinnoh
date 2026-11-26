@@ -89,17 +89,21 @@ execute as @s[x=-340,y=70,z=-204,dx=4,dy=3] run tp @s -337 38 -205
 
 
 #Pokemon Center
+execute as @s[x=-332,y=48,z=-266,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=-332,y=48,z=-266,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=-332,y=48,z=-266,dx=3,dy=3] run tp @s -330 68 -265
 
+execute as @s[x=-333,y=68,z=-266,dx=6,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=-333,y=68,z=-266,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=-333,y=68,z=-266,dx=6,dy=3] run tp @s -330 48 -267
 
 
 #Poke Mart
+execute as @s[x=-280,y=48,z=-271,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=-280,y=48,z=-271,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=-280,y=48,z=-271,dx=3,dy=3] run tp @s -279 68 -270
 
+execute as @s[x=-281,y=68,z=-271,dx=5,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=-281,y=68,z=-271,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=-281,y=68,z=-271,dx=5,dy=3] run tp @s -278 48 -272
 
@@ -145,9 +149,11 @@ execute as @s[x=-395,y=74,z=-571,dx=5,dy=3] run tp @s -393 38 -572
 
 
 #Pokemon Center
+execute as @s[x=-321,y=48,z=-632,dx=4,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=-321,y=48,z=-632,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=-321,y=48,z=-632,dx=4,dy=3] run tp @s -319 73 -631
 
+execute as @s[x=-322,y=73,z=-632,dx=6,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=-322,y=73,z=-632,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=-322,y=73,z=-632,dx=6,dy=3] run tp @s -319 48 -633
 
@@ -160,10 +166,12 @@ execute as @s[x=-389,y=73,z=-640,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 
 execute as @s[x=-389,y=73,z=-640,dx=4,dy=3] run tp @s -387 48 -641
 
 
-#Pokemon Center
+#Pokemon Mart
+execute as @s[x=-326,y=48,z=-697,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=-326,y=48,z=-697,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=-326,y=48,z=-697,dx=3,dy=3] run tp @s -325 74 -696
 
+execute as @s[x=-326,y=74,z=-697,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=-326,y=74,z=-697,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=-326,y=74,z=-697,dx=3,dy=3] run tp @s -324 48 -698
 
@@ -227,9 +235,11 @@ execute as @s[x=-1035,y=70,z=-799,dx=2,dy=3] run tp @s -1034 48 -800
 
 
 #Pokemon Mart
+execute as @s[x=-1043,y=48,z=-844,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=-1043,y=48,z=-844,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=-1043,y=48,z=-844,dx=3,dy=3] run tp @s -1042 69 -843
 
+execute as @s[x=-1043,y=69,z=-844,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=-1043,y=69,z=-844,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=-1043,y=69,z=-844,dx=3,dy=3] run tp @s -1041 48 -845
 
@@ -243,9 +253,11 @@ execute as @s[x=-1041,y=70,z=-889,dx=2,dy=3] run tp @s -1040 48 -890
 
 
 #Pokemon Center
+execute as @s[x=-1013,y=48,z=-938,dx=5,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=-1013,y=48,z=-938,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=-1013,y=48,z=-938,dx=5,dy=3] run tp @s -1011 68 -937
 
+execute as @s[x=-1014,y=68,z=-938,dx=6,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=-1014,y=68,z=-938,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=-1014,y=68,z=-938,dx=6,dy=3] run tp @s -1011 48 -939
 
@@ -336,17 +348,21 @@ execute as @s[x=-321,y=93,z=-1357,dx=3,dy=3] run tp @s -319 75 -1358
 
 
 #Poke Mart
+execute as @s[x=-298,y=78,z=-1315,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=-298,y=78,z=-1315,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=-298,y=78,z=-1315,dx=3,dy=3] run tp @s -297 91 -1314
 
+execute as @s[x=-298,y=91,z=-1315,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=-298,y=91,z=-1315,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=-298,y=91,z=-1315,dx=3,dy=3] run tp @s -296 78 -1316
 
 
 #Pokemon Center
+execute as @s[x=-343,y=78,z=-1255,dx=4,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=-343,y=78,z=-1255,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=-343,y=78,z=-1255,dx=4,dy=3] run tp @s -341 90 -1254
 
+execute as @s[x=-344,y=90,z=-1255,dx=6,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=-344,y=90,z=-1255,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=-344,y=90,z=-1255,dx=6,dy=3] run tp @s -341 78 -1256
 
@@ -519,9 +535,11 @@ execute as @s[x=453,y=103,z=-2084,dx=3,dy=3] run tp @s 454 88 -2085
 
 
 #Pokemon Center
+execute as @s[x=389,y=90,z=-2026,dx=4,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=389,y=90,z=-2026,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=389,y=90,z=-2026,dx=4,dy=3] run tp @s 391 102 -2025
 
+execute as @s[x=388,y=102,z=-2026,dx=6,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=388,y=102,z=-2026,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=388,y=102,z=-2026,dx=6,dy=3] run tp @s 391 90 -2027
 
@@ -551,9 +569,11 @@ execute as @s[x=417,y=103,z=-1979,dx=4,dy=3] run tp @s 419 88 -1980
 
 
 #Poke Mart
+execute as @s[x=408,y=90,z=-1932,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=408,y=90,z=-1932,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=408,y=90,z=-1932,dx=3,dy=3] run tp @s 409 103 -1931
 
+execute as @s[x=408,y=103,z=-1932,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=408,y=103,z=-1932,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=408,y=103,z=-1932,dx=3,dy=3] run tp @s 410 90 -1933
 
@@ -645,9 +665,11 @@ execute as @s[x=237,y=75,z=-808,dx=5,dy=3] run tp @s 295 38 -809
 
 
 #Poke Mart
+execute as @s[x=273,y=21,z=-810,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=273,y=21,z=-810,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=273,y=21,z=-810,dx=3,dy=3] run tp @s 274 74 -809
 
+execute as @s[x=273,y=74,z=-810,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=273,y=74,z=-810,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=273,y=74,z=-810,dx=3,dy=3] run tp @s 275 21 -811
 
@@ -677,9 +699,11 @@ execute as @s[x=324,y=74,z=-765,dx=4,dy=3] run tp @s 327 48 -766
 
 
 #Pokemon Center
+execute as @s[x=377,y=48,z=-746,dx=4,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=377,y=48,z=-746,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=377,y=48,z=-746,dx=4,dy=3] run tp @s 379 73 -745
 
+execute as @s[x=376,y=73,z=-746,dx=6,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=376,y=73,z=-746,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=376,y=73,z=-746,dx=6,dy=3] run tp @s 379 48 -747
 
@@ -746,9 +770,11 @@ execute as @s[x=1241,y=74,z=-1010,dx=3,dy=3] run tp @s 1242 48 -1011
 
 
 #Poke Mart
+execute as @s[x=1269,y=48,z=-1008,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=1269,y=48,z=-1008,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=1269,y=48,z=-1008,dx=3,dy=3] run tp @s 1270 73 -1007
 
+execute as @s[x=1269,y=73,z=-1008,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=1269,y=73,z=-1008,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=1269,y=73,z=-1008,dx=3,dy=3] run tp @s 1271 48 -1009
 
@@ -771,9 +797,11 @@ execute as @s[x=1368,y=74,z=-1010,dx=3,dy=3] run tp @s 1370 38 -1011
 
 
 #Pokemon Center
+execute as @s[x=1200,y=48,z=-1078,dx=4,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=1200,y=48,z=-1078,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=1200,y=48,z=-1078,dx=4,dy=3] run tp @s 1202 72 -1077
 
+execute as @s[x=1199,y=72,z=-1078,dx=6,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=1199,y=72,z=-1078,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=1199,y=72,z=-1078,dx=6,dy=3] run tp @s 1202 48 -1079
 
@@ -1041,9 +1069,11 @@ execute as @s[x=1916,y=68,z=-236,dx=3,dy=3] run tp @s 1918 48 -237
 
 
 #Poke Mart
+execute as @s[x=1984,y=48,z=-235,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=1984,y=48,z=-235,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=1984,y=48,z=-235,dx=3,dy=3] run tp @s 1985 67 -234
 
+execute as @s[x=1984,y=67,z=-235,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=1984,y=67,z=-235,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=1984,y=67,z=-235,dx=3,dy=3] run tp @s 1986 48 -236
 
@@ -1081,9 +1111,11 @@ execute as @s[x=1978,y=68,z=-352,dx=3,dy=3] run tp @s 1980 48 -353
 
 
 #Pokemon Center
+execute as @s[x=1980,y=48,z=-395,dx=4,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=1980,y=48,z=-395,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=1980,y=48,z=-395,dx=4,dy=3] run tp @s 1982 66 -394
 
+execute as @s[x=1979,y=66,z=-395,dx=6,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=1979,y=66,z=-395,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=1979,y=66,z=-395,dx=6,dy=3] run tp @s 1982 48 -396
 
@@ -1268,17 +1300,21 @@ execute as @s[x=1960,y=83,z=-1355,dx=8,dy=3] run tp @s 1629 50 -1447
 #Solaceon Town
 
 #Poke Mart
+execute as @s[x=1812,y=48,z=-1269,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=1812,y=48,z=-1269,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=1812,y=48,z=-1269,dx=3,dy=3] run tp @s 1813 73 -1268
 
+execute as @s[x=1812,y=73,z=-1269,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=1812,y=73,z=-1269,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=1812,y=73,z=-1269,dx=3,dy=3] run tp @s 1814 48 -1270
 
 
 #Pokemon Center
+execute as @s[x=1783,y=48,z=-1314,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=1783,y=48,z=-1314,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=1783,y=48,z=-1314,dx=3,dy=3] run tp @s 1785 72 -1313
 
+execute as @s[x=1782,y=72,z=-1314,dx=6,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=1782,y=72,z=-1314,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=1782,y=72,z=-1314,dx=6,dy=3] run tp @s 1785 48 -1315
 
@@ -1368,9 +1404,11 @@ execute as @s[x=1136,y=102,z=-2002,dx=3,dy=3] run tp @s 1137 76 -2003
 
 
 #Pokemon Center
+execute as @s[x=1241,y=88,z=-1994,dx=5,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=1241,y=88,z=-1994,dx=5,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=1241,y=88,z=-1994,dx=5,dy=3] run tp @s 1243 101 -1993
 
+execute as @s[x=1240,y=101,z=-1994,dx=6,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=1240,y=101,z=-1994,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=1240,y=101,z=-1994,dx=6,dy=3] run tp @s 1243 88 -1995
 
@@ -1451,9 +1489,11 @@ execute as @s[x=2465,y=72,z=-1577,dx=6,dy=3] run tp @s 2452 47 -1562
 
 
 #Pokemon Center
+execute as @s[x=2654,y=48,z=-1574,dx=4,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=2654,y=48,z=-1574,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=2654,y=48,z=-1574,dx=4,dy=3] run tp @s 2656 72 -1573
 
+execute as @s[x=2653,y=72,z=-1574,dx=6,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=2653,y=72,z=-1574,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=2653,y=72,z=-1574,dx=6,dy=3] run tp @s 2656 48 -1575
 
@@ -1551,9 +1591,11 @@ execute as @s[x=704,y=77,z=-3975,dx=8,dy=3] run tp @s 708 39 -3976
 #Snowpoint City
 
 #Mart
+execute as @s[x=890,y=65,z=-3847,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=890,y=65,z=-3847,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=890,y=65,z=-3847,dx=3,dy=3] run tp @s 892 79 -3846
 
+execute as @s[x=891,y=79,z=-3847,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=891,y=79,z=-3847,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=891,y=79,z=-3847,dx=3,dy=3] run tp @s 892 65 -3848
 
@@ -1567,9 +1609,11 @@ execute as @s[x=972,y=80,z=-3910,dx=6,dy=3] run tp @s 973 40 -3875
 
 
 #Pokemon Center
+execute as @s[x=1043,y=78,z=-3844,dx=6,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=1043,y=78,z=-3844,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=1043,y=78,z=-3844,dx=6,dy=3] run tp @s 1046 65 -3845
 
+execute as @s[x=1044,y=65,z=-3844,dx=4,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=1044,y=65,z=-3844,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=1044,y=65,z=-3844,dx=4,dy=3] run tp @s 1046 78 -3843
 
@@ -1618,9 +1662,11 @@ execute as @s[x=3136,y=69,z=-583,dx=4,dy=3] run tp @s 3138 48 -584
 #Sunnyshore City
 
 #Pokemon Center
+execute as @s[x=3481,y=48,z=-574,dx=4,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=3481,y=48,z=-574,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=3481,y=48,z=-574,dx=4,dy=3] run tp @s 3483 66 -573
 
+execute as @s[x=3480,y=66,z=-574,dx=6,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=3480,y=66,z=-574,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=3480,y=66,z=-574,dx=6,dy=3] run tp @s 3483 48 -575
 
@@ -1642,9 +1688,11 @@ execute as @s[x=3643,y=87,z=-659,dx=4,dy=3] run tp @s 3645 48 -660
 
 
 #Poke Mart
+execute as @s[x=3440,y=48,z=-673,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=3440,y=48,z=-673,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=3440,y=48,z=-673,dx=3,dy=3] run tp @s 3441 67 -672
 
+execute as @s[x=3440,y=67,z=-673,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=3440,y=67,z=-673,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=3440,y=67,z=-673,dx=3,dy=3] run tp @s 3442 48 -674
 
@@ -1710,9 +1758,11 @@ execute as @s[x=3395,y=16,z=-719,dx=3,dy=3] run tp @s 3401 7 -754
 #Pokemon League
 
 #Pre-Victory Road Center
+execute as @s[x=3466,y=59,z=-1652,dx=4,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=3466,y=59,z=-1652,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=3466,y=59,z=-1652,dx=4,dy=3] run tp @s 3468 95 -1651
 
+execute as @s[x=3465,y=95,z=-1652,dx=6,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=3465,y=95,z=-1652,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=3465,y=95,z=-1652,dx=6,dy=3] run tp @s 3468 59 -1653
 
@@ -1750,17 +1800,21 @@ execute as @s[x=3516,y=19,z=-1825,dz=13,dy=3] run tp @s 3551 95 -1749
 #Battle Area
 
 #Pokemon Center
+execute as @s[x=2160,y=48,z=-2870,dx=4,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=2160,y=48,z=-2870,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=2160,y=48,z=-2870,dx=4,dy=3] run tp @s 2162 66 -2869
 
+execute as @s[x=2159,y=66,z=-2870,dx=6,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=2159,y=66,z=-2870,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=2159,y=66,z=-2870,dx=6,dy=3] run tp @s 2162 48 -2871
 
 
 #Mart
+execute as @s[x=2260,y=48,z=-2881,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=2260,y=48,z=-2881,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=2260,y=48,z=-2881,dx=3,dy=3] run tp @s 2261 67 -2880
 
+execute as @s[x=2260,y=67,z=-2881,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=2260,y=67,z=-2881,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=2260,y=67,z=-2881,dx=3,dy=3] run tp @s 2262 48 -2882
 
@@ -1819,17 +1873,21 @@ execute as @s[x=1984,y=68,z=-3246,dx=5,dy=3] run tp @s 1987 48 -3247
 #Survival Area
 
 #Pokemon Center
+execute as @s[x=2222,y=48,z=-3416,dx=4,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=2222,y=48,z=-3416,dx=4,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=2222,y=48,z=-3416,dx=4,dy=3] run tp @s 2224 66 -3415
 
+execute as @s[x=2221,y=66,z=-3416,dx=6,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=2221,y=66,z=-3416,dx=6,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=2221,y=66,z=-3416,dx=6,dy=3] run tp @s 2224 48 -3417
 
 
 #Mart
+execute as @s[x=2249,y=33,z=-3426,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=2249,y=33,z=-3426,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=2249,y=33,z=-3426,dx=3,dy=3] run tp @s 2250 67 -3425
 
+execute as @s[x=2249,y=67,z=-3426,dx=3,dy=3] run function sinnoh:triggers/stopsound
 execute as @s[x=2249,y=67,z=-3426,dx=3,dy=3] run playsound door ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=2249,y=67,z=-3426,dx=3,dy=3] run tp @s 2251 33 -3427
 
