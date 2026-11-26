@@ -1,0 +1,700 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "machop-1",
+            "pokemon": "machop",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "shinx-1",
+            "pokemon": "shinx",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "pachirisu-1",
+            "pokemon": "pachirisu",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "buneary-1",
+            "pokemon": "buneary",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "meditite-1",
+            "pokemon": "meditite",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "machoke-1",
+            "pokemon": "machoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "munchlax-1",
+            "pokemon": "munchlax",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "mrmime-1",
+            "pokemon": "mrmime",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "sneasel-1",
+            "pokemon": "sneasel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "luxio-1",
+            "pokemon": "luxio",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "snover-1",
+            "pokemon": "snover",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "magnemite-1",
+            "pokemon": "magnemite",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "seel-1",
+            "pokemon": "seel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "dewgong-1",
+            "pokemon": "dewgong",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "tauros-1",
+            "pokemon": "tauros",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "sentret-1",
+            "pokemon": "sentret",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "furret-1",
+            "pokemon": "furret",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "mareep-1",
+            "pokemon": "mareep",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "flaaffy-1",
+            "pokemon": "flaaffy",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "teddiursa-1",
+            "pokemon": "teddiursa",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "swinub-1",
+            "pokemon": "swinub",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "delibird-1",
+            "pokemon": "delibird",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "tyrogue-1",
+            "pokemon": "tyrogue",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "elekid-1",
+            "pokemon": "elekid",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "aron-1",
+            "pokemon": "aron",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "lairon-1",
+            "pokemon": "lairon",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "swablu-1",
+            "pokemon": "swablu",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "snorunt-1",
+            "pokemon": "snorunt",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "glalie-1",
+            "pokemon": "glalie",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "spheal-1",
+            "pokemon": "spheal",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "sealeo-1",
+            "pokemon": "sealeo",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "walrein-1",
+            "pokemon": "walrein",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "beldum-1",
+            "pokemon": "beldum",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:whiteout_cavern_all"
+                ]
+            }
+        }
+    ]
+}

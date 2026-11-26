@@ -1,0 +1,952 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "gastly-1",
+            "pokemon": "gastly",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "misdreavus-1",
+            "pokemon": "misdreavus",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "meditite-1",
+            "pokemon": "meditite",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "chingling-1",
+            "pokemon": "chingling",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "bronzor-1",
+            "pokemon": "bronzor",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "kadabra-1",
+            "pokemon": "kadabra",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "girafarig-1",
+            "pokemon": "girafarig",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "mrmime-1",
+            "pokemon": "mrmime",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "nidoranf-1",
+            "pokemon": "nidoranf",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "nidorina-1",
+            "pokemon": "nidorina",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "nidoranm-1",
+            "pokemon": "nidoranm",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "nidorino-1",
+            "pokemon": "nidorino",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "slowpoke-1",
+            "pokemon": "slowpoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "grimer-1",
+            "pokemon": "grimer",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "drowzee-1",
+            "pokemon": "drowzee",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "krabby-1",
+            "pokemon": "krabby",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "voltorb-1",
+            "pokemon": "voltorb",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "cubone-1",
+            "pokemon": "cubone",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "ditto-1",
+            "pokemon": "ditto",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "togepi-1",
+            "pokemon": "togepi",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "natu-1",
+            "pokemon": "natu",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "wobbuffet-1",
+            "pokemon": "wobbuffet",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "snubbull-1",
+            "pokemon": "snubbull",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "houndoom-1",
+            "pokemon": "houndoom",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "smoochum-1",
+            "pokemon": "smoochum",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "elekid-1",
+            "pokemon": "elekid",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "poochyena-1",
+            "pokemon": "poochyena",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "mightyena-1",
+            "pokemon": "mightyena",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "ralts-1",
+            "pokemon": "ralts",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "kirlia-1",
+            "pokemon": "kirlia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "sableye-1",
+            "pokemon": "sableye",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "mawile-1",
+            "pokemon": "mawile",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "volbeat-1",
+            "pokemon": "volbeat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "illumise-1",
+            "pokemon": "illumise",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "zangoose-1",
+            "pokemon": "zangoose",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "seviper-1",
+            "pokemon": "seviper",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "lunatone-1",
+            "pokemon": "lunatone",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "solrock-1",
+            "pokemon": "solrock",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "baltoy-1",
+            "pokemon": "baltoy",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "banette-1",
+            "pokemon": "banette",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "duskull-1",
+            "pokemon": "duskull",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "dusclops-1",
+            "pokemon": "dusclops",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "absol-1",
+            "pokemon": "absol",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "bagon-1",
+            "pokemon": "bagon",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "shelgon-1",
+            "pokemon": "shelgon",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:stargleam_cavern_all"
+                ]
+            }
+        }
+    ]
+}

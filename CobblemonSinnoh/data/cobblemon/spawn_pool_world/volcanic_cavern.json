@@ -1,0 +1,406 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "geodude-1",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:volcanic_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "onix-1",
+            "pokemon": "onix",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:volcanic_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "skorupi-1",
+            "pokemon": "skorupi",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:volcanic_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "ponyta-1",
+            "pokemon": "ponyta",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:volcanic_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "graveler-1",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:volcanic_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "charmander-1",
+            "pokemon": "charmander",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:volcanic_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "vulpix-1",
+            "pokemon": "vulpix",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:volcanic_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "growlithe-1",
+            "pokemon": "growlithe",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:volcanic_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "cyndaquil-1",
+            "pokemon": "cyndaquil",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:volcanic_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "sentret-1",
+            "pokemon": "sentret",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:volcanic_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "furret-1",
+            "pokemon": "furret",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:volcanic_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "slugma-1",
+            "pokemon": "slugma",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:volcanic_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "magcargo-1",
+            "pokemon": "magcargo",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:volcanic_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "magby-1",
+            "pokemon": "magby",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:volcanic_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "torchic-1",
+            "pokemon": "torchic",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:volcanic_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "numel-1",
+            "pokemon": "numel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:volcanic_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "camerupt-1",
+            "pokemon": "camerupt",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:volcanic_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "torkoal-1",
+            "pokemon": "torkoal",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:volcanic_cavern_all"
+                ]
+            }
+        },
+        {
+            "id": "chimchar-1",
+            "pokemon": "chimchar",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-63",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -480,
+                "maxX": 3806,
+                "minZ": -3101,
+                "maxZ": -36,
+                "minY": -41,
+                "maxY": -30,
+                "biomes": [
+                    "sinnoh:volcanic_cavern_all"
+                ]
+            }
+        }
+    ]
+}
