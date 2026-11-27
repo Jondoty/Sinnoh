@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='["",{"text":"Explorer Kit","italic":false,"color":"aqua"}]',lore=['["",{"text":"A bag filled with convenient tools for exploring.","italic":false,"color":"#ce9178"}]','["",{"text":"It provides access to the Grand Underground."'],unbreakable={},custom_model_data=3]
