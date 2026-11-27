@@ -4,6 +4,7 @@
 difficulty peaceful
 gamerule commandModificationBlockLimit 2000000
 gamerule doFireTick false
+gamerule doPokemonLoot false
 
 
 scoreboard objectives setdisplay sidebar

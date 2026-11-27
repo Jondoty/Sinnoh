@@ -6,7 +6,7 @@
 	"overrides": [
 		{"predicate": {"custom_model_data":1}, "model": "hms/flash"},
 		{"predicate": {"custom_model_data":2}, "model": "hms/fly"},
-		{"predicate": {"custom_model_data":3}, "model": "playeritems/exploterkit"},
+		{"predicate": {"custom_model_data":3}, "model": "playeritems/explorerkit"},
 		{"predicate": {"custom_model_data":4}, "model": "playeritems/azureflute"},
 		{"predicate": {"custom_model_data":5}, "model": "playeritems/bicycle"}
 	]

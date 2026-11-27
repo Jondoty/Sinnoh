@@ -59,6 +59,27 @@ execute as @a[tag=!RadioOff,scores={MusicCooldown=0}] run function sinnoh:world/
 
 
 #----------------------------------------------------------------
+#Clickable Blocks, Items & HMs
+
+#Fly
+
+
+#Flash
+execute as @a[scores={click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"HM05: Flash"}],"text":""}'}}}] run tellraw @s {"text":"You used Flash!","italic":true,"color":"gray"} 
+execute as @a[scores={click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"HM05: Flash"}],"text":""}'}}}] run effect give @s minecraft:night_vision 900 1 true
+execute as @a[scores={click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"HM05: Flash"}],"text":""}'}}}] run playsound minecraft:entity.firework_rocket.launch ambient @s ~ ~ ~ 1 1 1
+execute as @a[scores={click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"HM05: Flash"}],"text":""}'}}}] run scoreboard players set @s click 0
+
+
+#Explorer Kit
+execute as @a[scores={click=1..},nbt={SelectedItem:{components:{"minecraft:custom_model_data":3}}}] unless entity @s[scores={Location=200..220}] run opendialogue explorerkit_dig @s
+execute as @a[scores={click=1..},nbt={SelectedItem:{components:{"minecraft:custom_model_data":3}}}] if entity @s[scores={Location=200..220}] run opendialogue explorerkit_return @s
+execute as @a[scores={click=1..},nbt={SelectedItem:{components:{"minecraft:custom_model_data":3}}}] run scoreboard players set @s click 0
+
+
+
+
+#----------------------------------------------------------------
 #Misc World features
 
 #Distortion World potion effects
