@@ -10451,3 +10451,9 @@ execute at @s run tp @s[scores={ZReturn=345}] ~ ~ 345
 execute at @s run tp @s[scores={ZReturn=346}] ~ ~ 346
 execute at @s run tp @s[scores={ZReturn=347}] ~ ~ 347
 execute at @s run tp @s[scores={ZReturn=348}] ~ ~ 348
+
+
+
+#Return to Fly Map fallback
+tellraw @s[x=480,y=-62,z=-3101,dx=3326,dy=20,dz=3065] {"text":"Could not find your last surface location, teleporting to the fly map.","italic":true,"color":"gray"}
+#Map coords tbd
